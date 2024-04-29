@@ -53,7 +53,7 @@ const RootLayout = ({ children }: PropsWithChildren) => {
         <ThemeProvider attribute="class">
           <Navbar />
           {children}
-          <Footer />
+          {/* <Footer /> */}
           <Toaster />
         </ThemeProvider>
       </body>
