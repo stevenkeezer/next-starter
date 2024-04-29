@@ -20,8 +20,12 @@ export const Navbar = async () => {
             <span>Web Design</span>
           </div>
         </Link>
-        <div className="flex items-center gap-2">
-          <ThemeToggle />
+        <div className="flex items-center gap-1 text-slate-700 text-base font-semibold space-x-12">
+          <div>Portfolio</div>
+          <div>About</div>          <div>Pricing</div>
+
+
+          {/* <ThemeToggle /> */}
            <SignInButton />
         </div>
       </div>
