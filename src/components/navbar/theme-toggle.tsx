@@ -2,7 +2,7 @@
 
 import { useTheme } from 'next-themes';
 
-import { Icons } from '@/components/icons';
+// import { Icons } from '@/components/icons';
 import { Button } from '@/components/ui/button';
 
 export const ThemeToggle = () => {
@@ -15,8 +15,8 @@ export const ThemeToggle = () => {
       aria-label="theme toggle"
       onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
     >
-      <Icons.sun className="dark:hidden" />
-      <Icons.moon className="hidden dark:block" />
+      {/* <Icons.sun className="dark:hidden" /> */}
+      {/* <Icons.moon className="hidden dark:block" /> */}
     </Button>
   );
 };

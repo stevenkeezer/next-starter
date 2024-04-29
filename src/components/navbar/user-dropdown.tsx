@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Session } from 'next-auth';
 import { signOut } from 'next-auth/react';
 
-import { Icons } from '@/components/icons';
+
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -26,7 +26,7 @@ export const UserDropdown = ({ session }: { session: Session }) => {
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
         <DropdownMenuItem onClick={() => signOut()}>
-          <Icons.logOut className="mr-2 size-4" /> <span>Log out</span>
+          {/* <Icons.logOut className="mr-2 size-4" /> <span>Log out</span> */}
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
