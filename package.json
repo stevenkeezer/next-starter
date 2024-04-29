@@ -22,12 +22,6 @@
       "pre-commit": "lint-staged"
     }
   },
-  "lint-staged": {
-    "*.{jsx,js,ts,tsx}": [
-      "eslint --cache --fix",
-      "prettier --write"
-    ]
-  },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
