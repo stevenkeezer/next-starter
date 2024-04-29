@@ -95,7 +95,7 @@ export default function WhatWeDo() {
                     <div>
                       <h3 className="mx-0 mb-3 mt-0 pl-3.5 flex items-center font-semibold text-slate-800 text-sm leading-[16px]">Web Design & Development</h3>
 
-                      <p className="pl-3.5 m-0 text-slate-500/80 text-sm">Includes over 80 hours of expert design, development and thoroughly extensive testing.</p>
+                      <p className="pl-3.5 m-0 text-slate-500/80 text-sm">Includes over 80 hours of expert design, development and thoroughly extensive research and testing.</p>
                     </div>
                   </div>{" "}
                 </div>

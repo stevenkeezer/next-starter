@@ -42,18 +42,18 @@ const ProductReel = (props: ProductReelProps) => {
             {/* {map.map((product, i) => (
               <ProductListing key={`product-${i}`} product={product} index={i} />
             ))} */}
-            <div className="h-[36rem] overflow-y-auto shadow-md">
+            <div className="h-[36rem] overflow-y-auto shadow-md border-[1rem] border-white">
 
               <Image src="/jaco1.png" alt="Golden State Web Design" width={500} height={500} />
             </div>
             {/* <Image src="/pure.png" alt="Golden State Web Design"  width={500} height={500} /> */}
-            <div className="h-[36rem] overflow-y-auto shadow-md">
+            <div className="h-[36rem] overflow-y-auto shadow-md border-[1rem] border-white">
 
               <Image src="/nepal.png" alt="Golden State Web Design" width={500} height={500} />
             </div>
 
 
-            <div className="h-[36rem] overflow-y-auto shadow-md">
+            <div className="h-[36rem] overflow-y-auto shadow-md border-[1rem] border-white">
               <Image src="/sonoma.png" alt="Golden State Web Design" width={500} height={500} />
 
             </div>
