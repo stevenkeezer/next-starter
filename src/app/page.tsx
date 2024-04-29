@@ -142,13 +142,13 @@ const HeroSide = () => (
 
           <img className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-20" id="img-5" src="https://truesocialmarketing.com/wp-content/uploads/2022/05/White-Google-Logo.png" />
           <a className="text-sky-500" href="https://www.pandia.com/us/folsom-ca/graphic-design">
-            <img className="cursor-pointer align-middle inline-block w-24 h-auto min-w-[4.00rem] max-w-full my-0 mx-16 opacity-20" id="img-2" src="https://truesocialmarketing.com/wp-content/uploads/2024/03/imag321e.png" />
+            <img className="cursor-pointer align-middle inline-block w-20 h-auto min-w-[4.00rem] max-w-full my-0 mx-16 opacity-20" id="img-2" src="https://truesocialmarketing.com/wp-content/uploads/2024/03/imag321e.png" />
           </a>
 
           <img className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-20" id="img-6" src="https://truesocialmarketing.com/wp-content/uploads/2022/05/white-yelp-logo-.png" />
 
           <a className="text-sky-500" href="https://findbestfirms.com/services/top-shopify-development-companies">
-            <img className="cursor-pointer align-middle inline-block w-24 h-auto min-w-[4.00rem] max-w-full my-0 mx-16 opacity-20" id="img-7" src="https://truesocialmarketing.com/wp-content/uploads/2024/02/jgsfse23523.png" />
+            <img className="cursor-pointer align-middle inline-block w-20 h-auto min-w-[4.00rem] max-w-full my-0 mx-16 opacity-20" id="img-7" src="https://truesocialmarketing.com/wp-content/uploads/2024/02/jgsfse23523.png" />
           </a>
         </div>
       </div>
