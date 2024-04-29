@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section id="about" className="bg-gray-1 pb-8 pt-16 dark:bg-dark-2 lg:py-20">
+    <section id="about" className="bg-gray-1 pb-8 pt-16 dark:bg-dark-2 lg:py-6">
       <div className="">
         <div className="wow fadeInUp" data-wow-delay=".2s">
           <div className="-mx-4 flex flex-wrap items-center">

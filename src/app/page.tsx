@@ -412,7 +412,7 @@ export default function Home() {
         </MaxWidthWrapper>
       </div> */}
 
-      <div className="py-16 bg-sky-50">
+      <div className="pt-16 bg-sky-50">
         <WhatWeDo />
       </div>
 
