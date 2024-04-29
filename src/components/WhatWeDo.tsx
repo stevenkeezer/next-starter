@@ -125,12 +125,12 @@ export default function WhatWeDo() {
             </div>
           </div>
 
-          <div className="w-full col-span-5 flex flex-col justify-between items-center content-between">
+          <div className="w-full col-span-5 flex flex-col justify-between items-center content-between -mt-12">
             {/* <div className="mb-6 ml-16">
               <SvgComputerGirl />
             </div> */}
 
-            <Image src="/cpu.png" height={800} width={800} className="-scale-x-100"/>
+            <Image src="/cpu.png" height={800} width={800} />
             {/* <Logos /> */}
             <QuickForm />
             {/* <div className="h-[80%] w-full justify-end mx-auto flex mt-16">

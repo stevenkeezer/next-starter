@@ -14,8 +14,8 @@ export const Navbar = async () => {
     <header className="w-full bg-[#d9edfd]">
       <div className="container flex h-20 items-center justify-between">
         <Link href="/" className="flex items-center text-lg text-blue-400 font-semibold py-2 pr-3">
-          {/* <Image src="/gsw-logo.png" alt="Golden State Web Design" className='mt-2' width={50} height={50} /> */}
-          <div className='pl-3 text-xl -space-y-1.5 uppercase flex items-center  flex-col'>
+          {/* <Image src="/og.jpeg" alt="Golden State Web Design" className='mt-2' width={150} height={150} /> */}
+          <div className='pl-3 text-lg -space-y-1.5 uppercase flex items-center  flex-col'>
             <span>Golden State</span>
             <span>Web Design</span>
           </div>

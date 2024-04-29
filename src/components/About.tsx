@@ -21,7 +21,7 @@ export default function About() {
                   <br />
 
                   We take a systematic, scientific and artistic approach to building SEO-effective websites that not only look great but also convert.
-                  I currently work at <a className="text-orange-600 font-bold">Flapjack</a>, where we are designing software to build restaurant menus. Picture this: websites crafted with the perfect mix of meticulous science and a dash of warm, friendly artistry. Together, we&apos;ll transform your online space into more than just a functional hub—it&apos;ll be a delightful experience for your audience.
+                  I currently work at <a className="text-orange-600 font-bold">Flapjack</a>, where we are designing software to build next-level restaurant menus.
                   <br />
                   <br />
                   Excited to start this journey and build a lasting, friendly relationship as we bring your unique vision to life! 🌟

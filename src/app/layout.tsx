@@ -11,6 +11,7 @@ import { Toaster } from '@/components/ui/toaster';
 import { siteConfig } from '@/lib/constant';
 import { fonts } from '@/lib/fonts';
 import { cn } from '@/lib/utils';
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -53,7 +54,7 @@ const RootLayout = ({ children }: PropsWithChildren) => {
         <ThemeProvider attribute="class">
           <Navbar />
           {children}
-          {/* <Footer /> */}
+          <Footer />
           <Toaster />
         </ThemeProvider>
       </body>

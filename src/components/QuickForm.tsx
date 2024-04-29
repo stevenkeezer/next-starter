@@ -15,7 +15,7 @@ import { Label } from "@/components/ui/label"
 
 export function QuickForm() {
   return (
-    <Card className="w-full bg-white text-slate-900 h-80 rounded-none border-none p-2 shadow">
+    <Card className="w-full bg-white text-slate-900 h-80 rounded-none border-none p-2 mt-10 shadow">
       <CardHeader>
         <CardTitle>Ready to get started?</CardTitle>
         <CardDescription>Already convinced? Get in touch with us.</CardDescription>
