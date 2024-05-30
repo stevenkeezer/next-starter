@@ -3,6 +3,7 @@
 import Link from "next/link";
 import ProductListing from "./ProductListing";
 import Image from "next/image";
+import HeaderDecorator from "./HeaderDecorator";
 
 interface ProductReelProps {
   title: string;
@@ -22,38 +23,37 @@ const ProductReel = (props: ProductReelProps) => {
 
 
   return (
-    <section className=" pb-20">
+    <section className=" pb-20 pt-6 ">
       {/* <hr className="border-slate-300"/> */}
-      <div className="md:flex md:items-center mb-4">
+      <div className="md:flex md:items-center px-4 sm:px-0 mb-4">
         <div className="max-w-2xl lg:max-w-4xl lg:px-0">
-          <h1 className="text-2xl font-bold text-gray-900 sm:text-4xl">Our Recent Work</h1>
+        <div className="flex text-[#2a7ec8] font-bold tracking-wide uppercase mb-6 text-xs sm:text-sm rounded-full bg-teal-accent-400">
+                Portfolio
+              </div>
+          <h1 className="text-3xl font-semibold text-slate-700 sm:text-4xl">Our recent work</h1>
           {/* {subtitle ? <p className="mt-2 text-sm text-muted-foreground">{subtitle}</p> : null} */}
-          <div className="mt-2">
-            <span className="inline-block w-40 h-1 rounded-full bg-blue-400"></span>
-            <span className="inline-block w-3 h-1 ml-1 rounded-full bg-blue-400"></span>
-            <span className="inline-block w-1 h-1 ml-1 rounded-full bg-blue-400"></span>
-          </div>
+          {/* <HeaderDecorator /> */}
         </div>
       </div>
 
       <div className="relative">
-        <div className="mt-8 flex items-center w-full">
-          <div className="w-full grid grid-cols-1 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-3 md:gap-y-6 lg:gap-x-8">
+        <div className="sm:mt-8 flex items-center w-full">
+          <div className="w-full grid grid-cols-1 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-3 md:gap-y-6 lg:gap-x-10">
             {/* {map.map((product, i) => (
               <ProductListing key={`product-${i}`} product={product} index={i} />
             ))} */}
-            <div className="h-[36rem] overflow-y-auto shadow-md border-[1rem] border-white">
+            <div className="h-[33rem] overflow-y-hidden shadow-md border-8 border-slate-100 p-4 sm:p-0">
 
               <Image src="/jaco1.png" alt="Golden State Web Design" width={500} height={500} />
             </div>
             {/* <Image src="/pure.png" alt="Golden State Web Design"  width={500} height={500} /> */}
-            <div className="h-[36rem] overflow-y-auto shadow-md border-[1rem] border-white">
+            <div className="h-[33rem] overflow-y-hidden shadow-md border-8 border-slate-100 p-4 sm:p-0">
 
               <Image src="/nepal.png" alt="Golden State Web Design" width={500} height={500} />
             </div>
 
 
-            <div className="h-[36rem] overflow-y-auto shadow-md border-[1rem] border-white">
+            <div className="h-[33rem] overflow-y-hidden shadow-md border-8 border-slate-100 p-4 sm:p-0">
               <Image src="/sonoma.png" alt="Golden State Web Design" width={500} height={500} />
 
             </div>

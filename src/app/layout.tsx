@@ -6,13 +6,16 @@ import { JSX, SVGProps } from "react";
 
 // import Footer from '@/components/Footer';
 // import { Footer } from '@/components/footer';
-import { Navbar } from '@/components/navbar/navbar';
+// import { Navbar } from '@/components/navbar/navbar';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
 import { siteConfig } from '@/lib/constant';
 import { fonts } from '@/lib/fonts';
 import { cn } from '@/lib/utils';
-import Footer from '@/components/Footer';
+import Navbar from '@/components/Navbar';
+import MaxWidthWrapper from '@/components/MaxWidthWrapper';
+import Banner from '@/components/Banner';
+
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -143,7 +146,7 @@ const RootLayout = ({ children }: PropsWithChildren) => {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+      <MaxWidthWrapper className='pb-8 pt-16 sm:pt-24 lg:pt-28 px-4' >
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
             {/* <img className="h-7" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="Company name" /> */}
@@ -213,9 +216,16 @@ const RootLayout = ({ children }: PropsWithChildren) => {
           </div>
         </div>
         <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-          <p className="text-xs leading-5 text-white">&copy; 2020 Your Company, Inc. All rights reserved.</p>
+      <div className="text-xs leading-5 text-white/20">
+        <p>&copy; 2020 Your Company, Inc. All rights reserved.</p>
+        <div className="mt-4 text-xs">
+          <p className="mt-2 text-xs">
+          El Dorado Hills, Folsom, Granite Bay, Cameron Park, Shingle Springs, Placerville, Rescue, Orangevale, Fair Oaks, Rancho Cordova, Roseville, Rocklin, Lincoln, Auburn, Citrus Heights, Carmichael, Antelope, Sacramento, North Highlands, Loomis, Penryn, Newcastle, Elverta, Rio Linda, McClellan Park, Arden-Arcade, Gold River, Vineyard, Wilton, Rancho Murieta, Herald, Galt, Elk Grove, Walnut Grove, Isleton, Clarksburg, Courtland, West Sacramento, Davis, Woodland, Knights Landing, Yuba City, Marysville, Wheatland, Nicolaus, Rio Oso, Robbins, Sutter, Live Oak, Olivehurst, Plumas Lake, Linda, East Nicolaus, Trowbridge, Meridian, Colusa, Williams, Arbuckle, Grimes, Maxwell, Princeton, Stonyford, Sites, College City, Dunnigan, Zamora, Dobbins, Oregon House, Rackerby, Brownsville, Forbestown, Challenge, Bangor, Loma Rica, Smartsville, Penn Valley, Rough and Ready, Lake Wildwood, Nevada City, Grass Valley, Alta Sierra, Chicago Park, Cedar Ridge, Peardale, Gold Run, Dutch Flat, Alta, Blue Canyon, Emigrant Gap, Baxter, and more.
+            </p>
         </div>
       </div>
+    </div>
+      </MaxWidthWrapper>
     </footer>
           <Toaster />
         </ThemeProvider>

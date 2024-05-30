@@ -25,7 +25,7 @@ function CheckIcon({ className, ...props }: React.ComponentPropsWithoutRef<"svg"
 
 function Plan({ name, price, description, href, features, featured = false }: { name: string; price: string; description: string; href: string; features: Array<string>; featured?: boolean }) {
   return (
-    <section className={clsx("flex flex-col px-6 shadow-lg sm:px-8", featured ? "order-first bg-blue-400 py-8 lg:order-none" : "lg:py-8 bg-white backdrop-blur")}>
+    <section className={clsx("flex flex-col px-6 shadow-lg sm:px-8 border border-slate-200", featured ? "order-first bg-blue-400 py-8 lg:order-none" : "py-8 bg-white backdrop-blur")}>
       <h3 className={clsx("mt-5 font-display text-lg ", featured ? "text-white" : "text-slate-900")}>{name}</h3>
       <p className={clsx("mt-2 text-base", featured ? "text-white" : "text-slate-500")}>{description}</p>
       <p className={clsx("order-first font-display text-5xl font-light tracking-tight", featured ? "text-white" : "text-slate-900")}>{price}</p>
@@ -37,8 +37,8 @@ function Plan({ name, price, description, href, features, featured = false }: { 
           </li>
         ))}
       </ul>
-      <Button variant={featured ? "default" : "outline"} color="white" className="mt-8" aria-label={`Get started with the ${name} plan for ${price}`}>
-        Get started
+      <Button variant={"default"} color="white" className={clsx("mt-8 bg-white", !featured && "border bg-white border-slate-300/80")} aria-label={`Get started with the ${name} plan for ${price}`}>
+        Contact us
       </Button>
     </section>
   );
@@ -46,35 +46,57 @@ function Plan({ name, price, description, href, features, featured = false }: { 
 
 function Pricing() {
   return (
-    <section id="pricing" aria-label="Pricing" className="bg-sky-50 pt-20">
-       <div className="container mx-auto">
-        <div className="relative overflow-hidden">
-          <div className="-mx-4 flex flex-wrap items-stretch">
-            <div className="w-full px-4">
-              <div className="mx-auto max-w-[570px] text-center">
-                <h2 className="text-3xl font-bold text-slate-700 md:text-[38px] md:leading-[1.44]">
-                  <span>Ready to Get Started?</span>
-                  {/* <span className="text-3xl font-bold md:text-[40px] block">Let&apos;s Chat!</span> */}
-                </h2>
-                  <div className="mt-2">
-                    <span className="inline-block w-40 h-1 rounded-full bg-blue-400"></span>
-                    <span className="inline-block w-3 h-1 ml-1 rounded-full bg-blue-400"></span>
-                    <span className="inline-block w-1 h-1 ml-1 rounded-full bg-blue-400"></span>
-                  </div>
-                {/* <p className="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-white">There are many variations of passages of Lorem Ipsum but the majority have suffered in some form.</p> */}
-                {/* <Button className="bg-white text-slate-700" size="lg">
-                  Get Started
-                </Button> */}
-              </div>
-            </div>
+    <section id="pricing" aria-label="Pricing" className="bg-[#f2f8ff] pt-12 sm:pt-16 sm:pb-10">
+      <MaxWidthWrapper >
+
+       <div className="flex text-[#2a7ec8] font-bold text-xs text-center sm:text-sm tracking-wide justify-center uppercase mb-6 rounded-full bg-teal-accent-400">
+        Pricing
           </div>
-        </div>
-      </div>
-      <MaxWidthWrapper className="pb-28 z-40 border-slate-100/5">
-        <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
-          <Plan name="Starter" price="$9" description="Good for anyone who is self-employed" href="/register" features={["Send 10 quotes and invoices", "Connect up to 2 bank accounts", "Track up to 15 expenses per month", "Manual payroll support", "Export up to 3 reports"]} />
-          <Plan featured name="Small business" price="$15" description="Perfect for small / medium sized businesses." href="/register" features={["Send 25 quotes and invoices", "Connect up to 5 bank accounts", "Track up to 50 expenses per month", "Automated payroll support", "Export up to 12 reports", "Bulk reconcile transactions", "Track in multiple currencies"]} />
-          <Plan name="Enterprise" price="$39" description="For even the biggest enterprise companies." href="/register" features={["Send unlimited quotes and invoices", "Connect up to 15 bank accounts", "Track up to 200 expenses per month", "Automated payroll support", "Export up to 25 reports, including TPS"]} />
+                <h2 className="text-left text-2xl text-slate-700 text-center font-semibold md:text-4xl">Affordable pricing options</h2>
+      </MaxWidthWrapper>
+    
+      <MaxWidthWrapper className="pb-10 z-40 border-slate-100/5 px-4 pt-6 sm:pt-0">
+        <div className="-mx-4 sm:mt-12 grid max-w-2xl grid-cols-1 px-4 sm:px-0 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
+          <Plan
+            name="E-Commerce"
+            price="$8K"
+            description="Kickstart your e-commerce businesses with a custom Shopify site."
+            href="/register"
+            features={[
+              "Minimum $8,000 up-front cost",
+              "Custom Designed",
+              "Custom Shopify Integration",
+              "Easy to Edit",
+              "Product Management"
+            ]}
+          />
+          <Plan
+            featured
+            name="Standard"
+            price="$150/mo"
+            description="Custom 5 page site for your small to medium-sized businesses."
+            href="/register"
+            features={[
+              "Unlimited Edits",
+              "Includes Hosting",
+              "24/7 Customer Service",
+              "Lifetime Updates",
+              "Google Analytics"
+            ]}
+          />
+          <Plan
+            name="Logo & Graphic Design"
+            price="$0"
+            description="Professional free logo design with a standard web package."
+            href="/register"
+            features={[
+              "Two Revisions",
+              "Professionally Desgined",
+              "All File Formats",
+              "Ready to Use",
+              "Free with Standard Subscription"
+            ]}
+          />
         </div>
       </MaxWidthWrapper>
     </section>

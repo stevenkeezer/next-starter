@@ -3,7 +3,7 @@ import React from "react";
 export default function SvgComputerGirl() {
   return (
     <div className="w-full">
-      <svg className="drop-shadow w-96 -scale-x-100" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 364.7 252.27">
+      <svg className="drop-shadow w-[25rem] -scale-x-100" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 364.7 252.27">
         <defs>
           <linearGradient id="linear-gradient" x1="-82.33" y1="-5.84" x2="668.51" y2="555.72" gradientUnits="userSpaceOnUse">
             <stop offset="0.01" />

@@ -56,6 +56,8 @@ import animationData from "../../public/edit.json";
 import { Card } from "@/components/ui/card";
 import LogoCloud from "@/components/LogoCloud";
 import { FadeInStagger, FadeIn } from "@/components/FadeInStagger";
+import Testimonials from "@/components/Testimonials";
+import Banner from "@/components/Banner";
 
 const defaultOptions = {
   loop: true,
@@ -86,12 +88,14 @@ const perks = [
 ];
 
 const HeroSide = () => (
-  <div className="text-center bg-[#d9edfd]">
+  <div className="text-center bg-[#d9edfd] sm:pb-0">
     {/* <Badge className="bg-sky-100 text-primary border-primary/30 border mb-6 px-5 py-1.5">
       Golden State Web Design Promise <ExternalLink className="ml-3 h-4 w-4" />
     </Badge> */}
-    <div className="z-40 pt-24 xl:pt-28 2xl:pt-24">
-      <h1 className="mx-auto max-w-[53rem]  xl:max-w-[59rem] 2xl:max-w-[63rem] drop-shadow text-4xl font-bold tracking-tighter text-slate-800 sm:text-7xl 2xl:text-[5.4rem]">
+    <div className="z-40 sm:pt-24 px-4 sm:px-0 xl:pt-28 2xl:pt-16">
+    <Image src="/no-color.svg" alt="Golden State Web Design" className='flex mx-auto h-28 w-28 sm:hidden' width={134} height={134} />
+      <hr className="h-px bg-slate-400/60 sm:hidden border-0 w-10 mx-auto flex"/>
+      <h1 className="mx-auto max-w-[53rem]  xl:max-w-[59rem] 2xl:max-w-[63rem] drop-shadow text-3xl font-bold tracking-tighter text-slate-800 sm:text-7xl 2xl:text-[5.4rem]">
         Web design{" "}
         <span className="relative whitespace-nowrap text-blue-400">
           {/* <svg aria-hidden="true" viewBox="0 0 418 42" className="absolute left-0 top-2/3 h-[0.58em] w-full fill-primary/20" preserveAspectRatio="none">
@@ -101,7 +105,7 @@ const HeroSide = () => (
         </span>{" "}
         for small businesses.
       </h1>
-      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-500">Hand-crafted websites, no page builders or WordPress. Premium web development with lifetime updates & support, starting at just $150 per month.</p>
+      <p className="mx-auto mt-6 max-w-2xl sm:text-lg tracking-tight text-slate-500">Hand-crafted websites, no page builders or WordPress. Premium web development with lifetime updates & support, starting at just $150 per month.</p>
       <div className="mt-9 flex justify-center sm:flex-row flex-col gap-y-4 sm:gap-y-0 gap-x-4">
         <Link href="/products" className={cn(buttonVariants({ size: "lg" }), "shadow z-40")}>
           <span className="font-medium">Get started</span> <ArrowRight className="ml-2 h-4 w-4" />
@@ -114,7 +118,7 @@ const HeroSide = () => (
     </div>
 
 
-    <div className="hero -mt-6">
+    <div className="hero min-h-[379px] sm:min-h-[410px] -mt-[9rem] sm:-mt-6 overflow-hidden">
       {/* 
       <div className="logo -mt-40 ">
      
@@ -122,17 +126,19 @@ const HeroSide = () => (
 
       {/* <div className="mt-44"></div> */}
       <div className="parallax-layer layer-6"></div>
-      <div className="parallax-layer layer-5"></div>
-      <div className="parallax-layer layer-4 -mb-14"></div>
-      <div className="parallax-layer bike-1"></div>
+      <div className="parallax-layer layer-5 hidden sm:block"></div>
+      <div className="parallax-layer layer-4 hidden sm:block sm:-mb-14"></div>
+      <div className="parallax-layer bike-1 "></div>
       {/* <div className="parallax-layer bike-2"></div> */}
       <div className="parallax-layer layer-3"></div>
       <div className="parallax-layer layer-2"></div>
 
       <div className="parallax-layer layer-1 relative z-50">
+      </div>
 
-
-        <div className="text-neutral-400 items-center justify-center z-40 py-4 px-0 inline-flex w-full bg-[#012d53] absolute -bottom-14 pb-6 left-0" id="div-1">
+    </div>
+        <div className="w-full -mt-1 h-1 ">
+        <div className="text-neutral-400  hidden xl:block items-center justify-center z-40 py-4 px-0 inline-flex w-full bg-[#012d53] absolute -bottom-16 pb-8 left-0" id="div-1">
           <img className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-20" id="img-1" src="https://truesocialmarketing.com/wp-content/uploads/2023/01/ca_folsom_web-developers_2023_inverse.png" />
 
 
@@ -151,9 +157,7 @@ const HeroSide = () => (
             <img className="cursor-pointer align-middle inline-block w-20 h-auto min-w-[4.00rem] max-w-full my-0 mx-16 opacity-20" id="img-7" src="https://truesocialmarketing.com/wp-content/uploads/2024/02/jgsfse23523.png" />
           </a>
         </div>
-      </div>
-
-    </div>
+        </div>
 
     <div>
 
@@ -412,25 +416,32 @@ export default function Home() {
         </MaxWidthWrapper>
       </div> */}
 
-      <div className="pt-16 bg-sky-50">
+      <div className="sm:pt-16 pb-2 bg-[#f2f8ff]">
         <WhatWeDo />
       </div>
 
-      <div className="bg-sky-50">
+      <div className="pt-10 bg-white">
         <MaxWidthWrapper>
+          {/* <hr className="border-0 h-px bg-slate-300"/> */}
           <ProductReel query={{ sort: "desc", limit: 4 }} href="/products?sort=recent" title="Recent work" />
         </MaxWidthWrapper>
       </div>
 
 
-      <div className="bg-sky-50">
+      <div className="bg-[#f2f8ff]">
         <MaxWidthWrapper>
           <About />
         </MaxWidthWrapper>
 
+<div className="bg-white"> 
+
+        <Testimonials />
+</div>
+
+        <Pricing />
       </div>
       {/* <CTA /> */}
-      <Pricing />
     </div>
   );
 }
+
