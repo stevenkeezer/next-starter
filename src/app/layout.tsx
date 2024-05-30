@@ -48,6 +48,15 @@ export const metadata: Metadata = {
     title: siteConfig.title,
     description: siteConfig.description,
     images: '/opengraph-image.png',
+    site: '@your_twitter_handle',
+    creator: '@creator_twitter_handle',
+  },
+  alternates: {
+    canonical: siteConfig.url,
+    languages: {
+      'en-US': `${siteConfig.url}/en`,
+      'es-ES': `${siteConfig.url}/es`,
+    },
   },
 };
 
