@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: siteConfig.title,
     description: siteConfig.description,
     siteName: siteConfig.title,
-    images: '/opengraph-image.png',
+    images: '/bg.png',
     type: 'website',
     locale: 'en_US',
   },
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: siteConfig.title,
     description: siteConfig.description,
-    images: '/opengraph-image.png',
+    images: '/bg.png',
     site: '@your_twitter_handle',
     creator: '@creator_twitter_handle',
   },
@@ -229,7 +229,7 @@ const RootLayout = ({ children }: PropsWithChildren) => {
         <p>&copy; 2020 Your Company, Inc. All rights reserved.</p>
         <div className="mt-4 text-xs">
           <p className="mt-2 text-xs">
-          El Dorado Hills, Folsom, Granite Bay, Cameron Park, Shingle Springs, Placerville, Rescue, Orangevale, Fair Oaks, Rancho Cordova, Roseville, Rocklin, Lincoln, Auburn, Citrus Heights, Carmichael, Antelope, Sacramento, North Highlands, Loomis, Penryn, Newcastle, Elverta, Rio Linda, McClellan Park, Arden-Arcade, Gold River, Vineyard, Wilton, Rancho Murieta, Herald, Galt, Elk Grove, Walnut Grove, Isleton, Clarksburg, Courtland, West Sacramento, Davis, Woodland, Knights Landing, Yuba City, Marysville, Wheatland, Nicolaus, Rio Oso, Robbins, Sutter, Live Oak, Olivehurst, Plumas Lake, Linda, East Nicolaus, Trowbridge, Meridian, Colusa, Williams, Arbuckle, Grimes, Maxwell, Princeton, Stonyford, Sites, College City, Dunnigan, Zamora, Dobbins, Oregon House, Rackerby, Brownsville, Forbestown, Challenge, Bangor, Loma Rica, Smartsville, Penn Valley, Rough and Ready, Lake Wildwood, Nevada City, Grass Valley, Alta Sierra, Chicago Park, Cedar Ridge, Peardale, Gold Run, Dutch Flat, Alta, Blue Canyon, Emigrant Gap, Baxter, and more.
+          Serving: El Dorado Hills, Folsom, Granite Bay, Cameron Park, Shingle Springs, Placerville, Rescue, Orangevale, Fair Oaks, Rancho Cordova, Roseville, Rocklin, Lincoln, Auburn, Citrus Heights, Carmichael, Antelope, Sacramento, North Highlands, Loomis, Penryn, Newcastle, Elverta, Rio Linda, McClellan Park, Arden-Arcade, Gold River, Vineyard, Wilton, Rancho Murieta, Herald, Galt, Elk Grove, Walnut Grove, Isleton, Clarksburg, Courtland, West Sacramento, Davis, Woodland, Knights Landing, Yuba City, Marysville, Wheatland, Nicolaus, Rio Oso, Robbins, Sutter, Live Oak, Olivehurst, Plumas Lake, Linda, East Nicolaus, Trowbridge, Meridian, Colusa, Williams, Arbuckle, Grimes, Maxwell, Princeton, Stonyford, Sites, College City, Dunnigan, Zamora, Dobbins, Oregon House, Rackerby, Brownsville, Forbestown, Challenge, Bangor, Loma Rica, Smartsville, Penn Valley, Rough and Ready, Lake Wildwood, Nevada City, Grass Valley, Alta Sierra, Chicago Park, Cedar Ridge, Peardale, Gold Run, Dutch Flat, Alta, Blue Canyon, Emigrant Gap, Baxter, and more.
             </p>
         </div>
       </div>
