@@ -12,10 +12,10 @@ export default function MainNav() {
 
 
     <div className="mx-auto w-full rounded-full">
-      <div className="relative flex h-16 justify-between max-w-[66rem] mx-auto">
+      <div className="relative flex h-16 justify-between max-w-[67rem] mx-auto">
         <div className="relative z-10 flex">
           <div className="hidden lg:flex flex-shrink-0 items-center">
-            <div className="flex items-center gap-1 uppercase text-sky-800 text-sm tracking-wide font-bold space-x-16  mr-8">
+            <div className="flex items-center gap-1 uppercase text-sky-800 text-sm tracking-wider font-bold space-x-16  mr-8">
               <div>How it works</div>
               <div>Portfolio</div>
               <div>About</div>
@@ -36,7 +36,7 @@ export default function MainNav() {
         </div>
   
         <div className="hidden lg:relative lg:z-10 lg:flex lg:items-center">
-          <div className="flex items-center gap-1 uppercase text-sky-800 text-sm tracking-wide font-bold space-x-16  ml-8">
+          <div className="flex items-center gap-1 uppercase text-sky-800 text-sm tracking-wider font-bold space-x-16  ml-8">
             <div>Testimonials</div>
             <div>Pricing</div>
             {/* <SignInButton /> */}
