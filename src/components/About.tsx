@@ -50,14 +50,17 @@ export const About = () => {
               Web development experts
             </h2>
             <p className="text-sm sm:text-base text-gray-700">
-              My name is Steve. I am a professional software developer currently working for <a className="text-orange-600 font-bold" href="https://www.flapjack.co" target="blank">Flapjack</a>, designing software to build next-level, customizable restaurant menus. I am a former collegiate athlete, and in my free time, I love to run and ride my bike.
+            <span className="text-base sm:text-lg text-gray-600">
+            My name is Steve. I am a professional software developer currently working for <a className="text-orange-600 font-bold" href="https://www.flapjack.co" target="blank">Flapjack</a>, designing software to build next-level, customizable restaurant menus. I am a former collegiate athlete, and in my free time, I love to run and ride my bike.
+
+            </span>
               <br />
               <br />
               I started this business to help provide for my family while still being able to be home. I spent over seven years working in Silicon Valley at a multitude of start-ups. Over the years, I have built hundreds of websites and have my method down to a science.
+              <br />
+              <br />
               We take a systematic and artistic approach to building SEO-effective websites that not only look great but also convert.
-              <br />
-              <br />
-              Our team of experts will work with you to create a website that is built specifically for your business needs and goals.
+              {/* Our team of experts will work with you to create a website that is built specifically for your business needs and goals. */}
             </p>
           </div>
         </div>
