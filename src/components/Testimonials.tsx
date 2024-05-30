@@ -142,7 +142,7 @@ const Testimonials = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-6 border border-gray-100 bg-purple-50 sm:flex sm:space-x-8 sm:p-8">
+                    <div className="p-6 border border-gray-100 bg-[#f9eee9] sm:flex sm:space-x-8 sm:p-8">
                         <img className="w-20 h-20 mx-auto rounded-full object-cover" src="/gremark.jpg" alt="user avatar" height="220" width="220" loading="lazy" />
                         <div className="space-y-4 mt-4 text-center sm:mt-0 sm:text-left">
                             <p className="text-gray-600"> <span className="font-serif">"</span>My website rocks! Seriously, they nailed it. It's slick, easy to use, and totally captures my vibe. Working with Steven was awesome, they just got what I was after and made it happen. Big thumbs up! <span className="font-serif">"</span></p>
