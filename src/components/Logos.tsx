@@ -39,13 +39,13 @@ const Logos = () => {
         ))}
 
       </div >
-      <div className="flex items-center justify-between px-6 py-2 max-w-sm">
-        <ul className="text-slate-500 space-y-3">
+      <div className="flex items-center justify-between pb-8 sm:pb-2 px-6 py-2 max-w-sm">
+        <ul className="text-slate-500 text-xs sm:text-sm space-y-3">
           <li><span className="text-green-500 pr-2">&#10003;</span> Mobile Responsive</li>
           <li><span className="text-green-500 pr-2">&#10003;</span> Fully Optimized</li>
           <li><span className="text-green-500 pr-2">&#10003;</span> Mobile First</li>
         </ul>
-        <ul className="text-slate-500 space-y-3">
+        <ul className="text-slate-500 text-xs sm:text-sm space-y-3">
           <li><span className="text-green-500 pr-2">&#10003;</span> Fast Loading</li>
           <li><span className="text-green-500 pr-2">&#10003;</span> User-Friendly</li>
           <li><span className="text-green-500 pr-2">&#10003;</span> Secure</li>

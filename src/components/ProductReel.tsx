@@ -27,7 +27,7 @@ const ProductReel = (props: ProductReelProps) => {
       {/* <hr className="border-slate-300"/> */}
       <div className="md:flex md:items-center px-4 sm:px-0 mb-4">
         <div className="max-w-2xl lg:max-w-4xl lg:px-0">
-        <div className="flex text-[#2a7ec8] font-bold tracking-wide uppercase mb-6 text-xs sm:text-sm rounded-full bg-teal-accent-400">
+        <div className="flex text-[#2a7ec8] font-bold tracking-wide uppercase mb-3 sm:mb-6 text-xs sm:text-sm rounded-full bg-teal-accent-400">
                 Portfolio
               </div>
           <h1 className="text-3xl font-semibold text-slate-700 sm:text-4xl">Our recent work</h1>

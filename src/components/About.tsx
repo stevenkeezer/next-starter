@@ -3,7 +3,7 @@ import { Badge } from "./ui/badge";
 
 const UserCard = () => {
   return (
-    <div className="sm:w-full bg-white sm:mx-0 mx-4 h-[29rem] shadow transform duration-200 easy-in-out">
+    <div className="sm:w-full bg-white sm:mx-0 sm:mx-4 h-[29rem] shadow transform duration-200 easy-in-out">
       <div className=" h-32 overflow-hidden" >
         <Image className="w-full object-cover" src="/mtn2.jpg" height={100} width={200} alt="" />
       </div>
@@ -14,7 +14,7 @@ const UserCard = () => {
       <div className="sm:pb-6 mx-auto flex justify-center">
         <div className="text-center px-14">
           <h2 className="text-gray-800 text-3xl font-bold">Steven Keezer</h2>
-          <p className="mt-2 text-gray-500 text-xs mt-4 sm:text-sm max-w-sm">Software Engineer, Collegiete athlete, musician, spartan athlete, distance runner, cyclist and electronics nerd</p>
+          <p className="mt-2 text-gray-500 text-xs mt-4 sm:text-sm max-w-sm">Software Engineer, Collegiete athlete, musician, spartan athlete, distance runner, cyclist and electronics nerd. My favorite country I have visited is Vietnam</p>
         </div>
       </div>
       <div className="flex w-full p-6 flex-wrap gap-2 items-center justify-center max-w-md mx-auto">
@@ -34,16 +34,16 @@ const UserCard = () => {
 
 export const About = () => {
   return (
-    <div className="pb-8 mx-auto sm:px-0 md:max-w-full lg:pt-20 lg:pb-20 overflow-x-hidden">
-      <div className="grid lg:grid-cols-2 space-x-6 gap-10">
+    <div className="pb-8 mx-auto px-4 sm:px-0 md:max-w-full lg:pt-20 lg:pb-20 overflow-x-hidden">
+      <div className="grid lg:grid-cols-2 gap-10">
         <div className="flex items-center justify-start w-full order-2 sm:order-1">
           <div className="relative w-full">
             <UserCard />
           </div>
         </div>
-        <div className="flex flex-col justify-center xl:pr-0">
+        <div className="flex flex-col justify-start pt-8 sm:pt-0 xl:pr-0">
           <div className="max-w-xl mb-6">
-            <div className="flex text-[#2a7ec8] font-bold tracking-wide uppercase mb-6 text-xs sm:text-sm rounded-full bg-teal-accent-400">
+            <div className="flex text-[#2a7ec8] font-bold tracking-wide uppercase mb-3 sm:mb-6 text-xs sm:text-sm rounded-full bg-teal-accent-400">
               WHO WE ARE
             </div>
             <h2 className="max-w-2xl mb-6 font-sans text-2xl font-semibold tracking-tight text-slate-700 sm:text-4xl sm:leading-none">

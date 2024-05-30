@@ -116,7 +116,7 @@ const Testimonials = () => {
     return (
         <MaxWidthWrapper className="pb-20 px-4 pt-16">
             <div className="m-auto text-slate-600">
-            <div className="flex text-[#2a7ec8] text-xs font-bold sm:text-sm tracking-wide uppercase mb-6 rounded-full bg-teal-accent-400">
+            <div className="flex text-[#2a7ec8] text-xs font-bold sm:text-sm tracking-wide uppercase mb-3 sm:mb-6 rounded-full bg-teal-accent-400">
         Testimonials
           </div>
                 <h2 className="mb-12 text-left text-2xl text-slate-700 font-semibold md:text-4xl">What our customers say</h2>
