@@ -413,11 +413,11 @@ export default function Home() {
         </MaxWidthWrapper>
       </div> */}
 
-      <div className="sm:pt-16 pb-2 bg-[#f2f8ff]">
+      <div className="sm:pt-16 pb-2 bg-[#f2f8ff] shadow-sm">
         <WhatWeDo />
       </div>
 
-      <div className="pt-10 bg-white">
+      <div className="pt-10 bg-white shadow-sm">
         <MaxWidthWrapper>
           {/* <hr className="border-0 h-px bg-slate-300"/> */}
           <ProductReel query={{ sort: "desc", limit: 4 }} href="/products?sort=recent" title="Recent work" />
@@ -425,12 +425,12 @@ export default function Home() {
       </div>
 
 
-      <div className="bg-[#f2f8ff]">
+      <div className="bg-[#f2f8ff] shadow-sm">
         <MaxWidthWrapper>
           <About />
         </MaxWidthWrapper>
 
-<div className="bg-white"> 
+<div className="bg-white shadow-sm"> 
 
         <Testimonials />
 </div>
