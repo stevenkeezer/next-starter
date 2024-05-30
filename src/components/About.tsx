@@ -47,7 +47,7 @@ export const About = () => {
               WHO WE ARE
             </div>
             <h2 className="max-w-2xl mb-6 font-sans text-2xl font-semibold tracking-tight text-slate-700 sm:text-4xl sm:leading-none">
-              Your web design specialists
+              Web development experts
             </h2>
             <p className="text-sm sm:text-base text-gray-700">
               My name is Steve. I am a professional software developer currently working for <a className="text-orange-600 font-bold" href="https://www.flapjack.co" target="blank">Flapjack</a>, designing software to build next-level, customizable restaurant menus. I am a former collegiate athlete, and in my free time, I love to run and ride my bike.
