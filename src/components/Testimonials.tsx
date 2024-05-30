@@ -148,7 +148,7 @@ const Testimonials = () => {
                             <p className="text-gray-600"> <span className="font-serif">"</span>My website rocks! Seriously, they nailed it. It's slick, easy to use, and totally captures my vibe. Working with Steven was awesome, they just got what I was after and made it happen. Big thumbs up! <span className="font-serif">"</span></p>
                             <div>
                                 <h6 className="text-lg font-semibold leading-none">Marina Lerke</h6>
-                                <span className="text-xs text-gray-500">Owner</span>
+                                <span className="text-xs text-gray-500">Gremark Vineyards</span>
                             </div>
                         </div>
                     </div>

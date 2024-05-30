@@ -93,8 +93,7 @@ const HeroSide = () => (
       Golden State Web Design Promise <ExternalLink className="ml-3 h-4 w-4" />
     </Badge> */}
     <div className="z-40 sm:pt-24 px-4 sm:px-0 xl:pt-28 2xl:pt-16">
-    <Image src="/no-color.svg" alt="Golden State Web Design" className='flex mx-auto h-28 w-28 sm:hidden' width={134} height={134} />
-      <hr className="h-px bg-slate-400/60 sm:hidden border-0 w-10 mx-auto flex"/>
+    <Image src="/no-color.svg" alt="Golden State Web Design" className='flex mx-auto h-28 w-28 lg:hidden' width={134} height={134} />
       <h1 className="mx-auto max-w-[53rem]  xl:max-w-[59rem] 2xl:max-w-[63rem] drop-shadow text-3xl font-bold tracking-tighter text-slate-800 sm:text-7xl 2xl:text-[5.4rem]">
         Web design{" "}
         <span className="relative whitespace-nowrap text-blue-400">
@@ -129,32 +128,30 @@ const HeroSide = () => (
       <div className="parallax-layer layer-5 hidden sm:block"></div>
       <div className="parallax-layer layer-4 hidden sm:block sm:-mb-14"></div>
       <div className="parallax-layer bike-1 "></div>
-      {/* <div className="parallax-layer bike-2"></div> */}
       <div className="parallax-layer layer-3"></div>
       <div className="parallax-layer layer-2"></div>
-
       <div className="parallax-layer layer-1 relative z-50">
       </div>
 
     </div>
-        <div className="w-full -mt-1 h-1 ">
-        <div className="text-neutral-400  hidden xl:block items-center justify-center z-40 py-4 px-0 inline-flex w-full bg-[#012d53] absolute -bottom-16 pb-8 left-0" id="div-1">
-          <img className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-20" id="img-1" src="https://truesocialmarketing.com/wp-content/uploads/2023/01/ca_folsom_web-developers_2023_inverse.png" />
+        <div className="w-full hidden lg:block mt-6 h-1 ">
+        <div className="text-neutral-400  hidden xl:block items-center justify-center z-40 py-4 px-0 inline-flex w-full bg-[#012d53] absolute -bottom-16 pb-12 left-0" id="div-1">
+          <img className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-10" id="img-1" src="https://truesocialmarketing.com/wp-content/uploads/2023/01/ca_folsom_web-developers_2023_inverse.png" />
 
 
-          <img className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-20" id="img-3" src="https://truesocialmarketing.com/wp-content/uploads/2022/05/white-clutch-1.png" />
+          <img className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-10" id="img-3" src="https://truesocialmarketing.com/wp-content/uploads/2022/05/white-clutch-1.png" />
 
-          {/* <img className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-20" id="img-4" src="https://truesocialmarketing.com/wp-content/uploads/2022/05/Untitled-3.png" /> */}
+          {/* <img className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-10" id="img-4" src="https://truesocialmarketing.com/wp-content/uploads/2022/05/Untitled-3.png" /> */}
 
-          <img className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-20" id="img-5" src="https://truesocialmarketing.com/wp-content/uploads/2022/05/White-Google-Logo.png" />
+          <img className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-10" id="img-5" src="https://truesocialmarketing.com/wp-content/uploads/2022/05/White-Google-Logo.png" />
           <a className="text-sky-500" href="https://www.pandia.com/us/folsom-ca/graphic-design">
-            <img className="cursor-pointer align-middle inline-block w-20 h-auto min-w-[4.00rem] max-w-full my-0 mx-16 opacity-20" id="img-2" src="https://truesocialmarketing.com/wp-content/uploads/2024/03/imag321e.png" />
+            <img className="cursor-pointer align-middle inline-block w-20 h-auto min-w-[4.00rem] max-w-full my-0 mx-16 opacity-10" id="img-2" src="https://truesocialmarketing.com/wp-content/uploads/2024/03/imag321e.png" />
           </a>
 
-          <img className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-20" id="img-6" src="https://truesocialmarketing.com/wp-content/uploads/2022/05/white-yelp-logo-.png" />
+          <img className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-10" id="img-6" src="https://truesocialmarketing.com/wp-content/uploads/2022/05/white-yelp-logo-.png" />
 
           <a className="text-sky-500" href="https://findbestfirms.com/services/top-shopify-development-companies">
-            <img className="cursor-pointer align-middle inline-block w-20 h-auto min-w-[4.00rem] max-w-full my-0 mx-16 opacity-20" id="img-7" src="https://truesocialmarketing.com/wp-content/uploads/2024/02/jgsfse23523.png" />
+            <img className="cursor-pointer align-middle inline-block w-20 h-auto min-w-[4.00rem] max-w-full my-0 mx-16 opacity-10" id="img-7" src="https://truesocialmarketing.com/wp-content/uploads/2024/02/jgsfse23523.png" />
           </a>
         </div>
         </div>
@@ -239,7 +236,7 @@ export default function Home() {
 
       <div className="relative w-full ">
         {/* <Image src="/framer.webp" alt="Hero" objectFit="cover" fill className="object-cover top-0 -mt-20 z-[-1] left-0 right-0 opacity-80 absolute inset-x-0 transform-gpu w-full h-full" /> */}
-        {/* <div className="absolute inset-x-0 -top-20 opacity-20 right-0 bottom-0 left-0 z-[-1] w-full  overflow-hidden">
+        {/* <div className="absolute inset-x-0 -top-20 opacity-10 right-0 bottom-0 left-0 z-[-1] w-full  overflow-hidden">
           <Image src="/hero.jpg" alt="Hero" layout="fill" objectFit="cover" fill className="object-cover w-full h-full  max-w-none" />
         </div> */}
         {/* <div className="absolute fill-slate-500 bottom-16 z-[1] left-0 right-0">

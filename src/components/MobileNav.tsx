@@ -13,7 +13,7 @@ export default function MobileNav() {
     <Sheet open={open} onOpenChange={setOpen}>
       {/* This button will trigger open the mobile sheet menu */}
       <SheetTrigger asChild>
-        <Button variant="ghost" size="icon" className="md:hidden">
+        <Button variant="ghost" size="icon" className="lg:hidden">
           <MenuIcon />
         </Button>
       </SheetTrigger>

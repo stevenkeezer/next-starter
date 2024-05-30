@@ -102,7 +102,7 @@ export const About = () => {
   return (
     <div className="pb-8 mx-auto sm:px-0 md:max-w-full lg:pt-20 lg:pb-20 overflow-x-hidden">
       <div className="grid lg:grid-cols-2 space-x-6 gap-10">
-        <div className="flex items-center justify-start w-full">
+        <div className="flex items-center justify-start w-full order-2 sm:order-1">
           {/* <div className="flex flex-col items-end px-3">
             <img
               className="object-cover mb-6 shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"

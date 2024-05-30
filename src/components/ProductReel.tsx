@@ -42,18 +42,18 @@ const ProductReel = (props: ProductReelProps) => {
             {/* {map.map((product, i) => (
               <ProductListing key={`product-${i}`} product={product} index={i} />
             ))} */}
-            <div className="h-[33rem] overflow-y-hidden shadow-md border-8 border-slate-100 p-4 sm:p-0">
+            <div className="h-[33rem] overflow-hidden sm:shadow-md sm:border-8 border-slate-100 p-4 sm:p-0">
 
               <Image src="/jaco1.png" alt="Golden State Web Design" width={500} height={500} />
             </div>
             {/* <Image src="/pure.png" alt="Golden State Web Design"  width={500} height={500} /> */}
-            <div className="h-[33rem] overflow-y-hidden shadow-md border-8 border-slate-100 p-4 sm:p-0">
+            <div className="h-[33rem] overflow-hidden sm:shadow-md sm:border-8 border-slate-100 p-4 sm:p-0">
 
               <Image src="/nepal.png" alt="Golden State Web Design" width={500} height={500} />
             </div>
 
 
-            <div className="h-[33rem] overflow-y-hidden shadow-md border-8 border-slate-100 p-4 sm:p-0">
+            <div className="h-[33rem] overflow-hidden sm:shadow-md sm:border-8 border-slate-100 p-4 sm:p-0">
               <Image src="/sonoma.png" alt="Golden State Web Design" width={500} height={500} />
 
             </div>
