@@ -65,9 +65,8 @@ export function ContactForm() {
 
     return (
         <Dialog open={isOpen} onOpenChange={closeModal}>
-            <DialogContent className="sm:max-w-[425px] border-t-8 border-blue-400 h-3/4 sm:h-auto bg-slate-50 text-slate-700">
-            
-                <DialogHeader className='justify-center mx-auto flex mb-0 pb-0'>
+            <DialogContent className="sm:max-w-[425px] overflow-y-auto items-start justify-start border-t-8 border-blue-400 h-full sm:h-auto bg-slate-50 text-slate-700">
+                <DialogHeader className='justify-center sm:flex hidden mx-auto mb-0 pb-0 '>
                     <div className='mx-auto'>
                     <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-90 mb-10 pl-2' width={143} height={143} />
                 </div>
@@ -77,8 +76,19 @@ export function ContactForm() {
                     </DialogDescription>
                 </DialogHeader>
 
+                <DialogHeader className='justify-center sm:hidden flex mx-auto mb-0 pb-0'>
+                    <div className='mx-auto'>
+                    <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-90 mb-8 pl-2' width={123} height={123} />
+                </div>
+                    <DialogTitle>Let's Connect!</DialogTitle>
+                    <DialogDescription className='text-xs pt-3'>
+                        We're excited to hear about your project! Please fill out the form below and we'll get back to you as soon as we can. 
+                    </DialogDescription>
+                </DialogHeader>
+            
+
                 <form onSubmit={handleSubmit}>
-                    <div className="grid gap-4 py-4">
+                    <div className="grid gap-4 py-4 pt-10">
                         <div className="w-full">
                             <Label className="text-slate-700 text-xs pb-3">Name</Label>
                             <Input
