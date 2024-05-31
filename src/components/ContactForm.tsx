@@ -68,7 +68,7 @@ export function ContactForm() {
             <DialogContent className="sm:max-w-[425px] overflow-y-auto items-start justify-start border-t-8 border-blue-400 h-full sm:h-auto bg-slate-50 text-slate-700">
                 <DialogHeader className='justify-center sm:flex hidden mx-auto mb-0 pb-0 '>
                     <div className='mx-auto'>
-                    <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-90 mb-10 pl-2' width={143} height={143} />
+                    <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-90 mb-10' width={143} height={143} />
                 </div>
                     <DialogTitle>Let's Connect!</DialogTitle>
                     <DialogDescription className='text-sm pt-6'>
