@@ -87,7 +87,7 @@ export function Footer() {
         <nav className="-mb-6 sm:columns-2 sm:flex sm:justify-center sm:space-x-12 bg-[#0c2d53]" aria-label="Footer">
           {navigation.main.map((item) => (
             <div key={item.name} className="pb-6">
-              <div onClick={() => handleScroll(item.sectionId)} className="text-sm leading-6 font-semibold uppercase text-slate-100 tracking-wider hover:text-slate-200 cursor-pointer">
+              <div onClick={() => handleScroll(item.sectionId)} className="text-sm leading-6 font-semibold uppercase text-slate-300 tracking-wider hover:text-slate-200 cursor-pointer">
                 {item.name}
               </div>
             </div>

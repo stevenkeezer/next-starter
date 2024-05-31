@@ -46,7 +46,7 @@ export const About = () => {
               WHO WE ARE
             </div>
             <h2 className="max-w-2xl mb-6 font-sans text-2xl font-semibold tracking-tight text-slate-700 sm:text-4xl sm:leading-none">
-              Web development experts
+              Simplicity is our game
             </h2>
             <p className="text-sm sm:text-base text-slate-700">
             <span className="text-sm sm:text-base text-slate-600">
@@ -57,8 +57,7 @@ export const About = () => {
               I started this business to help provide for my family while still being able to be home. I spent over seven years working in Silicon Valley at a multitude of start-ups. Over the years, I have built hundreds of websites and have my method down to a science.
               <br />
               <br />
-              We take a systematic and artistic approach to building SEO-effective websites that not only look great but also convert.
-            </p>
+              We take a systematic and artistic approach to building SEO-effective websites that not only look great but also convert. Our philosophy is this: <br/> Let us handle your website so you can focus on what you do best– running your business!            </p>
           </div>
         </div>
       </div>
