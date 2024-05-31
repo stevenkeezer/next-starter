@@ -11,6 +11,7 @@ import Testimonials from "@/components/Testimonials";
 import { ContactForm } from "@/components/ContactForm";
 import { GetStartedButton } from "@/components/GetStartedBtn";
 import { SeeOurWorkButton } from "@/components/SeeOurWorkButton";
+import Footer from "@/components/Footer";
 
 
 const HeroSide = () => (
@@ -94,6 +95,7 @@ export default function Home() {
           <Pricing />
         </section>
       </div>
+      <Footer />
     </div>
   );
 }
