@@ -95,7 +95,6 @@ export default function Home() {
           <Pricing />
         </section>
       </div>
-      <Footer />
     </div>
   );
 }

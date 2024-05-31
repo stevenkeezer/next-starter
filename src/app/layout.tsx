@@ -150,6 +150,7 @@ const RootLayout = ({ children }: PropsWithChildren) => {
         <ThemeProvider attribute="class">
           <Navbar />
           {children}
+          <Footer />
           <Toaster />
         </ThemeProvider>
       </body>
