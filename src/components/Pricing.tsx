@@ -1,6 +1,15 @@
+'use client';
+
 import clsx from "clsx";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import { Button } from "./ui/button";
+import Link from "next/link";
+
+const handleClick = () => {
+  const params = new URLSearchParams(window.location.search)
+  params.set('open', 'dialog')
+  window.history.pushState(null, '', `?${params.toString()}`)
+}
 
 function SwirlyDoodle(props: React.ComponentPropsWithoutRef<"svg">) {
   return (
@@ -37,7 +46,8 @@ function Plan({ name, price, description, href, features, featured = false }: { 
           </li>
         ))}
       </ul>
-      <Button variant={"default"} color="white" className={clsx("mt-8 bg-white", !featured && "border bg-white border-slate-300/80")} aria-label={`Get started with the ${name} plan for ${price}`}>
+
+      <Button onClick={handleClick} variant={"default"} color="white" className={clsx("mt-8 bg-white w-full", !featured && "border bg-white border-slate-300/80")} aria-label={`Get started with the ${name} plan for ${price}`}>
         Contact us
       </Button>
     </section>
@@ -49,12 +59,12 @@ function Pricing() {
     <section id="pricing" aria-label="Pricing" className="bg-[#f2f8ff] pt-12 sm:pt-16 sm:pb-10">
       <MaxWidthWrapper >
 
-       <div className="flex text-[#2a7ec8] font-bold text-xs text-center sm:text-sm tracking-wide justify-center uppercase mb-3 sm:mb-6  rounded-full bg-teal-accent-400">
-        Pricing
-          </div>
-                <h2 className="text-left text-2xl text-slate-700 text-center font-semibold md:text-4xl">Cost-effective pricing plans</h2>
+        <div className="flex text-[#2a7ec8] font-bold text-xs text-center sm:text-sm tracking-wide justify-center uppercase mb-3 sm:mb-6  rounded-full bg-teal-accent-400">
+          Pricing
+        </div>
+        <h2 className="text-left text-2xl text-slate-700 text-center font-semibold md:text-4xl">Cost-effective pricing plans</h2>
       </MaxWidthWrapper>
-    
+
       <MaxWidthWrapper className="pb-10 z-40 border-slate-100/5 px-4 pt-6 sm:pt-0">
         <div className="-mx-4 sm:mt-12 grid max-w-2xl grid-cols-1 px-4 sm:px-0 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan

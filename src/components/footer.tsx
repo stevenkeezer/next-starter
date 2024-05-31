@@ -1,123 +1,33 @@
-// "use client";
-
-import { JSX, SVGProps } from "react";
-
-// import { usePathname } from "next/navigation";
-// import MaxWidthWrapper from "./MaxWidthWrapper";
-// import { Icons } from "./Icons";
-// import Link from "next/link";
-
-// const Footer = () => {
-//   const pathname = usePathname();
-//   const pathsToMinimize = ["/verify-email", "/sign-up", "/sign-in"];
-
-//   return (
-//     <footer className="bg-white flex-grow-0">
-//       <MaxWidthWrapper>
-//         <div className="border-t border-white">
-//           {pathsToMinimize.includes(pathname) ? null : (
-//             <div className="pb-8 pt-16">
-//               <div className="flex justify-center">
-//                 <Icons.logo className="h-12 w-auto" />
-//               </div>
-//             </div>
-//           )}
-
-//           {/* {pathsToMinimize.includes(pathname) ? null : (
-//             <div>
-//               <div className='relative flex items-center px-6 py-6 sm:py-8 lg:mt-0'>
-//                 <div className='absolute inset-0 overflow-hidden rounded-lg'>
-//                   <div
-//                     aria-hidden='true'
-//                     className='absolute bg-zinc-50 inset-0 bg-gradient-to-br bg-opacity-90'
-//                   />
-//                 </div>
-
-//                 <div className='text-center relative mx-auto max-w-sm'>
-//                   <h3 className='font-semibold text-white'>
-//                     Become a seller
-//                   </h3>
-//                   <p className='mt-2 text-sm text-muted-foreground'>
-//                     If you&apos;d like to sell high-quality
-//                     digital products, you can do so in
-//                     minutes.{' '}
-//                     <Link
-//                       href='/sign-in?as=seller'
-//                       className='whitespace-nowrap font-medium text-black hover:text-zinc-900'>
-//                       Get started &rarr;
-//                     </Link>
-//                   </p>
-//                 </div>
-//               </div>
-//             </div>
-//           )} */}
-//         </div>
-
-//         <div className="py-10 md:flex md:items-center md:justify-between">
-//           <div className="text-center md:text-left">
-//             <p className="text-sm text-muted-foreground">&copy; {new Date().getFullYear()} All Rights Reserved</p>
-//           </div>
-
-//           <div className="mt-4 flex items-center justify-center md:mt-0">
-//             <div className="flex space-x-8">
-//               <Link href="#" className="text-sm text-muted-foreground hover:text-white">
-//                 Terms
-//               </Link>
-//               <Link href="#" className="text-sm text-muted-foreground hover:text-white">
-//                 Privacy Policy
-//               </Link>
-//               <Link href="#" className="text-sm text-muted-foreground hover:text-white">
-//                 Cookie Policy
-//               </Link>
-//             </div>
-//           </div>
-//         </div>
-//       </MaxWidthWrapper>
-//     </footer>
-//   );
-// };
-
-// export default Footer;
+'use client';
 
 const navigation = {
-  solutions: [
-    { name: "Marketing", href: "#" },
-    { name: "Analytics", href: "#" },
-    { name: "Commerce", href: "#" },
-    { name: "Insights", href: "#" },
+  main: [
+    { name: 'How it works', href: '#how-it-works', sectionId: 'how-it-works' },
+    { name: 'Portfolio', href: '#portfolio', sectionId: 'portfolio' },
+    { name: 'About', href: '#about', sectionId: 'about' },
+    { name: 'Testimonials', href: '#testimonials', sectionId: 'testimonials' },
+    { name: 'Pricing', href: '#pricing', sectionId: 'pricing' },
   ],
-  support: [
-    { name: "Pricing", href: "#" },
-    { name: "Documentation", href: "#" },
-    { name: "Guides", href: "#" },
-    { name: "API Status", href: "#" },
-  ],
-  company: [
-    { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
-    { name: "Press", href: "#" },
-    { name: "Partners", href: "#" },
-  ],
-  legal: [
-    { name: "Claim", href: "#" },
-    { name: "Privacy", href: "#" },
-    { name: "Terms", href: "#" },
-  ],
+
+
   social: [
     {
-      name: "Facebook",
-      href: "#",
-      icon: (props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) => (
+      name: 'Facebook',
+      href: '#',
+      icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-          <path fillRule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clipRule="evenodd" />
+          <path
+            fillRule="evenodd"
+            d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+            clipRule="evenodd"
+          />
         </svg>
       ),
     },
     {
-      name: "Instagram",
-      href: "#",
-      icon: (props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) => (
+      name: 'Instagram',
+      href: '#',
+      icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
             fillRule="evenodd"
@@ -128,18 +38,18 @@ const navigation = {
       ),
     },
     {
-      name: "X",
-      href: "#",
-      icon: (props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) => (
+      name: 'X',
+      href: '#',
+      icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path d="M13.6823 10.6218L20.2391 3H18.6854L12.9921 9.61788L8.44486 3H3.2002L10.0765 13.0074L3.2002 21H4.75404L10.7663 14.0113L15.5685 21H20.8131L13.6819 10.6218H13.6823ZM11.5541 13.0956L10.8574 12.0991L5.31391 4.16971H7.70053L12.1742 10.5689L12.8709 11.5655L18.6861 19.8835H16.2995L11.5541 13.096V13.0956Z" />
         </svg>
       ),
     },
     {
-      name: "GitHub",
-      href: "#",
-      icon: (props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) => (
+      name: 'GitHub',
+      href: '#',
+      icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
             fillRule="evenodd"
@@ -150,96 +60,63 @@ const navigation = {
       ),
     },
     {
-      name: "YouTube",
-      href: "#",
-      icon: (props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) => (
+      name: 'YouTube',
+      href: '#',
+      icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-          <path fillRule="evenodd" d="M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 0 1-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 0 1-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 0 1 1.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418ZM15.194 12 10 15V9l5.194 3Z" clipRule="evenodd" />
+          <path
+            fillRule="evenodd"
+            d="M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 0 1-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 0 1-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 0 1 1.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418ZM15.194 12 10 15V9l5.194 3Z"
+            clipRule="evenodd"
+          />
         </svg>
       ),
     },
   ],
-};
+}
+
 
 export default function Footer() {
+  const handleScroll = (sectionId: any) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
-    <footer className="bg-[#0c2d53] text-white border-t border-slate-200" aria-labelledby="footer-heading">
-      <h2 id="footer-heading" className="sr-only">
-        Footer
-      </h2>
-      <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <div className="space-y-8">
-            {/* <img className="h-7" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="Company name" /> */}
-            <p className="text-sm leading-6 text-white">Making the world a better place through constructing elegant hierarchies.</p>
-            <div className="flex space-x-6">
-              {navigation.social.map((item) => (
-                <a key={item.name} href={item.href} className="text-white hover:text-white">
-                  <span className="sr-only">{item.name}</span>
-                  <item.icon className="h-6 w-6" aria-hidden="true" />
-                </a>
-              ))}
-            </div>
-          </div>
-          <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">Solutions</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.solutions.map((item) => (
-                    <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-white hover:text-white">
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">Support</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.support.map((item) => (
-                    <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-white hover:text-white">
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
+    <footer className="bg-[#0c2d53]">
+      <div className="mx-auto max-w-7xl overflow-hidden bg-transparent px-6 py-20 sm:py-24 lg:px-8">
+        <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12 bg-[#0c2d53]" aria-label="Footer">
+          {navigation.main.map((item) => (
+            <div key={item.name} className="pb-6">
+              <div onClick={() => handleScroll(item.sectionId)} className="text-sm leading-6 font-semibold uppercase text-slate-100 tracking-wider hover:text-slate-200 cursor-pointer">
+                {item.name}
               </div>
             </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">Company</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.company.map((item) => (
-                    <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-white hover:text-white">
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">Legal</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.legal.map((item) => (
-                    <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-white hover:text-white">
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+          ))}
+        </nav>
+        {/* <div className="mt-10 flex justify-center space-x-10 bg-transparent">
+          {navigation.social.map((item) => (
+            <a key={item.name} href={item.href} className="text-slate-100 hover:text-slate-200">
+              <span className="sr-only">{item.name}</span>
+              <item.icon className="h-6 w-6" aria-hidden="true" />
+            </a>
+          ))}
+        </div> */}
         <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-          <p className="text-xs leading-5 text-white">&copy; 2020 Your Company, Inc. All rights reserved.</p>
+          <div className="text-xs leading-5 text-white/20">
+            <p>&copy; {new Date().getFullYear()} Golden State Web Design, Inc. All rights reserved.</p>
+            <div className="mt-4 text-xs">
+              <p className="mt-2 text-xs">
+                Serving: El Dorado Hills, Folsom, Granite Bay, Cameron Park, Shingle Springs, Placerville, Rescue, Orangevale, Fair Oaks, Rancho Cordova, Roseville, Rocklin, Lincoln, Auburn, Citrus Heights, Carmichael, Antelope, Sacramento, North Highlands, Loomis, Penryn, Newcastle, Elverta, Rio Linda, McClellan Park, Arden-Arcade, Gold River, Vineyard, Wilton, Rancho Murieta, Herald, Galt, Elk Grove, Walnut Grove, Isleton, Clarksburg, Courtland, West Sacramento, Davis, Woodland, Knights Landing, Yuba City, Marysville, Wheatland, Nicolaus, Rio Oso, Robbins, Sutter, Live Oak, Olivehurst, Plumas Lake, Linda, East Nicolaus, Trowbridge, Meridian, Colusa, Williams, Arbuckle, Grimes, Maxwell, Princeton, Stonyford, Sites, College City, Dunnigan, Zamora, Dobbins, Oregon House, Rackerby, Brownsville, Forbestown, Challenge, Bangor, Loma Rica, Smartsville, Penn Valley, Rough and Ready, Lake Wildwood, Nevada City, Grass Valley, Alta Sierra, Chicago Park, Cedar Ridge, Peardale, Gold Run, Dutch Flat, Alta, Blue Canyon, Emigrant Gap, Baxter, and more.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
-  );
+  )
 }
+
+

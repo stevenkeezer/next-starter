@@ -5,11 +5,10 @@ const UserCard = () => {
   return (
     <div className="sm:w-full bg-white sm:mx-0 sm:mx-4 h-[29rem] shadow transform duration-200 easy-in-out">
       <div className=" h-32 overflow-hidden" >
-        <Image className="w-full object-cover" src="/mtn2.jpg" height={100} width={200} alt="" />
+        <Image className="w-full object-cover" src="/mtn2.jpg" height={100} width={200} alt="mountain landscape" />
       </div>
       <div className="flex justify-center px-5  -mt-12">
-        <Image className="h-32 w-32 bg-white p-1.5 rounded-full" height={200} width={200} src="/me2.jpeg" alt="" />
-
+        <Image className="h-32 w-32 bg-white p-1.5 rounded-full" height={200} width={200} src="/me2.jpeg" alt="picture of steven keezer" />
       </div>
       <div className="sm:pb-6 mx-auto flex justify-center">
         <div className="text-center px-14">
@@ -52,7 +51,6 @@ export const About = () => {
             <p className="text-sm sm:text-base text-gray-700">
             <span className="text-base sm:text-lg text-gray-600">
             My name is Steve. I am a professional software developer currently working for <a className="text-orange-600 font-bold" href="https://www.flapjack.co" target="blank">Flapjack</a>, designing software to build next-level, customizable restaurant menus. I am a former collegiate athlete, and in my free time, I love to run and ride my bike.
-
             </span>
               <br />
               <br />
@@ -60,7 +58,6 @@ export const About = () => {
               <br />
               <br />
               We take a systematic and artistic approach to building SEO-effective websites that not only look great but also convert.
-              {/* Our team of experts will work with you to create a website that is built specifically for your business needs and goals. */}
             </p>
           </div>
         </div>
