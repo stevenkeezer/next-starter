@@ -65,14 +65,14 @@ export function ContactForm() {
 
     return (
         <Dialog open={isOpen} onOpenChange={closeModal}>
-            <DialogContent className="sm:max-w-[425px] h-3/4 bg-slate-50 text-slate-700">
+            <DialogContent className="sm:max-w-[425px] border-t-8 border-blue-400 h-3/4 sm:h-auto bg-slate-50 text-slate-700">
             
-                <DialogHeader className='justify-center mx-auto flex'>
+                <DialogHeader className='justify-center mx-auto flex mb-0 pb-0'>
                     <div className='mx-auto'>
                     <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-90 mb-10 pl-2' width={143} height={143} />
                 </div>
                     <DialogTitle>Let's Connect!</DialogTitle>
-                    <DialogDescription className='text-sm py-6'>
+                    <DialogDescription className='text-sm pt-6'>
                         We're excited to hear about your project! Please fill out the form below and we'll get back to you as soon as we can. Your thoughts and questions are important to us. Thank you!
                     </DialogDescription>
                 </DialogHeader>
@@ -83,7 +83,7 @@ export function ContactForm() {
                             <Label className="text-slate-700 text-xs pb-3">Name</Label>
                             <Input
                                 id="name"
-                                placeholder="Your name"
+                                placeholder="Jane Doe"
                                 className="w-full bg-slate-50"
                                 autoComplete='name'
                                 value={name}
@@ -94,7 +94,7 @@ export function ContactForm() {
                             <Label className="text-slate-700 text-xs pb-3">Email</Label>
                             <Input
                                 id="email"
-                                placeholder="your@email.com"
+                                placeholder="janedoe@email.com"
                                 className="w-full bg-slate-50"
                                 autoComplete='email'
                                 value={email}
@@ -105,7 +105,7 @@ export function ContactForm() {
                             <Label className="text-slate-700 text-xs pb-3">Message (optional)</Label>
                             <Textarea
                                 id="message"
-                                placeholder="Your message"
+                                placeholder="Your message here..."
                                 className="w-full bg-slate-50"
                                 value={message}
                                 onChange={(e) => setMessage(e.target.value)}

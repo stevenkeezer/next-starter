@@ -57,19 +57,24 @@ export default function MobileNav() {
         </Button>
       </SheetTrigger>
 
-      <SheetContent side="left" className='bg-white text-slate-700'>
-        <div className="flex flex-col items-start">
-          <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-90 mb-10' width={143} height={143} />
+      <SheetContent side="left" className='bg-white pl-0 text-slate-700'>
+        <div className="flex flex-col w-full items-start">
+          <div className='flex justify-center mx-auto'>
+            <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-90 mb-10' width={143} height={143} />
+          </div>
           {menuItems.map((item, index) => (
             item.isDialog ?
-              <div key={index}>
-                <Button onClick={(e) => {
-                  e.preventDefault();
-                  setOpen(false);
-                  setTimeout(() => {
-                    router.push(`${item.id}`);
-                  }, 300);
-                }}>
+              <div key={index} className='pl-4 w-full mt-5'>
+                <Button
+                  variant='default'
+                  className='bg-slate-800 hover:bg-slate-700 w-full text-white'
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setOpen(false);
+                    setTimeout(() => {
+                      router.push(`${item.id}`);
+                    }, 300);
+                  }}>
                   {item.name}
                 </Button>
               </div>
