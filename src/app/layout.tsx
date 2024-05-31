@@ -2,8 +2,7 @@ import '@/styles/globals.css';
 
 import { PropsWithChildren } from 'react';
 import type { Metadata } from 'next';
-import { JSX, SVGProps } from "react";
-// import { Footer } from '@/components/footer';
+import { JSX, SVGProps } from "react"
 // import { Navbar } from '@/components/navbar/navbar';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
@@ -14,6 +13,7 @@ import Navbar from '@/components/Navbar';
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 import Banner from '@/components/Banner';
 import Footer from '@/components/Footer';
+
 
 
 export const metadata: Metadata = {
