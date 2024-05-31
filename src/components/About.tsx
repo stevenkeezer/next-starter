@@ -12,8 +12,8 @@ const UserCard = () => {
       </div>
       <div className="sm:pb-6 mx-auto flex justify-center">
         <div className="text-center px-14">
-          <h2 className="text-gray-800 text-3xl font-bold">Steven Keezer</h2>
-          <p className="mt-2 text-gray-500 text-xs mt-4 sm:text-sm max-w-sm">Software Engineer, Collegiete athlete, musician, spartan athlete, distance runner, cyclist and electronics nerd. My favorite country I have visited is Vietnam</p>
+          <h2 className="text-slate-800 text-3xl font-bold">Steven Keezer</h2>
+          <p className="mt-2 text-slate-500 text-xs mt-4 sm:text-sm max-w-sm">Software Engineer, Collegiete athlete, musician, spartan athlete, distance runner, cyclist and electronics nerd. My favorite country I have visited is Vietnam</p>
         </div>
       </div>
       <div className="flex w-full p-6 flex-wrap gap-2 items-center justify-center max-w-md mx-auto">
@@ -33,7 +33,7 @@ const UserCard = () => {
 
 export const About = () => {
   return (
-    <div className="pb-8 mx-auto px-4 sm:px-0 md:max-w-full lg:pt-20 lg:pb-20 overflow-x-hidden">
+    <div className="pb-8 mx-auto px-4 sm:px-0 md:max-w-full lg:pt-20 lg:pb-20 overflow-y-hidden overflow-x-hidden">
       <div className="grid lg:grid-cols-2 gap-10">
         <div className="flex items-center justify-start w-full order-2 sm:order-1">
           <div className="relative w-full">
@@ -48,8 +48,8 @@ export const About = () => {
             <h2 className="max-w-2xl mb-6 font-sans text-2xl font-semibold tracking-tight text-slate-700 sm:text-4xl sm:leading-none">
               Web development experts
             </h2>
-            <p className="text-sm sm:text-base text-gray-700">
-            <span className="text-base sm:text-lg text-gray-600">
+            <p className="text-sm sm:text-base text-slate-700">
+            <span className="text-sm sm:text-base text-slate-600">
             My name is Steve. I am a professional software developer currently working for <a className="text-orange-600 font-bold" href="https://www.flapjack.co" target="blank">Flapjack</a>, designing software to build next-level, customizable restaurant menus. I am a former collegiate athlete, and in my free time, I love to run and ride my bike.
             </span>
               <br />

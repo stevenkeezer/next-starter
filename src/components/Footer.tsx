@@ -84,7 +84,7 @@ export function Footer() {
   return (
     <footer className="bg-[#0c2d53]">
       <div className="mx-auto max-w-7xl overflow-hidden bg-transparent px-6 py-20 sm:py-24 lg:px-8">
-        <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12 bg-[#0c2d53]" aria-label="Footer">
+        <nav className="-mb-6 sm:columns-2 sm:flex sm:justify-center sm:space-x-12 bg-[#0c2d53]" aria-label="Footer">
           {navigation.main.map((item) => (
             <div key={item.name} className="pb-6">
               <div onClick={() => handleScroll(item.sectionId)} className="text-sm leading-6 font-semibold uppercase text-slate-100 tracking-wider hover:text-slate-200 cursor-pointer">

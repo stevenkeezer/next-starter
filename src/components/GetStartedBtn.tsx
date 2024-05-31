@@ -12,7 +12,7 @@ export function GetStartedButton() {
   }
 
   return (
-    <Button onClick={handleClick} className={cn(buttonVariants({ size: "lg" }), "shadow z-40")}>
+    <Button onClick={handleClick} className={cn(buttonVariants({ size: "lg" }), "shadow bg-white text-slate-700 z-40")}>
       <span className="font-medium">Get started</span> <ArrowRight className="ml-2 h-4 w-4" />
     </Button>
   )

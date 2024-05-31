@@ -17,7 +17,7 @@ export default function MainNav() {
         <div className="relative z-10 flex">
           <div className="hidden lg:flex flex-shrink-0 items-center">
             <div className="flex items-center gap-1 uppercase text-sky-900/80 text-sm tracking-wider font-bold space-x-16  mr-9">
-            <div onClick={() => handleScroll('how-it-works')} style={{ cursor: 'pointer' }}>How it works</div>
+              <div onClick={() => handleScroll('how-it-works')} style={{ cursor: 'pointer' }}>How it works</div>
               <div onClick={() => handleScroll('portfolio')} style={{ cursor: 'pointer' }}>Portfolio</div>
               <div onClick={() => handleScroll('about')} style={{ cursor: 'pointer' }}>About</div>
             </div>

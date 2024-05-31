@@ -5,6 +5,9 @@ import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle } from '
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from './ui/textarea';
+import Image from 'next/image';
+import { DialogDescription } from '@radix-ui/react-dialog';
+import { Label } from '@radix-ui/react-dropdown-menu';
 
 export function ContactForm() {
     const router = useRouter();
@@ -31,7 +34,7 @@ export function ContactForm() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        
+
         console.log(message, email, name, "ST/uf")
         try {
             const response = await fetch('/api/sendEmail', {
@@ -62,13 +65,22 @@ export function ContactForm() {
 
     return (
         <Dialog open={isOpen} onOpenChange={closeModal}>
-            <DialogContent className="sm:max-w-[425px] bg-white text-slate-700">
-                <DialogHeader>
-                    <DialogTitle>Get in touch with us!</DialogTitle>
+            <DialogContent className="sm:max-w-[425px] h-3/4 bg-slate-50 text-slate-700">
+            
+                <DialogHeader className='justify-center mx-auto flex'>
+                    <div className='mx-auto'>
+                    <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-90 mb-10 pl-2' width={143} height={143} />
+                </div>
+                    <DialogTitle>Let's Connect!</DialogTitle>
+                    <DialogDescription className='text-sm py-6'>
+                        We're excited to hear about your project! Please fill out the form below and we'll get back to you as soon as we can. Your thoughts and questions are important to us. Thank you!
+                    </DialogDescription>
                 </DialogHeader>
+
                 <form onSubmit={handleSubmit}>
                     <div className="grid gap-4 py-4">
                         <div className="w-full">
+                            <Label className="text-slate-700 text-xs pb-3">Name</Label>
                             <Input
                                 id="name"
                                 placeholder="Your name"
@@ -79,6 +91,7 @@ export function ContactForm() {
                             />
                         </div>
                         <div className="w-full">
+                            <Label className="text-slate-700 text-xs pb-3">Email</Label>
                             <Input
                                 id="email"
                                 placeholder="your@email.com"
@@ -89,6 +102,7 @@ export function ContactForm() {
                             />
                         </div>
                         <div className="w-full">
+                            <Label className="text-slate-700 text-xs pb-3">Message (optional)</Label>
                             <Textarea
                                 id="message"
                                 placeholder="Your message"
@@ -98,7 +112,7 @@ export function ContactForm() {
                             />
                         </div>
                     </div>
-                    <DialogFooter>
+                    <DialogFooter className='pt-4'>
                         <Button type="submit" variant="default" className='bg-blue-400 w-full text-white hover:bg-blue-300'>Send</Button>
                     </DialogFooter>
                 </form>
