@@ -73,7 +73,7 @@ const navigation = {
   ],
 }
 
- function Footer() {
+export function Footer() {
   const handleScroll = (sectionId: any) => {
     const section = document.getElementById(sectionId);
     if (section) {
@@ -119,4 +119,3 @@ const navigation = {
 
 
 
-export default Footer;

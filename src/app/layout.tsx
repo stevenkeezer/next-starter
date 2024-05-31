@@ -12,7 +12,7 @@ import { cn } from '@/lib/utils';
 import Navbar from '@/components/Navbar';
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 import Banner from '@/components/Banner';
-import Footer from '@/components/Footer';
+import { Footer } from '@/components/Footer';
 
 
 
