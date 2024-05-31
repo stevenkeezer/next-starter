@@ -13,7 +13,7 @@ export default function MainNav() {
 
   return (
     <div className="mx-auto w-full rounded-full mt-0.5">
-      <div className="relative flex h-16 justify-between max-w-[66rem] mx-auto">
+      <div className="relative flex h-16 justify-between max-w-[65rem] mx-auto">
         <div className="relative z-10 flex">
           <div className="hidden lg:flex flex-shrink-0 items-center">
             <div className="flex items-center gap-1 uppercase text-sky-900/90 text-sm tracking-wide font-semibold space-x-16">
@@ -30,7 +30,7 @@ export default function MainNav() {
             </label>
             <div className="relative">
               <Link href="/" className="flex items-center text-lg text-blue-400 font-semibold justify-center">
-                <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-80 drop-shadow-lg' width={140} height={140} />
+                <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-90 drop-shadow-lg' width={140} height={140} />
               </Link>
             </div>
           </div>
