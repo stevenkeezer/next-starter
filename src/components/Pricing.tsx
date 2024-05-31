@@ -47,7 +47,7 @@ function Plan({ name, price, description, href, features, featured = false }: { 
         ))}
       </ul>
 
-      <Button onClick={handleClick} variant={"default"} color="white" className={clsx("mt-8 bg-white text-slate-700 w-full", !featured && "border bg-white border-slate-300/80")} aria-label={`Get started with the ${name} plan for ${price}`}>
+      <Button onClick={handleClick} variant={"default"} color="white" className={clsx("mt-8 bg-white hover:bg-slate-100 active:bg-slate-100 text-slate-700 w-full", !featured && "border bg-white border-slate-300/80")} aria-label={`Get started with the ${name} plan for ${price}`}>
         Contact us
       </Button>
     </section>
