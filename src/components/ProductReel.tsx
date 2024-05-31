@@ -23,13 +23,13 @@ const ProductReel = (props: ProductReelProps) => {
       <div className="relative">
         <div className="sm:mt-8 flex items-center w-full">
           <div className="w-full grid grid-cols-1 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-3 md:gap-y-6 lg:gap-x-10">
-            <div className="h-[33rem] overflow-hidden sm:shadow-md sm:border border-slate-100 p-4 sm:p-0">
+            <div className="h-[33rem] overflow-y-hidden sm:shadow-lg sm:border border-slate-200 p-4 sm:p-0">
               <Image src="/jaco1.png" alt="Jaco Party Rentals" width={500} height={500} />
             </div>
-            <div className="h-[33rem] overflow-hidden sm:shadow-md sm:border border-slate-100 p-4 sm:p-0">
+            <div className="h-[33rem] overflow-y-hidden sm:shadow-lg sm:border border-slate-200 p-4 sm:p-0">
               <Image src="/nepal.png" alt="Nepal Tea Trekking" width={500} height={500} />
             </div>
-            <div className="h-[33rem] overflow-hidden sm:shadow-md sm:border border-slate-100 p-4 sm:p-0">
+            <div className="h-[33rem] overflow-y-hidden sm:shadow-lg sm:border border-slate-200 p-4 sm:p-0">
               <Image src="/sonoma.png" alt="sonoma county experience" width={500} height={500} />
             </div>
           </div>

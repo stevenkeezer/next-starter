@@ -10,7 +10,7 @@ const Testimonials = () => {
                 </div>
                 <h2 className="mb-12 text-left text-2xl text-slate-700 font-semibold md:text-4xl">What our customers say</h2>
                 <div className="grid gap-8 md:grid-rows-2 lg:grid-cols-2">
-                    <div className="row-span-2 p-6 border border-slate-100 bg-orange-50 text-center sm:p-8">
+                    <div className="row-span-2 p-6 border border-slate-100 bg-orange-50 shadow-sm text-center sm:p-8">
                         <div className="h-full flex flex-col justify-center space-y-4">
                             <Image className="w-44 h-44 mx-auto rounded-full" src="/flapjack.svg" alt="user avatar" height={220} width={220} loading="lazy" />
                             <p className="text-slate-600 md:text-xl"> <span className="font-serif">"</span>Working with Golden State Web Design was a game-changer for my business. Steve was incredibly patient and attentive, ensuring that the final design was exactly what I had envisioned. The feedback I’ve received from my clients has been overwhelmingly positive. They’re all impressed!<span className="font-serif">"</span></p>
@@ -21,7 +21,7 @@ const Testimonials = () => {
                         </div>
                     </div>
 
-                    <div className="p-6 border border-slate-100 bg-[#f1f7fd] sm:flex sm:space-x-8 sm:p-8">
+                    <div className="p-6 border border-slate-100 bg-[#f1f7fd] sm:flex sm:space-x-8 sm:p-8 shadow-sm">
                         <Image className="w-20 h-20 mx-auto rounded-full bg-slate-900 p-2" src="/jaco-logo.svg" alt="user avatar" height={80} width={80} loading="lazy" />
                         <div className="space-y-4 mt-4 text-center sm:mt-0 sm:text-left">
                             <p className="text-slate-600"> <span className="font-serif">"</span>I had no idea what to expect working with Golden State Web Design. Steve was with me every step of the way and worked with me to get the design perfect for the customers I wanted to attract. All I can say is everybody I have sent this site to says WOW!<span className="font-serif">"</span></p>
@@ -31,7 +31,7 @@ const Testimonials = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="p-6 border border-slate-100 bg-[#f9eee9] sm:flex sm:space-x-8 sm:p-8">
+                    <div className="p-6 border border-slate-100 bg-[#f9eee9] sm:flex sm:space-x-8 sm:p-8 shadow-sm">
                         <Image className="w-20 h-20 mx-auto rounded-full object-cover" src="/gremark.jpg" alt="user avatar" height={80} width={80} loading="lazy" />
                         <div className="space-y-4 mt-4 text-center sm:mt-0 sm:text-left">
                             <p className="text-slate-600"> <span className="font-serif">"</span>My website rocks! Seriously, they nailed it. It's slick, easy to use, and totally captures my vibe. Working with Steven was awesome, they just got what I was after and made it happen. Big thumbs up! <span className="font-serif">"</span></p>
