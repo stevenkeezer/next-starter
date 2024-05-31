@@ -3,8 +3,6 @@ import '@/styles/globals.css';
 import { PropsWithChildren } from 'react';
 import type { Metadata } from 'next';
 import { JSX, SVGProps } from "react";
-
-// import Footer from '@/components/Footer';
 // import { Footer } from '@/components/footer';
 // import { Navbar } from '@/components/navbar/navbar';
 import { ThemeProvider } from '@/components/theme-provider';
@@ -152,7 +150,7 @@ const RootLayout = ({ children }: PropsWithChildren) => {
         <ThemeProvider attribute="class">
           <Navbar />
           {children}
-         <Footer />
+          <Footer />
           <Toaster />
         </ThemeProvider>
       </body>
