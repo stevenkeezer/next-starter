@@ -30,7 +30,7 @@ export default function MainNav() {
             </label>
             <div className="relative">
               <Link href="/" className="flex items-center text-lg text-blue-400 font-semibold justify-center">
-                <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-90 drop-shadow-lg' width={140} height={140} />
+                <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-90 drop-shadow-sm' width={143} height={143} />
               </Link>
             </div>
           </div>
