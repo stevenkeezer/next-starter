@@ -73,7 +73,7 @@ export default function MobileNav() {
                     setOpen(false);
                     setTimeout(() => {
                       router.push(`${item.id}`);
-                    }, 300);
+                    }, 100);
                   }}>
                   {item.name}
                 </Button>
@@ -87,7 +87,7 @@ export default function MobileNav() {
                   setOpen(false);
                   setTimeout(() => {
                     handleScroll(item.id);
-                  }, 300);
+                  }, 100);
                 }}
               >
                 {item.name}
