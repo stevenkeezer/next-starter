@@ -62,7 +62,7 @@ export default function MobileNav() {
 
       <SheetContent side="left" className='bg-white pl-0 text-slate-700'>
         <div className="flex flex-col w-full items-start">
-          <div className='flex justify-center mx-auto'>
+          <div className='flex justify-center mx-auto focus:ring-0 focus:border-non'>
             <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-90 mb-10' width={143} height={143} />
           </div>
           {menuItems.map((item, index) => (
@@ -70,7 +70,7 @@ export default function MobileNav() {
               <div key={index} className='pl-4 w-full mt-5'>
                 <Button
                   variant='default'
-                  className='bg-slate-800 hover:bg-slate-700 w-full text-white'
+                  className='bg-[#60a5fa] hover:bg-[#60a5fa]/90 w-full text-white focus:ring-0 focus:border-none'
                   onClick={(e) => {
                     e.preventDefault();
                     setOpen(false);
