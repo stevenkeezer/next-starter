@@ -22,7 +22,7 @@ const Navbar = async () => {
       <header className="lg:px-8 lg:bg-transparent bg-blue-400 shadow sm:shadow-none sticky sm:relative top-0 z-50">
         <MaxWidthWrapper className="sm:px-0">
           <div className="">
-            <div className="flex lg:h-[7.55rem] h-[2.85rem] items-center flex lg:block justify-between">
+            <div className="flex lg:h-[6.55rem] h-[2.85rem] items-center flex lg:block justify-between">
              <MainNav/>
               <MobileNav />
             </div>

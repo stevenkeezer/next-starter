@@ -44,7 +44,7 @@ const HeroSide = () => (
       </div>
     </div>
     <div className="w-full hidden lg:block h-1 ">
-      <div className="text-neutral-400  hidden xl:block items-center justify-center z-40 py-4 px-0 inline-flex w-full bg-[#012d53] absolute -bottom-16 pb-10 left-0" id="div-1">
+      <div className="text-neutral-400  hidden 2xl:block items-center justify-center z-40 py-4 px-0 inline-flex w-full bg-[#012d53] absolute -bottom-16 pb-10 left-0" id="div-1">
         <Image className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-24 opacity-20" id="img-1" src="/logo-cloud/1.png" alt="Award 1" width={96} height={96} />
         <Image className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-24 opacity-20" id="img-3" src="/logo-cloud/2.png" alt="Award 2" width={96} height={96} />
         <Image className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-24 opacity-20" id="img-5" src="/logo-cloud/3.png" alt="Award 3" width={96} height={96} />

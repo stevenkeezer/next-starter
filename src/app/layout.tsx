@@ -147,6 +147,7 @@ const RootLayout = ({ children }: PropsWithChildren) => {
     <html lang="en" suppressHydrationWarning>
       <body className={cn('min-h-screen font-sans h-full relative overflow-auto', fonts)}>
         <ThemeProvider attribute="class">
+          {/* <Banner /> */}
           <Navbar />
           {children}
           <Footer />
