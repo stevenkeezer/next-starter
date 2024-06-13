@@ -23,7 +23,7 @@ const UserCard = () => {
         <Badge>Football Player</Badge>
         <Badge>Cooking</Badge>
         <Badge>Swimming</Badge>
-        <Badge>Electronics Hobbiest</Badge>
+        <Badge className="hidden sm:block">Electronics Hobbiest</Badge>
       </div>
     </div>
 
