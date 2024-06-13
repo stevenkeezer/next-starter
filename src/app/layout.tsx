@@ -145,7 +145,7 @@ const navigation = {
 const RootLayout = ({ children }: PropsWithChildren) => {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={cn('min-h-screen font-sans', fonts)}>
+      <body className={cn('min-h-screen font-sans h-full relative overflow-auto', fonts)}>
         <ThemeProvider attribute="class">
           <Navbar />
           {children}

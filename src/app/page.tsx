@@ -16,9 +16,9 @@ import Footer from "@/components/Footer";
 
 const HeroSide = () => (
   <div className="text-center bg-[#d9edfd] sm:pb-0">
-    <div className="z-40 sm:pt-6 md:pt-20 px-4 sm:px-0 xl:pt-28 2xl:pt-28">
+    <div className="z-40 sm:pt-6 md:pt-8 px-4 sm:px-0 lg:pt-20 xl:pt-28 2xl:pt-28">
 
-      <Image src="/no-color.svg" alt="Golden State Web Design" className='flex mx-auto h-44 sm:mb-4 opacity-80 w-32 lg:hidden' width={134} height={134} />
+      <Image src="/no-color.svg" alt="Golden State Web Design" className='flex mx-auto h-36 sm:mb-4 opacity-80 w-32 lg:hidden' width={134} height={134} />
       <h1 className="mx-auto max-w-[23rem] sm:max-w-[36rem] md:max-w-[42rem] lg:max-w-[52rem] xl:max-w-[55rem] 2xl:max-w-[67rem] drop-shadow text-3xl font-bold tracking-tighter text-slate-800 sm:text-5xl md:text-6xl lg:text-7xl 2xl:text-[5.8rem]">
         Web design{" "}
         <span className="relative whitespace-nowrap text-blue-400">
