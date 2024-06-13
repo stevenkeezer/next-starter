@@ -34,7 +34,7 @@ function CheckIcon({ className, ...props }: React.ComponentPropsWithoutRef<"svg"
 
 function Plan({ name, price, description, href, features, featured = false }: { name: string; price: string; description: string; href: string; features: Array<string>; featured?: boolean }) {
   return (
-    <section className={clsx("flex flex-col px-6 sm:px-8 border border-slate-200", featured ? "order-first shadow-xl shadow-slate-300 bg-blue-400 py-8 lg:order-none" : "py-8 bg-white shadow-sm backdrop-blur")}>
+    <section className={clsx("flex flex-col px-6 sm:px-8 sm:border-8 border-sky-50", featured ? "order-first shadow-xl shadow-slate-300 bg-[#2a7ec8] border-white sm:border-8 py-8 lg:order-none" : "py-8 bg-white shadow-sm backdrop-blur")}>
       <h3 className={clsx("mt-5 font-display text-lg ", featured ? "text-white" : "text-slate-900")}>{name}</h3>
       <p className={clsx("mt-2 text-base", featured ? "text-white" : "text-slate-500")}>{description}</p>
       <p className={clsx("order-first font-display text-5xl font-light tracking-tight", featured ? "text-white" : "text-slate-900")}>{price}</p>
@@ -66,7 +66,7 @@ function Pricing() {
       </MaxWidthWrapper>
 
       <MaxWidthWrapper className="pb-10 z-40 border-slate-100/5 px-4 pt-6 sm:pt-0">
-        <div className="-mx-4 sm:mt-12 grid max-w-2xl grid-cols-1 px-4 sm:px-0 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
+        <div className="-mx-4 sm:mt-12 grid max-w-2xl grid-cols-1 px-4 sm:px-0 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-4">
           <Plan
             name="E-Commerce"
             price="$8K"

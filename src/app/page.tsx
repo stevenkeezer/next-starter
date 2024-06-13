@@ -84,7 +84,7 @@ export default function Home() {
       <div className="bg-[#f2f8ff] shadow-sm">
         <section id="about" className="relative">
           <div className="hidden sm:block absolute inset-0">
-            <div className="bg-fixed bg-cover bg-center h-full opacity-50 w-full" style={{ backgroundImage: "url('/bg8.jpg')" }}></div>
+            <div className="bg-fixed bg-cover bg-center h-full opacity-30 w-full" style={{ backgroundImage: "url('/bg8.jpg')" }}></div>
           </div>
           <MaxWidthWrapper>
             <About />
