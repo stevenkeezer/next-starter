@@ -25,7 +25,7 @@ export default function MainNav() {
         </div>
         <div className="hidden lg:flex flex-1 items-center -mt-2 justify-center">
           <Link href="/" className="flex items-center text-lg text-blue-400 font-medium justify-center">
-            <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-80 drop-shadow-sm' width={157} height={157} />
+            <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-80 drop-shadow-sm' width={153} height={153} />
           </Link>
         </div>
         <div className="hidden lg:flex relative z-10 items-center">
