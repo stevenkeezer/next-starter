@@ -16,7 +16,7 @@ export default function MainNav() {
       <div className="relative flex h-20 justify-between max-w-[64rem] mx-auto ">
         <div className="relative z-10 flex">
           <div className="hidden lg:flex flex-shrink-0 items-center">
-            <div className="flex items-center gap-1 uppercase text-blue-900/90 text-sm tracking-wider font-medium space-x-14">
+            <div className="flex items-center gap-1 uppercase text-blue-900 text-sm tracking-wider font-medium space-x-14">
               <div onClick={() => handleScroll('how-it-works')} style={{ cursor: 'pointer' }} className='hover:underline'>How it works</div>
               <div onClick={() => handleScroll('portfolio')} style={{ cursor: 'pointer' }} className='hover:underline'>Portfolio</div>
               <div onClick={() => handleScroll('about')} style={{ cursor: 'pointer' }} className='hover:underline'>About</div>
@@ -29,7 +29,7 @@ export default function MainNav() {
           </Link>
         </div>
         <div className="hidden lg:flex relative z-10 items-center">
-          <div className="flex items-center gap-1 uppercase text-blue-900/90 text-sm tracking-wide font-medium space-x-14">
+          <div className="flex items-center gap-1 uppercase text-blue-900 text-sm tracking-wide font-medium space-x-14">
             <div onClick={() => handleScroll('testimonials')} style={{ cursor: 'pointer' }} className='hover:underline'>Testimonials</div>
             <div onClick={() => handleScroll('pricing')} style={{ cursor: 'pointer' }} className='hover:underline'>Pricing</div>
             <Link href="/?open=dialog" className='hover:underline'>
