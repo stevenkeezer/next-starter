@@ -59,10 +59,10 @@ function Pricing() {
     <section id="pricing" aria-label="Pricing" className="bg-[#f2f8ff] pt-12 sm:pt-16 sm:pb-10">
       <MaxWidthWrapper >
 
-        <div className="flex text-[#2a7ec8] font-bold text-xs text-center sm:text-sm tracking-wide justify-center uppercase mb-3 sm:mb-6  rounded-full bg-teal-accent-400">
+        <div className="flex text-[#2a7ec8] font-bold text-xs sm:text-sm tracking-wide justify-start uppercase mb-3 sm:mb-6  rounded-full bg-teal-accent-400">
           Pricing
         </div>
-        <h2 className="text-left text-2xl text-slate-700 text-center font-semibold md:text-4xl">Cost-effective pricing plans</h2>
+        <h2 className="text-left text-2xl text-slate-700 font-semibold md:text-4xl">Our pricing options</h2>
       </MaxWidthWrapper>
 
       <MaxWidthWrapper className="pb-10 z-40 border-slate-100/5 px-4 pt-6 sm:pt-0">

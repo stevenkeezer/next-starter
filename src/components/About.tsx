@@ -13,7 +13,7 @@ const UserCard = () => {
       <div className="sm:pb-6 mx-auto flex justify-center">
         <div className="text-center px-14">
           <h2 className="text-slate-800 text-3xl font-bold">Steven Keezer</h2>
-          <p className="mt-2 text-slate-500 text-xs mt-4 sm:text-sm max-w-sm">Software Engineer, Collegiete athlete, musician, spartan athlete, distance runner, cyclist and electronics nerd. My favorite country I have visited is Vietnam</p>
+          <p className="mt-2 text-slate-500 text-xs mt-4 sm:text-sm max-w-sm">Software Engineer, Collegiete athlete, musician, spartan athlete, distance runner, cyclist and electronics nerd. I recently just complete my first 10k Spartan Race.</p>
         </div>
       </div>
       <div className="flex w-full p-6 flex-wrap gap-2 items-center justify-center max-w-md mx-auto">
@@ -46,7 +46,7 @@ export const About = () => {
               WHO WE ARE
             </div>
             <h2 className="max-w-2xl mb-6 font-sans text-2xl font-semibold tracking-tight text-slate-700 sm:text-4xl sm:leading-none">
-              Simplicity is our game
+              Going the extra mile
             </h2>
             <p className="text-sm sm:text-base text-slate-700">
               <span className="text-sm sm:text-base text-slate-600">
