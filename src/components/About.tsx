@@ -45,7 +45,7 @@ export const About = () => {
             <div className="flex text-[#2a7ec8] font-bold tracking-wide uppercase mb-3 sm:mb-6 text-xs sm:text-sm rounded-full bg-teal-accent-400">
               WHO WE ARE
             </div>
-            <h2 className="max-w-2xl mb-6 font-sans text-2xl font-semibold tracking-tight text-slate-700 sm:text-4xl sm:leading-none">
+            <h2 className="max-w-2xl mb-4 sm:mb-6 font-sans text-2xl font-semibold tracking-tight text-slate-700 sm:text-4xl sm:leading-none">
               Going the extra mile
             </h2>
             <p className="text-sm sm:text-base text-slate-700">

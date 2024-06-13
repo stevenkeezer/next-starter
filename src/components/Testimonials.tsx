@@ -8,7 +8,7 @@ const Testimonials = () => {
                 <div className="flex text-[#2a7ec8] text-xs font-bold sm:text-sm tracking-wide uppercase mb-3 sm:mb-6 rounded-full bg-teal-accent-400">
                     Testimonials
                 </div>
-                <h2 className="mb-12 text-left text-2xl text-slate-700 font-semibold md:text-4xl">What our customers say</h2>
+                <h2 className="mb-8 sm:mb-12 text-left text-2xl text-slate-700 font-semibold md:text-4xl">What our customers say</h2>
                 <div className="grid gap-8 md:grid-rows-2 lg:grid-cols-2">
                     <div className="row-span-2 p-6 border border-slate-100 bg-orange-50 shadow-sm text-center sm:p-8">
                         <div className="h-full flex flex-col justify-center items-center space-y-4">

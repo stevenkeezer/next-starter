@@ -66,7 +66,7 @@ function Pricing() {
       </MaxWidthWrapper>
 
       <MaxWidthWrapper className="pb-10 z-40 border-slate-100/5 px-4 pt-6 sm:pt-0">
-        <div className="-mx-4 sm:mt-12 grid max-w-2xl grid-cols-1 px-4 sm:px-0 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-4">
+        <div className="-mx-4 sm:mt-12 grid max-w-2xl grid-cols-1 px-4 sm:px-0 gap-y-6 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-4">
           <Plan
             name="E-Commerce"
             price="$8K"
