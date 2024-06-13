@@ -18,7 +18,7 @@ const HeroSide = () => (
   <div className="text-center bg-[#d9edfd] sm:pb-0">
     <div className="z-40 sm:pt-24 px-4 sm:px-0 xl:pt-28 2xl:pt-24">
       <Image src="/no-color.svg" alt="Golden State Web Design" className='flex mx-auto h-28 opacity-80 w-28 lg:hidden' width={134} height={134} />
-      <h1 className="mx-auto max-w-[53rem]  xl:max-w-[59rem] 2xl:max-w-[63rem] drop-shadow text-3xl font-bold tracking-tighter text-slate-800 sm:text-7xl 2xl:text-[5.4rem]">
+      <h1 className="mx-auto max-w-[53rem]  xl:max-w-[59rem] 2xl:max-w-[67rem] drop-shadow text-3xl font-bold tracking-tighter text-slate-800 sm:text-7xl 2xl:text-[5.8rem]">
         Web design{" "}
         <span className="relative whitespace-nowrap text-blue-400">
           <span className="relative">made simple</span>
@@ -43,13 +43,13 @@ const HeroSide = () => (
       </div>
     </div>
     <div className="w-full hidden lg:block mt-6 h-1 ">
-      <div className="text-neutral-400  hidden xl:block items-center justify-center z-40 py-4 px-0 inline-flex w-full bg-[#012d53] absolute -bottom-16 pb-12 left-0" id="div-1">
-        <Image className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-10" id="img-1" src="/logo-cloud/1.png" alt="Award 1" width={96} height={96} />
-        <Image className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-10" id="img-3" src="/logo-cloud/2.png" alt="Award 2" width={96} height={96} />
-        <Image className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-10" id="img-5" src="/logo-cloud/3.png" alt="Award 3" width={96} height={96} />
-        <Image className="cursor-pointer align-middle inline-block w-20 h-auto min-w-[4.00rem] max-w-full my-0 mx-16 opacity-10" id="img-2" src="/logo-cloud/4.png" alt="Award 4" width={80} height={80} />
-        <Image className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-10" id="img-6" src="/logo-cloud/5.png" alt="Award 5" width={96} height={96} />
-        <Image className="cursor-pointer align-middle inline-block w-20 h-auto min-w-[4.00rem] max-w-full my-0 mx-16 opacity-10" id="img-6" src="/logo-cloud/1.png" alt="Award 6" width={80} height={80} />
+      <div className="text-neutral-400  hidden xl:block items-center justify-center z-40 py-4 px-0 inline-flex w-full bg-[#012d53] absolute -bottom-16 pb-10 left-0" id="div-1">
+        <Image className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-20" id="img-1" src="/logo-cloud/1.png" alt="Award 1" width={96} height={96} />
+        <Image className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-20" id="img-3" src="/logo-cloud/2.png" alt="Award 2" width={96} height={96} />
+        <Image className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-20" id="img-5" src="/logo-cloud/3.png" alt="Award 3" width={96} height={96} />
+        <Image className="cursor-pointer align-middle inline-block w-20 h-auto min-w-[4.00rem] max-w-full my-0 mx-16 opacity-20" id="img-2" src="/logo-cloud/4.png" alt="Award 4" width={80} height={80} />
+        <Image className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-16 opacity-20" id="img-6" src="/logo-cloud/5.png" alt="Award 5" width={96} height={96} />
+        <Image className="cursor-pointer align-middle inline-block w-20 h-auto min-w-[4.00rem] max-w-full my-0 mx-16 opacity-20" id="img-6" src="/logo-cloud/1.png" alt="Award 6" width={80} height={80} />
       </div>
     </div>
     <div>

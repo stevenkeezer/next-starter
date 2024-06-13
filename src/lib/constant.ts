@@ -3,7 +3,7 @@ import { env } from '@/env.mjs';
 export const siteConfig = {
   title: 'Golden State Web Design - Custom Websites for Small Businesses and Startups',
   description:
-    'Golden State Web Design is a web design and development agency that specializes in creating custom websites for small businesses and startups. We offer a range of services including web design, web development, and digital marketing.',
+    'Golden State Web Design is a web design and development agency that specializes in creating affordable, custom websites for small businesses and startups. We offer a range of services including web design, web development, and digital marketing.',
   keywords: [
     'web design',
     'web development',

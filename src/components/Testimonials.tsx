@@ -13,7 +13,7 @@ const Testimonials = () => {
                     <div className="row-span-2 p-6 border border-slate-100 bg-orange-50 shadow-sm text-center sm:p-8">
                         <div className="h-full flex flex-col justify-center space-y-4">
                             <Image className="w-44 h-44 mx-auto rounded-full" src="/flapjack.svg" alt="user avatar" height={220} width={220} loading="lazy" />
-                            <p className="text-slate-600 md:text-xl"> <span className="font-serif">"</span>Working with Golden State Web Design was a game-changer for my business. Steve was incredibly patient and attentive, ensuring that the final design was exactly what I had envisioned. The feedback I’ve received from my clients has been overwhelmingly positive. They’re all impressed!<span className="font-serif">"</span></p>
+                            <p className="text-slate-600 md:text-xl"> <span className="font-serif">"</span>Steve is a team player who just simply delivers results. On numerous occasions, he went above and beyond to make sure that our vision was executed exactly as we wanted—to the pixel. We are grateful for his taking ownership of the project and caring deeply about the outcome of the project. As a client of Golden State Web Design, you're not just a customer but valued partner, and that's not something you'll find from any other agency.<span className="font-serif">"</span></p>
                             <div>
                                 <h6 className="text-lg font-semibold leading-none">Flapjack</h6>
                                 <span className="text-xs text-slate-500">Product owner</span>
