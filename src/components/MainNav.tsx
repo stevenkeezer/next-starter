@@ -12,8 +12,8 @@ export default function MainNav() {
   };
 
   return (
-    <div className="mx-auto w-full rounded-full pt-[2.3rem]">
-      <div className="relative flex h-20 justify-between max-w-[65rem] mx-auto">
+    <div className="mx-auto w-full rounded-full pt-[2.3rem] hidden lg:block">
+      <div className="relative flex h-20 justify-between max-w-[65rem] mx-auto ">
         <div className="relative z-10 flex">
           <div className="hidden lg:flex flex-shrink-0 items-center">
             <div className="flex items-center gap-1 uppercase text-sky-900/80 text-sm tracking-wider font-semibold space-x-16">

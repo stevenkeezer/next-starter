@@ -13,8 +13,7 @@ import Navbar from '@/components/Navbar';
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 import Banner from '@/components/Banner';
 import { Footer } from '@/components/Footer';
-
-
+import TawkWidget from '@/components/TawkWidget';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -152,6 +151,7 @@ const RootLayout = ({ children }: PropsWithChildren) => {
           {children}
           <Footer />
           <Toaster />
+          <TawkWidget />
         </ThemeProvider>
       </body>
     </html>

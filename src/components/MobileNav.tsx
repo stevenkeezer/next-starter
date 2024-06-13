@@ -52,9 +52,12 @@ export default function MobileNav() {
     <Sheet open={open} onOpenChange={setOpen}>
       {/* This button will trigger open the mobile sheet menu */}
       <SheetTrigger asChild>
+        <div className='flex w-full px-4 mr-auto'>
         <Button variant="ghost" size="icon" className="lg:hidden flex justify-start hover:bg-transparent">
           <MenuIcon className='bg-transparent  text-white' />
         </Button>
+
+        </div>
       </SheetTrigger>
 
       <SheetContent side="left" className='bg-white pl-0 text-slate-700'>

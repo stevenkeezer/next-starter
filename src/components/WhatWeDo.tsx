@@ -11,7 +11,7 @@ export default function WhatWeDo() {
       <MaxWidthWrapper>
         <div className="sm:grid grid-cols-12 grid-flow-col gap-x-8 justify-between items-start w-full">
           <div className="col-span-7 bg-white py-8 sm:p-8 shadow ">
-            <h2 className="mx-0 mb-6 px-4 sm:px-0 mt-0 text-[26px] sm:text-4xl leading-tight tracking-tightest font-semibold text-slate-700">
+            <h2 className="mx-0 mb-6 px-4 sm:px-0 mt-0 text-2xl sm:text-4xl leading-tight tracking-tightest font-semibold text-slate-700">
               <span className="m-0 text-blue-400 font-semibold">$0</span> down, <span className="m-0 text-blue-400 font-semibold tracking-tightest">$150</span> a month, <br />
               12 month minimum contract
             </h2>

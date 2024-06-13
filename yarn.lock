@@ -1263,6 +1263,11 @@
   dependencies:
     "@t3-oss/env-core" "0.9.2"
 
+"@tawk.to/tawk-messenger-react@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@tawk.to/tawk-messenger-react/-/tawk-messenger-react-2.0.2.tgz#0992524dcfc530abb3a684724ee6d6a285bd560b"
+  integrity sha512-Nl3JMMIrQiyveSSuP8qYWEu1u+coqz4WCA7TfSjOMDcpyWEiORvOdnMWTsSlhz8rae57HWsCAGLzE507fKtzXA==
+
 "@testing-library/dom@^9.0.0":
   version "9.3.4"
   resolved "https://registry.npmjs.org/@testing-library/dom/-/dom-9.3.4.tgz"

@@ -34,7 +34,7 @@ function CheckIcon({ className, ...props }: React.ComponentPropsWithoutRef<"svg"
 
 function Plan({ name, price, description, href, features, featured = false }: { name: string; price: string; description: string; href: string; features: Array<string>; featured?: boolean }) {
   return (
-    <section className={clsx("flex flex-col px-6 shadow-sm sm:px-8 border border-slate-200", featured ? "order-first bg-blue-400 py-8 lg:order-none" : "py-8 bg-white backdrop-blur")}>
+    <section className={clsx("flex flex-col px-6 sm:px-8 border border-slate-200", featured ? "order-first shadow-xl shadow-slate-300 bg-blue-400 py-8 lg:order-none" : "py-8 bg-white shadow-sm backdrop-blur")}>
       <h3 className={clsx("mt-5 font-display text-lg ", featured ? "text-white" : "text-slate-900")}>{name}</h3>
       <p className={clsx("mt-2 text-base", featured ? "text-white" : "text-slate-500")}>{description}</p>
       <p className={clsx("order-first font-display text-5xl font-light tracking-tight", featured ? "text-white" : "text-slate-900")}>{price}</p>

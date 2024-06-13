@@ -16,9 +16,10 @@ import Footer from "@/components/Footer";
 
 const HeroSide = () => (
   <div className="text-center bg-[#d9edfd] sm:pb-0">
-    <div className="z-40 sm:pt-24 px-4 sm:px-0 xl:pt-28 2xl:pt-28">
-      <Image src="/no-color.svg" alt="Golden State Web Design" className='flex mx-auto h-28 opacity-80 w-28 lg:hidden' width={134} height={134} />
-      <h1 className="mx-auto max-w-[53rem]  xl:max-w-[59rem] 2xl:max-w-[67rem] drop-shadow text-3xl font-bold tracking-tighter text-slate-800 sm:text-7xl 2xl:text-[5.8rem]">
+    <div className="z-40 sm:pt-6 md:pt-20 px-4 sm:px-0 xl:pt-28 2xl:pt-28">
+
+      <Image src="/no-color.svg" alt="Golden State Web Design" className='flex mx-auto h-32 sm:mb-4 opacity-80 w-32 lg:hidden' width={134} height={134} />
+      <h1 className="mx-auto max-w-[23rem] sm:max-w-[36rem] md:max-w-[42rem] lg:max-w-[52rem] xl:max-w-[55rem] 2xl:max-w-[67rem] drop-shadow text-3xl font-bold tracking-tighter text-slate-800 sm:text-5xl md:text-6xl lg:text-7xl 2xl:text-[5.8rem]">
         Web design{" "}
         <span className="relative whitespace-nowrap text-blue-400">
           <span className="relative">made simple</span>
@@ -81,7 +82,10 @@ export default function Home() {
 
 
       <div className="bg-[#f2f8ff] shadow-sm">
-        <section id="about">
+        <section id="about" className="relative">
+          <div className="absolute inset-0">
+            <div className="bg-fixed bg-cover bg-center h-full opacity-20 w-full" style={{ backgroundImage: "url('/bg2.jpg')" }}></div>
+          </div>
           <MaxWidthWrapper>
             <About />
           </MaxWidthWrapper>

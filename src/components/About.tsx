@@ -49,15 +49,15 @@ export const About = () => {
               Simplicity is our game
             </h2>
             <p className="text-sm sm:text-base text-slate-700">
-            <span className="text-sm sm:text-base text-slate-600">
-            My name is Steve. I am a professional software developer currently working for <a className="text-orange-600 font-bold" href="https://www.flapjack.co" target="blank">Flapjack</a>, designing software to build next-level, customizable restaurant menus. I am a former collegiate athlete, and in my free time, I love to run and ride my bike.
-            </span>
+              <span className="text-sm sm:text-base text-slate-600">
+                My name is Steve. I am a professional software developer currently working for <a className="text-orange-600 font-bold" href="https://www.flapjack.co" target="blank">Flapjack</a>, designing software to build next-level, customizable restaurant menus. I am a former collegiate athlete, and in my free time, I love to run and ride my bike.
+              </span>
               <br />
               <br />
               I started this business to help provide for my family while still being able to be home. I spent over seven years working in Silicon Valley at a multitude of start-ups. Over the years, I have built hundreds of websites and have my method down to a science.
               <br />
               <br />
-              We take a systematic and artistic approach to building SEO-effective websites that not only look great but also convert. Our philosophy is this: <br/> Let us handle your website so you can focus on what you do best– running your business!            </p>
+              We take a systematic and artistic approach to building SEO-effective websites that not only look great but also convert. Our philosophy is this: <br /> Let us handle your website so you can focus on what you do best– running your business!            </p>
           </div>
         </div>
       </div>
