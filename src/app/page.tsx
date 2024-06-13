@@ -48,8 +48,8 @@ const HeroSide = () => (
         <Image className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-24 opacity-20" id="img-1" src="/logo-cloud/1.png" alt="Award 1" width={96} height={96} />
         <Image className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-24 opacity-20" id="img-3" src="/logo-cloud/2.png" alt="Award 2" width={96} height={96} />
         <Image className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-24 opacity-20" id="img-5" src="/logo-cloud/3.png" alt="Award 3" width={96} height={96} />
-        <Image className="cursor-pointer align-middle inline-block w-20 h-auto min-w-[4.00rem] max-w-full my-0 mx-24 opacity-20" id="img-2" src="/logo-cloud/4.png" alt="Award 4" width={80} height={80} />
         <Image className="align-middle inline-block w-24 h-auto min-w-[5.00rem] max-w-full my-0 mx-24 opacity-20" id="img-6" src="/logo-cloud/5.png" alt="Award 5" width={96} height={96} />
+        <Image className="cursor-pointer align-middle inline-block w-20 h-auto min-w-[4.00rem] max-w-full my-0 mx-24 opacity-20" id="img-2" src="/logo-cloud/4.png" alt="Award 4" width={80} height={80} />
         {/* <Image className="cursor-pointer align-middle inline-block w-20 h-auto min-w-[4.00rem] max-w-full my-0 mx-16 opacity-20" id="img-6" src="/logo-cloud/1.png" alt="Award 6" width={80} height={80} /> */}
       </div>
     </div>
