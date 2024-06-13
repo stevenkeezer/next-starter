@@ -12,7 +12,7 @@ const UserCard = () => {
       </div>
       <div className="sm:pb-6 mx-auto flex justify-center">
         <div className="text-center px-14">
-          <h2 className="text-slate-800 text-3xl font-bold">Steven Keezer</h2>
+          <h2 className="text-slate-800 text-xl sm:text-3xl font-bold">Steven Keezer</h2>
           <p className="mt-2 text-slate-500 text-xs mt-4 sm:text-sm max-w-sm">Software Engineer, Collegiete athlete, musician, spartan athlete, distance runner, cyclist and electronics nerd. I recently just complete my first 10k Spartan Race.</p>
         </div>
       </div>
