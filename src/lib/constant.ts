@@ -3,7 +3,7 @@ import { env } from '@/env.mjs';
 export const siteConfig = {
   title: 'Golden State Web Design - Custom Websites for Small Businesses and Startups',
   description:
-    'Golden State Web Design is a web design and development agency that specializes in creating affordable, custom websites for small businesses and startups. We offer a range of services including web design, web development, and digital marketing.',
+    'Golden State Web Design offers custom, hand-coded websites starting at $150/mo. No page builders or WordPress. Our services include web design, development, and digital marketing for small businesses and startups.',
   keywords: [
     'web design',
     'web development',
@@ -121,3 +121,5 @@ export const siteConfig = {
   url: env.NEXT_PUBLIC_SITE_URL || 'https://goldenstatewebdesign.com',
   googleSiteVerificationId: env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION_ID || '',
 };
+
+
