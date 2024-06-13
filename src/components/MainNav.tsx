@@ -12,7 +12,7 @@ export default function MainNav() {
   };
 
   return (
-    <div className="mx-auto w-full rounded-full pt-[2.1rem] hidden lg:block">
+    <div className="mx-auto w-full rounded-full pt-7 hidden lg:block">
       <div className="relative flex h-20 justify-between max-w-[64rem] mx-auto ">
         <div className="relative z-10 flex">
           <div className="hidden lg:flex flex-shrink-0 items-center">
