@@ -82,7 +82,7 @@ export function ContactForm() {
                     </div>
                     <DialogTitle>Let's Connect!</DialogTitle>
                     <DialogDescription className='text-sm pt-6'>
-                        We're excited to hear about your project! Please fill out the form below and we'll get back to you as soon as we can. Your thoughts and questions are important to us. Thank you!
+                        We're excited to hear about your project! Please fill out the form below and we'll get back to you as soon as we can.
                     </DialogDescription>
                 </DialogHeader>
 
