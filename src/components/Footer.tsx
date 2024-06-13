@@ -102,13 +102,9 @@ export function Footer() {
           ))}
         </div> */}
         <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-          <div className="text-xs leading-5 text-white/40">
+          <div className="text-xs leading-5 text-center text-white/40">
             <p>&copy; {new Date().getFullYear()} Golden State Web Design, Inc. All rights reserved.</p>
-            <div className="mt-4 text-xs">
-              <p className="mt-2 text-xs">
-                Serving: El Dorado Hills, Folsom, Granite Bay, Cameron Park, Shingle Springs, Placerville, Rescue, Orangevale, Fair Oaks, Rancho Cordova, Roseville, Rocklin, Lincoln, Auburn, Citrus Heights, Carmichael, Antelope, Sacramento, North Highlands, Loomis and more.
-              </p>
-            </div>
+        
           </div>
         </div>
       </div>
