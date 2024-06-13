@@ -12,7 +12,7 @@ export default function MainNav() {
   };
 
   return (
-    <div className="mx-auto w-full rounded-full pt-[2.3rem] hidden lg:block">
+    <div className="mx-auto w-full rounded-full pt-[2.1rem] hidden lg:block">
       <div className="relative flex h-20 justify-between max-w-[64rem] mx-auto ">
         <div className="relative z-10 flex">
           <div className="hidden lg:flex flex-shrink-0 items-center">
@@ -25,7 +25,7 @@ export default function MainNav() {
         </div>
         <div className="hidden lg:flex flex-1 items-center -mt-2 justify-center">
           <Link href="/" className="flex items-center text-lg text-blue-400 font-medium justify-center">
-            <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-80 drop-shadow-sm' width={147} height={147} />
+            <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-80 drop-shadow-sm' width={144} height={144} />
           </Link>
         </div>
         <div className="hidden lg:flex relative z-10 items-center">
