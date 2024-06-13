@@ -33,7 +33,7 @@ const UserCard = () => {
 
 export const About = () => {
   return (
-    <div className="pb-8 mx-auto px-4 sm:px-0 md:max-w-full lg:pt-20 lg:pb-20 overflow-y-hidden overflow-x-hidden">
+    <div className="pb-8 mx-auto px-4 sm:px-0 md:max-w-full lg:pt-16 lg:pb-16 overflow-y-hidden overflow-x-hidden">
       <div className="grid lg:grid-cols-2 gap-10">
         <div className="flex items-center justify-start w-full order-2 sm:order-1">
           <div className="relative w-full">
