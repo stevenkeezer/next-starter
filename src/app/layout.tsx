@@ -14,6 +14,7 @@ import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 import Banner from '@/components/Banner';
 import { Footer } from '@/components/Footer';
 import TawkWidget from '@/components/TawkWidget';
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -143,11 +144,13 @@ const navigation = {
 
 
 const RootLayout = ({ children }: PropsWithChildren) => {
+  const gaId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID;
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cn('min-h-screen font-sans h-full relative overflow-auto', fonts)}>
         <ThemeProvider attribute="class">
           {/* <Banner /> */}
+          {gaId && <GoogleAnalytics gaId={gaId} />}
           <Navbar />
           {children}
           <Footer />
