@@ -50,7 +50,7 @@ export const About = () => {
             </h2>
             <p className="text-sm sm:text-base text-slate-700">
               <span className="text-sm sm:text-base text-slate-600">
-                My name is Steve. I am a professional software developer currently working for <a className="text-orange-600 font-bold" href="https://www.flapjack.co" target="blank">Flapjack</a>, designing software to build next-level, customizable restaurant menus. I am a former collegiate athlete, and in my free time, I love to run and ride my bike.
+                My name is Steve. I am a software developer currently working for <a className="text-orange-600 font-bold" href="https://www.flapjack.co" target="blank">Flapjack</a>, designing software to build next-level, customizable restaurant menus. I am a former collegiate athlete, and in my free time, I love to run and ride my bike.
               </span>
               <br />
               <br />
