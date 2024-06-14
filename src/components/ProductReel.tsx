@@ -1,6 +1,6 @@
 "use client";
 
-import { Link } from "lucide-react";
+import { ExternalLink, Link } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -28,27 +28,56 @@ const ProductReel = (props: ProductReelProps) => {
         <div className="sm:mt-8 flex items-center w-full">
           <div className="w-full grid grid-cols-1 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-3 md:gap-y-6 lg:gap-x-10">
             <div className="h-[33rem] bg-slate-100 overflow-y-hidden sm:shadow-lg p-4 sm:p-0">
-              <a target="blank" href="https://jaco-party.vercel.app/" >
-                <Image src="/jaco1.png" alt="Jaco Party Rentals" width={400} height={400} onLoad={() => setImageLoading(false)}
-                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`} />
-              </a>
-            </div>
-            <div className="h-[33rem] bg-slate-100 overflow-y-hidden sm:shadow-lg p-4 sm:p-0">
-              <a target="blank" href="https://nepal-teahouse-trekking.vercel.app/" >
-                <Image src="/nepal.png" alt="Nepal Tea Trekking" width={400} height={400} onLoad={() => setImageLoading(false)}
-                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`} />
-              </a>
-            </div>
-            <div className="h-[33rem] bg-slate-100 overflow-y-hidden sm:shadow-lg p-4 sm:p-0">
-              <a target="blank" href="https://www.thesonomacountyexperience.com/" >
+              <a target="_blank" href="https://jaco-party.vercel.app/" className="relative group">
+                <Image
+                  src="/jaco1.png"
+                  alt="Jaco Party Rentals"
+                  width={400}
+                  height={400}
+                  onLoad={() => setImageLoading(false)}
+                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}
+                />
+                <span className="hidden sm:block absolute p-1 rounded-lg top-2 right-2 group-hover:text-white text-transparent group-hover:bg-blue-400 transition-colors duration-300">
+                  <ExternalLink className="" />
 
-                <Image src="/sonoma.png" alt="sonoma county experience" width={400} height={400} onLoad={() => setImageLoading(false)}
-                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`} />
-                </a >
+                </span>
+              </a>
+            </div>
+            <div className="h-[33rem] bg-slate-100 overflow-y-hidden sm:shadow-lg p-4 sm:p-0">
+              <a target="_blank" href="https://nepal-teahouse-trekking.vercel.app/" className="relative group">
+                <Image
+                  src="/nepal.png"
+                  alt="Nepal Tea Trekking"
+                  width={400}
+                  height={400}
+                  onLoad={() => setImageLoading(false)}
+                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}
+                />
+                <span className="hidden sm:block absolute p-1 rounded-lg top-2 right-2 group-hover:text-white text-transparent group-hover:bg-blue-400 transition-colors duration-300">
+                  <ExternalLink className="" />
+                </span>
+              </a>
+            </div>
+            <div className="h-[33rem] bg-slate-100 overflow-y-hidden sm:shadow-lg p-4 sm:p-0">
+              <a target="_blank" href="https://www.thesonomacountyexperience.com/" className="relative group">
+                <Image
+                  src="/sonoma.png"
+                  alt="Sonoma County Experience"
+                  width={400}
+                  height={400}
+                  onLoad={() => setImageLoading(false)}
+                  className={`${isImageLoading ? 'blur' : 'remove-blur'}`}
+                />
+                <span className="hidden sm:block absolute p-1 rounded-lg top-2 right-2 group-hover:text-white text-transparent group-hover:bg-blue-400 transition-colors duration-300">
+                  <ExternalLink className="" />
+
+                </span>
+              </a>
             </div>
           </div>
         </div>
       </div>
+
     </section>
   );
 };
