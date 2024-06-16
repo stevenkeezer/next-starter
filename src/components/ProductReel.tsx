@@ -20,7 +20,7 @@ const ProductReel = (props: ProductReelProps) => {
           <div className="flex text-[#2a7ec8] font-bold tracking-wide uppercase mb-3 sm:mb-6 text-xs sm:text-sm rounded-full bg-teal-accent-400">
             Portfolio
           </div>
-          <h1 className="text-2xl font-semibold text-slate-700 sm:text-4xl">Our recent work</h1>
+          <h2 className="text-2xl font-semibold text-slate-700 sm:text-4xl">Our recent work</h2>
         </div>
       </div>
 

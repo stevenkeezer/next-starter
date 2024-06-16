@@ -3,7 +3,7 @@ import { env } from '@/env.mjs';
 export const siteConfig = {
   title: 'Golden State Web Design - Custom Websites for Small Businesses and Startups',
   description:
-    'Golden State Web Design offers custom, hand-coded websites starting at $150/mo. No page builders or WordPress. Our services include web design, development, and digital marketing for small businesses and startups.',
+    'Golden State Web Design offers custom, hand-coded websites starting at $150/mo. No page builders or WordPress. Premium web development with lifetime updates & support.',
   keywords: [
     'web design',
     'web development',

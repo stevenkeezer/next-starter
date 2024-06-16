@@ -14,7 +14,7 @@ export default function CTA() {
             <div className="lg:flex lg:items-center">
               <div className="w-full space-y-12 lg:w-1/2 ">
                 <div>
-                  <h1 className="text-3xl font-semibold text-gray-800 lg:text-4xl dark:text-white">Our Philosophy<br /> for Awesome Websites</h1>
+                  <h2 className="text-3xl font-semibold text-gray-800 lg:text-4xl dark:text-white">Our Philosophy<br /> for Awesome Websites</h2>
 
                   <div className="mt-2">
                     <span className="inline-block w-40 h-1 rounded-full bg-blue-500"></span>
@@ -31,7 +31,7 @@ export default function CTA() {
                   </span>
 
                   <div className="mt-4 md:mx-4 md:mt-0">
-                    <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Copy & paste components</h1>
+                    <h2 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Copy & paste components</h2>
 
                     <p className="mt-3 text-gray-500 dark:text-gray-300">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
@@ -47,7 +47,7 @@ export default function CTA() {
                   </span>
 
                   <div className="mt-4 md:mx-4 md:mt-0">
-                    <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Zero Configrations</h1>
+                    <h2 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">Zero Configrations</h2>
 
                     <p className="mt-3 text-gray-500 dark:text-gray-300">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
@@ -64,7 +64,7 @@ export default function CTA() {
                   </span>
 
                   <div className="mt-4 md:mx-4 md:mt-0">
-                    <h1 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">elegant Dark Mode</h1>
+                    <h2 className="text-2xl font-semibold text-gray-700 capitalize dark:text-white">elegant Dark Mode</h2>
 
                     <p className="mt-3 text-gray-500 dark:text-gray-300">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
