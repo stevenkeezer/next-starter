@@ -6,7 +6,7 @@ import { JSX, SVGProps } from "react"
 // import { Navbar } from '@/components/navbar/navbar';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
-import { siteConfig } from '@/lib/constant';
+import { siteConfig, structuredData } from '@/lib/constant';
 import { fonts } from '@/lib/fonts';
 import { cn } from '@/lib/utils';
 import Navbar from '@/components/Navbar';
@@ -15,6 +15,7 @@ import Banner from '@/components/Banner';
 import { Footer } from '@/components/Footer';
 import TawkWidget from '@/components/TawkWidget';
 import { GoogleAnalytics } from '@next/third-parties/google'
+import Head from 'next/head';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     template: `%s | ${siteConfig.title}`,
   },
   description: siteConfig.description,
-  keywords: siteConfig.keywords,
+  keywords: siteConfig.keywords.join(', '),
   robots: { index: true, follow: true },
   icons: {
     icon: '/favicon/favicon.ico',
@@ -38,7 +39,14 @@ export const metadata: Metadata = {
     title: siteConfig.title,
     description: siteConfig.description,
     siteName: siteConfig.title,
-    images: '/OG.png',
+    images: [
+      {
+        url: '/OG.png',
+        width: 1200,
+        height: 630,
+        alt: 'Open Graph Image Alt Text',
+      }
+    ],
     type: 'website',
     locale: 'en_US',
   },
@@ -46,7 +54,14 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: siteConfig.title,
     description: siteConfig.description,
-    images: '/OG.png',
+    images: [
+      {
+        url: '/OG.png',
+        width: 800,
+        height: 418,
+        alt: 'Twitter Image Alt Text',
+      }
+    ],
     site: '@your_twitter_handle',
     creator: '@creator_twitter_handle',
   },
@@ -57,7 +72,12 @@ export const metadata: Metadata = {
       'es-ES': `${siteConfig.url}/es`,
     },
   },
+  other: {
+    author: 'Golden State Web Design',
+    viewport: 'width=device-width, initial-scale=1.0',
+  },
 };
+
 
 
 const navigation = {
@@ -147,6 +167,12 @@ const RootLayout = ({ children }: PropsWithChildren) => {
   const gaId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID;
   return (
     <html lang="en" suppressHydrationWarning>
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+      </Head>
       <body className={cn('min-h-screen font-sans h-full relative overflow-auto', fonts)}>
         <ThemeProvider attribute="class">
           {/* <Banner /> */}

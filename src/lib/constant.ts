@@ -123,3 +123,16 @@ export const siteConfig = {
 };
 
 
+export const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": siteConfig.url,
+  "name": siteConfig.title,
+  "description": siteConfig.description,
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": `${siteConfig.url}/search?q={search_term_string}`,
+    "query-input": "required name=search_term_string"
+  },
+  "inLanguage": "en-US"
+};
