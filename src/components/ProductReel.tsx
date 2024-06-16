@@ -35,6 +35,8 @@ const ProductReel = (props: ProductReelProps) => {
                   width={400}
                   height={400}
                   onLoad={() => setImageLoading(false)}
+                  layout="responsive"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className={`${isImageLoading ? 'blur' : 'remove-blur'}`}
                 />
                 <span className="hidden sm:block absolute p-1 rounded-lg top-2 right-2 group-hover:text-white text-transparent group-hover:bg-blue-400 transition-colors duration-300">
@@ -51,6 +53,8 @@ const ProductReel = (props: ProductReelProps) => {
                   width={400}
                   height={400}
                   onLoad={() => setImageLoading(false)}
+                  layout="responsive"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className={`${isImageLoading ? 'blur' : 'remove-blur'}`}
                 />
                 <span className="hidden sm:block absolute p-1 rounded-lg top-2 right-2 group-hover:text-white text-transparent group-hover:bg-blue-400 transition-colors duration-300">
@@ -65,7 +69,10 @@ const ProductReel = (props: ProductReelProps) => {
                   alt="Sonoma County Experience"
                   width={400}
                   height={400}
+                  layout="responsive"
                   onLoad={() => setImageLoading(false)}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+
                   className={`${isImageLoading ? 'blur' : 'remove-blur'}`}
                 />
                 <span className="hidden sm:block absolute p-1 rounded-lg top-2 right-2 group-hover:text-white text-transparent group-hover:bg-blue-400 transition-colors duration-300">
