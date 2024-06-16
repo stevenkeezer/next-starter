@@ -72,7 +72,7 @@
 }
 .layer-1 {
   animation: parallax_fg linear 20s infinite both;
-  background: url(/bike/1.png) 0 100% repeat-x;
+  background: url(/bike/1.webp) 0 100% repeat-x;
   z-index: 1;
   position: absolute;
   bottom: 0;
@@ -83,7 +83,7 @@
 }
 .layer-2 {
   animation: parallax_fg linear 30s infinite both;
-  background: url(/bike/2.png) 0 100% repeat-x;
+  background: url(/bike/2.webp) 0 100% repeat-x;
   z-index: 1;
   position: absolute;
   bottom: 0;
@@ -94,7 +94,7 @@
 }
 .layer-3 {
   animation: parallax_fg linear 55s infinite both;
-  background: url(/bike/3.png) 0 100% repeat-x;
+  background: url(/bike/3.webp) 0 100% repeat-x;
   z-index: 1;
   position: absolute;
   bottom: 0;
@@ -105,7 +105,7 @@
 }
 .layer-4 {
   animation: parallax_fg linear 75s infinite both;
-  background: url(/bike/4.png) 0 100% repeat-x;
+  background: url(/bike/4.webp) 0 100% repeat-x;
   z-index: 1;
   position: absolute;
   bottom: 0;
@@ -116,7 +116,7 @@
 }
 .layer-5 {
   animation: parallax_fg linear 95s infinite both;
-  background: url(/bike/5.png) 0 100% repeat-x;
+  background: url(/bike/5.webp) 0 100% repeat-x;
   z-index: 1;
   position: absolute;
   bottom: 0;
@@ -127,7 +127,7 @@
 }
 .layer-6 {
   animation: parallax_fg linear 120s infinite both;
-  background: url(/bike/6.png) 0 100% repeat-x;
+  background: url(/bike/6.webp) 0 100% repeat-x;
   z-index: 1;
   position: absolute;
   bottom: 0;
@@ -137,7 +137,7 @@
   background-size: auto 222px;
 }
 .bike-1, .bike-2 {
-  background: url(/bike/bike.png) 0 100% no-repeat;
+  background: url(/bike/bike.webp) 0 100% no-repeat;
   z-index: 1;
   position: absolute;
   bottom: 100px;
