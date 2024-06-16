@@ -172,6 +172,22 @@ const RootLayout = ({ children }: PropsWithChildren) => {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Golden State Web Design" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href={siteConfig.url} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+        {/* <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationData) }}
+        /> */}
       </Head>
       <body className={cn('min-h-screen font-sans h-full relative overflow-auto', fonts)}>
         <ThemeProvider attribute="class">

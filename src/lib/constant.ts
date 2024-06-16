@@ -136,3 +136,46 @@ export const structuredData = {
   },
   "inLanguage": "en-US"
 };
+
+const breadcrumbData = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://example.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Category",
+      "item": "https://example.com/category"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Current Page",
+      "item": "https://example.com/category/page"
+    }
+  ]
+};
+
+const organizationData = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Golden State Web Design",
+  "url": "https://goldenstatewebdesign.com",
+  "logo": "https://goldenstatewebdesign.com/logo.png",
+  "sameAs": [
+    "https://www.facebook.com/yourprofile",
+    "https://www.twitter.com/yourprofile",
+    "https://www.linkedin.com/yourprofile"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-800-555-5555",
+    "contactType": "Customer Service"
+  }
+};
