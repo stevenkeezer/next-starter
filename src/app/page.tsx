@@ -136,7 +136,7 @@ export default function Home() {
                   <div>
                     <h3 className="mx-0 mb-3 mt-0 pl-2 flex items-center font-light text-slate-800 text-lg leading-[16px]">Unlimited Edits</h3>
                     <p className="-ml-6 text-[#3e4246]/70 text-sm pt-3 leading-6">
-                    Need something changed on your website? Just let us know, and we’ll take care of it. Changes will often be made the same day</p>
+                    Need something changed on your website? Just let us know, and we’ll take care of it. Changes will often be made the same day.</p>
                   </div>
                 </div>
               </div>
@@ -171,7 +171,8 @@ export default function Home() {
                   <div>
                     <h3 className="mx-0 mb-3 mt-0 pl-2 flex items-center font-light text-slate-800 text-lg leading-[16px]">100 Google Page Speed</h3>
                     <p className="-ml-6 text-[#3e4246]/70 text-sm pt-3 leading-6">
-                      Achieve a perfect 100 on Google Page Speed scores with our optimized solutions, boosting your visibility and search rankings.
+
+                    Get a perfect 100 on Google PageSpeed with our expert optimization. We'll boost your site’s speed, visibility, and search rankings, helping you stand out.                    
                     </p>
                   </div>
                 </div>
