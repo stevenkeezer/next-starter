@@ -136,8 +136,7 @@ export default function Home() {
                   <div>
                     <h3 className="mx-0 mb-3 mt-0 pl-2 flex items-center font-light text-slate-800 text-lg leading-[16px]">Unlimited Edits</h3>
                     <p className="-ml-6 text-[#3e4246]/70 text-sm pt-3 leading-6">
-                      Need to make a change to your website? Simply submit your requests, and we’ll handle them up to date promptly and professionally.
-                    </p>
+                    Need something changed on your website? Just let us know, and we’ll take care of it. Changes will often be made the same day</p>
                   </div>
                 </div>
               </div>
