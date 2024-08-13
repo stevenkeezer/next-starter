@@ -189,7 +189,7 @@ const RootLayout = ({ children }: PropsWithChildren) => {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationData) }}
         /> */}
       </Head>
-      <body className={cn('min-h-screen font-sans h-full relative overflow-auto', fonts)}>
+      <body className={cn('min-h-screen font-sans h-full bg-white relative overflow-auto', fonts)}>
         <ThemeProvider attribute="class">
           {/* <Banner /> */}
           {gaId && <GoogleAnalytics gaId={gaId} />}
@@ -197,7 +197,7 @@ const RootLayout = ({ children }: PropsWithChildren) => {
           {children}
           <Footer />
           <Toaster />
-          <TawkWidget />
+          {/* <TawkWidget /> */}
         </ThemeProvider>
       </body>
     </html>

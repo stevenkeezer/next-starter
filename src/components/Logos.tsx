@@ -17,8 +17,8 @@ const icons2 = [
 const Logos = () => {
   return (
     <div className="flex  flex-col h-full rounded w-full bg-white shadow ">
-      <div className="bg-blue-400">
-      <h2 className="text-base font-bold text-slate-600 px-6 py-4 text-white text-left">Built with fast and modern technology!</h2>
+      <div className="bg-[#3f5673]">
+      {/* <h2 className="text-base font-bold text-slate-600 px-6 py-4 text-white text-left">Built with fast and modern technology!</h2> */}
 
       </div>
 

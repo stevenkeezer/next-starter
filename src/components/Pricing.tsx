@@ -34,20 +34,20 @@ function CheckIcon({ className, ...props }: React.ComponentPropsWithoutRef<"svg"
 
 function Plan({ name, price, description, href, features, featured = false }: { name: string; price: string; description: string; href: string; features: Array<string>; featured?: boolean }) {
   return (
-    <section className={clsx("flex flex-col px-6 sm:px-8 sm:border-8 border-sky-50", featured ? "order-first shadow-xl shadow-slate-300 bg-[#2a7ec8] border-white sm:border-8 py-8 lg:order-none" : "py-8 bg-white shadow-sm backdrop-blur")}>
-      <h3 className={clsx("mt-5 font-display text-lg ", featured ? "text-white" : "text-slate-900")}>{name}</h3>
-      <p className={clsx("mt-2 text-base", featured ? "text-white" : "text-slate-500")}>{description}</p>
-      <p className={clsx("order-first font-display text-5xl font-light tracking-tight", featured ? "text-white" : "text-slate-900")}>{price}</p>
-      <ul role="list" className={clsx("order-last mt-10 flex flex-col gap-y-3 text-sm", featured ? "text-white" : "text-slate-900")}>
+    <section className={clsx("flex flex-col px-6 sm:px-8  ", featured ? "order-first  bg-white border-slate-300  py-8 lg:order-none" : "py-8 bg-white backdrop-blur")}>
+      <h3 className={clsx("mt-5 font-display text-lg  ", featured ? "text-slate-900" : "text-slate-900")}>{name}</h3>
+      <p className={clsx("mt-2 text-base", featured ? "text-slate-500" : "text-slate-500")}>{description}</p>
+      <p className={clsx("order-first font-display text-4xl sm:text-5xl font-neue-kabel font-light tracking-tight", featured ? "text-slate-900" : "text-slate-900")}>{price}</p>
+      <ul role="list" className={clsx("order-last mt-10 flex flex-col gap-y-3 text-sm", featured ? "text-slate-900" : "text-slate-900")}>
         {features.map((feature) => (
           <li key={feature} className="flex">
-            <CheckIcon className={featured ? "text-white" : "text-slate-400"} />
+            <CheckIcon className={featured ? "text-slate-400" : "text-slate-400"} />
             <span className="ml-4">{feature}</span>
           </li>
         ))}
       </ul>
 
-      <Button onClick={handleClick} variant={"default"} color="white" className={clsx("mt-8 bg-white hover:bg-slate-100 active:bg-slate-100 text-slate-700 w-full", !featured && "border bg-white border-slate-300/80")} aria-label={`Get started with the ${name} plan for ${price}`}>
+      <Button onClick={handleClick} variant={"default"} color="white" className={clsx("mt-8 w-full", "border bg-white text-slate-900 border-slate-300/80")} aria-label={`Get started with the ${name} plan for ${price}`}>
         Contact us
       </Button>
     </section>
@@ -56,17 +56,17 @@ function Plan({ name, price, description, href, features, featured = false }: { 
 
 function Pricing() {
   return (
-    <section id="pricing" aria-label="Pricing" className="bg-[#f2f8ff] pt-12 sm:pt-16 sm:pb-10">
+    <section id="pricing" aria-label="Pricing" className=" px-4 md:px-8 md:pt-8 lg:px-0 lg:pb-16">
       <MaxWidthWrapper >
-
-        <div className="flex text-[#2a7ec8] px-4 sm:px-0 font-bold text-xs sm:text-sm tracking-wide justify-start uppercase mb-3 sm:mb-6  rounded-full bg-teal-accent-400">
+{/* 
+        <div className="flex text-[#2a7ec8] font-neue-kabel px-4 sm:px-0 font-bold text-xs sm:text-sm tracking-wide justify-start uppercase mb-3 sm:mb-6  rounded-full bg-teal-accent-400">
           Pricing
-        </div>
-        <h2 className="text-left text-2xl px-4 sm:px-0 text-slate-700 font-semibold md:text-4xl">Our pricing options</h2>
+        </div> */}
+        <h2 className="text-left text-3xl px-4 md:px-10 lg:px-0 text-[#3e4246] font-normal font-neue-kabel md:text-4xl lg:text-5xl">Our pricing options</h2>
       </MaxWidthWrapper>
 
-      <MaxWidthWrapper className="pb-10 z-40 border-slate-100/5 px-4 pt-6 sm:pt-0">
-        <div className="-mx-4 sm:mt-12 grid max-w-2xl grid-cols-1 px-4 sm:px-0 gap-y-6 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-4">
+      <MaxWidthWrapper className="pb-10 z-40 border-slate-100/5 px-4 sm:px-12 md:px-6 pt-6 sm:pt-6">
+        <div className="-mx-4 sm:mt-12 grid max-w-2xl grid-cols-1 px-4 sm:px-0 gap-y-6 sm:mx-auto lg:-mx-8  gap-x-8 md:grid-cols-2 lg:max-w-none xl:grid-cols-3 xl:mx-0 gap-y-9 xl:gap-x-8">
           <Plan
             name="E-Commerce"
             price="$8K"
@@ -96,7 +96,7 @@ function Pricing() {
           />
           <Plan
             name="Logo & Graphic Design"
-            price="$0"
+            price="FREE"
             description="Professional free logo design with a standard web package."
             href="/register"
             features={[

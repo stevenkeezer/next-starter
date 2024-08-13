@@ -13,8 +13,8 @@ export function SeeOurWorkButton() {
       };
 
     return (
-        <Button onClick={() => handleScroll('portfolio')} style={{ cursor: 'pointer' }} variant="ghost" size="lg" className="z-40 bg-white/5 backdrop-blur-lg text-slate-600">
-            See our work <ArrowRight className="ml-2 h-4 w-4" />
+        <Button onClick={() => handleScroll('portfolio')} style={{ cursor: 'pointer' }} variant="ghost" size="lg" className="z-40 backdrop-blur-lg text-slate-600">
+            See our work <ArrowRight className="ml-2 h-4 w-4 text-blue-400" />
         </Button>
     )
 }

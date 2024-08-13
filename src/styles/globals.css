@@ -251,3 +251,151 @@ nav a {
   filter: blur(0px);
   transition: filter 0.3s ease-in;
 }
+
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-Book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-BookItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-ExtraBoldItalic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-ExtraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-ExtraLightItalic.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel-ThinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Neue Kabel';
+  src: url('/Neue-Kabel/NeueKabel.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}

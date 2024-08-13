@@ -1,6 +1,8 @@
 'use client';
 
-const navigation = {
+import MaxWidthWrapper from "./MaxWidthWrapper";
+
+const navigation1 = {
   main: [
     { name: 'How it works', href: '#how-it-works', sectionId: 'how-it-works' },
     { name: 'Portfolio', href: '#portfolio', sectionId: 'portfolio' },
@@ -73,45 +75,162 @@ const navigation = {
   ],
 }
 
+// export function Footer() {
+//   const handleScroll = (sectionId: any) => {
+//     const section = document.getElementById(sectionId);
+//     if (section) {
+//       section.scrollIntoView({ behavior: 'smooth' });
+//     }
+//   };
+
+//   return (
+//     <footer className="bg-white">
+//       <div className="mx-auto max-w-7xl overflow-hidden bg-transparent px-6 py-20 sm:py-24 lg:px-8">
+//         <nav className="-mb-6 sm:columns-2 sm:flex sm:justify-center sm:space-x-12 bg-transparent" aria-label="Footer">
+//           {navigation.main.map((item) => (
+//             <div key={item.name} className="pb-6">
+//               <div onClick={() => handleScroll(item.sectionId)} className="text-sm leading-6 font-normal capitalize text-slate-800 tracking-wider hover:text-slate-200 cursor-pointer">
+//                 {item.name}
+//               </div>
+//             </div>
+//           ))}
+//         </nav>
+//         {/* <div className="mt-10 flex justify-center space-x-10 bg-transparent">
+//           {navigation.social.map((item) => (
+//             <span key={item.name} className="text-slate-100 hover:text-slate-200">
+//               <span className="sr-only">{item.name}</span>
+//               <item.icon className="h-6 w-6" aria-hidden="true" />
+//             </span>
+//           ))}
+//         </div> */}
+
+       
+//       </div>
+
+//       <div className="bg-[#f5f7fa]">
+//       <div className="border-t border-white/10 lg:py-8">
+//           <div className="text-xs leading-5 text-black text-center">
+//             <p>&copy; {new Date().getFullYear()} Golden State Web Design, Inc. All rights reserved.</p>
+        
+//           </div>
+//         </div>
+//       </div>
+//     </footer>
+//   )
+// }
+
+
+
+
+
+
 export function Footer() {
-  const handleScroll = (sectionId: any) => {
+  const navigation = {
+    solutions: [
+      { name: 'How it works', href: '#' },
+      { name: 'Portfolio', href: '#' },
+      { name: 'Pricing', href: '#' },
+      { name: 'Testimonials', href: '#' },
+    ],
+    support: [
+      { name: 'San Francisco', href: '#' },
+      { name: 'San Bruno', href: '#' },
+      { name: 'Marin', href: '#' },
+      { name: 'Santa Rosa', href: '#' },
+      { name: 'Petaluma', href: '#' },
+    ],
+    serving: [
+      { name: 'El Dorado Hills', href: '#' },
+      { name: 'Folsom', href: '#' },
+      { name: 'Rocklin', href: '#' },
+      { name: 'Sacramento', href: '#' },
+      { name: 'Citrus Heights', href: '#' },
+    ],
+    legal: [
+      { name: 'Claim', href: '#' },
+      { name: 'Privacy', href: '#' },
+      { name: 'Terms', href: '#' },
+    ],
+  }
+
+  const handleScroll = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
+      const yOffset = -60; // Adjust this value to change the offset
+      const y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+      window.scrollTo({ top: y, behavior: 'smooth' });
     }
   };
 
   return (
-    <footer className="bg-[#0c2d53]">
-      <div className="mx-auto max-w-7xl overflow-hidden bg-transparent px-6 py-20 sm:py-24 lg:px-8">
-        <nav className="-mb-6 sm:columns-2 sm:flex sm:justify-center sm:space-x-12 bg-[#0c2d53]" aria-label="Footer">
-          {navigation.main.map((item) => (
-            <div key={item.name} className="pb-6">
-              <div onClick={() => handleScroll(item.sectionId)} className="text-sm leading-6 font-semibold uppercase text-slate-300 tracking-wider hover:text-slate-200 cursor-pointer">
-                {item.name}
+    <footer aria-labelledby="footer-heading" className="bg-white pb-28">
+      <h2 id="footer-heading" className="sr-only">
+        Footer
+      </h2>
+      <MaxWidthWrapper >
+        <div className="xl:grid xl:grid-cols-1 xl:gap-8 pt-12 md:py-24 px-8 lg:px-3">
+          {/* <img
+            alt="Company name"
+            src="gs3.svg"
+            className="h-20 opacity-70"
+          /> */}
+          <div className="sm:mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+            <div className="md:grid md:grid-cols-2 md:gap-8 font-neue-kabel">
+              <div>
+                <h3 className="text-lg font-light leading-6 text-slate-900 font-neue-kabel">Solutions</h3>
+                <ul role="list" className="mt-4 sm:mt-6 space-y-2">
+                  {navigation.solutions.map((item) => (
+                    <li key={item.name}  onClick={() => handleScroll('how-it-works')}>
+                      <span className="text-sm leading-6 text-slate-400 hover:text-gray-900">
+                        {item.name}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="mt-10 md:mt-0">
+                <h3 className="text-lg font-light leading-6 text-slate-900 font-neue-kabel">Serving</h3>
+                <ul role="list" className="mt-4 sm:mt-6 space-y-2">
+                  {navigation.support.map((item) => (
+                    <li key={item.name}  onClick={() => handleScroll('how-it-works')}>
+                      <span className="text-sm leading-6 text-slate-400 hover:text-gray-900">
+                        {item.name}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
-          ))}
-        </nav>
-        {/* <div className="mt-10 flex justify-center space-x-10 bg-transparent">
-          {navigation.social.map((item) => (
-            <a key={item.name} href={item.href} className="text-slate-100 hover:text-slate-200">
-              <span className="sr-only">{item.name}</span>
-              <item.icon className="h-6 w-6" aria-hidden="true" />
-            </a>
-          ))}
-        </div> */}
-        <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-          <div className="text-xs leading-5 text-center text-white/40">
-            <p>&copy; {new Date().getFullYear()} Golden State Web Design, Inc. All rights reserved.</p>
-        
+            <div className="md:grid md:grid-cols-2 md:gap-8 font-neue-kabel">
+              <div>
+                <h3 className="text-lg font-light leading-6 text-slate-900 font-neue-kabel">Other areas</h3>
+                <ul role="list" className="mt-4 sm:mt-6 space-y-2">
+                  {navigation.serving.map((item) => (
+                    <li key={item.name}  onClick={() => handleScroll('how-it-works')}>
+                      <span className="text-sm leading-6 text-slate-400 hover:text-gray-900">
+                        {item.name}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="mt-10 md:mt-0">
+                <h3 className="text-lg font-light leading-6 text-slate-900 font-neue-kabel">Legal</h3>
+                <ul role="list" className="mt-4 sm:mt-6 space-y-2">
+                  {navigation.legal.map((item) => (
+                    <li key={item.name} onClick={() => handleScroll('how-it-works')}>
+                      <span className="text-sm leading-6 text-slate-400 hover:text-gray-900">
+                        {item.name}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </MaxWidthWrapper>
     </footer>
   )
 }
-
-
-
-

@@ -4,7 +4,7 @@ import Guides from "./Guides";
 
 const MaxWidthWrapper = ({ className, children }: { className?: string; children: ReactNode }) => {
   return (
-    <div className={cn("mx-auto relative w-full max-w-[1280px] sm:px-4", className)}>
+    <div className={cn("mx-auto relative w-full  lg:max-w-[940px]  xl:max-w-[1140px] 2xl:max-w-[1280px] sm:px-4", className)}>
       {/* <Guides /> */}
       {children}
     </div>

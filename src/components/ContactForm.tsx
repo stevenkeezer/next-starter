@@ -75,25 +75,25 @@ export function ContactForm() {
 
     return (
         <Dialog open={isOpen} onOpenChange={closeModal}>
-            <DialogContent className="sm:max-w-[425px] overflow-y-auto items-start justify-start border-t-8 border-blue-400 h-full sm:h-auto bg-slate-50 text-slate-700">
-                <DialogHeader className='justify-center sm:flex hidden mx-auto mb-0 pb-0 '>
-                    <div className='mx-auto'>
-                        <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-90 mb-5' width={143} height={143} />
+            <DialogContent className="sm:max-w-[425px] overflow-y-auto items-start justify-start border-blue-400 h-full sm:h-auto bg-slate-50 text-slate-700">
+                <DialogHeader className='justify-start sm:flex hidden ml-auto mb-0 pb-0 '>
+                    <div className='mr-auto mb-6 bg-slate-200 rounded-full pt-2 pr-1 w-20 flex items-center justify-center h-20 pl-2'>
+                    <Image src="/gs3.svg" alt="Golden State Web Design" className='opacity-90 hidden sm:flex' width={55} height={55} />
                     </div>
-                    {/* <DialogTitle>Let's Connect!</DialogTitle> */}
-                    <DialogDescription className='text-sm'>
+                    <DialogTitle>Let's Connect!</DialogTitle>
+                    <DialogDescription className='text-sm pt-3'>
                         Let's connect! We're excited to hear about your project! Please fill out the form below and we'll get back to you as soon as we possible.
                     </DialogDescription>
                 </DialogHeader>
 
                 <DialogHeader className='justify-center sm:hidden flex mx-auto mb-0 pb-0'>
                     <div className='mx-auto'>
-                        <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-90 mb-8 pl-2' width={123} height={123} />
+                    <Image src="/gs3.svg" alt="Golden State Web Design" className='opacity-90 lg:hidden ml-3 flex' width={55} height={55} />
                     </div>
-                    <DialogTitle>Let's Connect!</DialogTitle>
-                    <DialogDescription className='text-xs pt-3'>
+                    <DialogTitle className='py-6 px-0'>We're excited to hear about your project!</DialogTitle>
+                    {/* <DialogDescription className='text-xs pt-3'>
                         We're excited to hear about your project! Please fill out the form below and we'll get back to you as soon as we can.
-                    </DialogDescription>
+                    </DialogDescription> */}
                 </DialogHeader>
 
 
@@ -133,7 +133,7 @@ export function ContactForm() {
                         </div>
                     </div>
                     <DialogFooter className='pt-4'>
-                        <Button type="submit" variant="default" className='bg-blue-400 w-full text-white hover:bg-blue-500'>
+                        <Button type="submit" variant="default" className='bg-slate-900 w-full text-white hover:bg-slate-900/90'>
                             {loading && <Spinner size="small" className='mr-2' />}
                             {loading ? 'Sending...' : 'Send'}
                         </Button>
