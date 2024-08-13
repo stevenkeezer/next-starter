@@ -89,6 +89,7 @@ export default function Home() {
         </span>
       </section> */}
       <section className="relative bg-[#f5f7fa] h-full overflow-hidden">
+        <a href="https://jaco-party.vercel.app/" target="blank">
         <div className="relative group">
           <Image
             src="/bg4.png"
@@ -104,6 +105,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        </a>
       </section>
 
       <div id="about" >
