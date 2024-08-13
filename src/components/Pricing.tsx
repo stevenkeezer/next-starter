@@ -4,6 +4,7 @@ import clsx from "clsx";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 
 const handleClick = () => {
   const params = new URLSearchParams(window.location.search)
@@ -48,7 +49,8 @@ function Plan({ name, price, description, href, features, featured = false }: { 
       </ul>
 
       <Button onClick={handleClick} variant={"default"} color="white" className={clsx("mt-8 w-full", "border bg-white text-slate-900 border-slate-300/80")} aria-label={`Get started with the ${name} plan for ${price}`}>
-        Contact us
+        Get in touch
+        <ArrowRight className="ml-2.5 text-blue-400 h-4 w-auto" />
       </Button>
     </section>
   );
