@@ -44,7 +44,7 @@ export default function Navigation() {
                 <div onClick={() => handleScroll('testimonials')} style={{ cursor: 'pointer' }} className='hover:underline'>Testimonials</div>
 
 
-                <div onClick={handleClick} className='hover:underline flex items-center space-x-2'>
+                <div onClick={handleClick} className='hover:underline cursor-pointer flex items-center space-x-2'>
                   <div className="text-slate-800/80">Get in touch
                   </div>
                   <ArrowRight className="ml-2 h-4 w-4 text-blue-400" />
