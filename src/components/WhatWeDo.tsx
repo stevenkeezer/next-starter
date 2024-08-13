@@ -26,11 +26,11 @@ export default function WhatWeDo() {
                   12 month minimum contract
                 </h2>
 
-                <p className="m-0 text-[#3e4246]/85 px-8  sm:px-0 text-base min-[500px]:mb-4 pb-8 sm:pb-0">
+                <p className="m-0 text-[#3e4246]/85 px-8  sm:px-0 text-base sm:leading-[27px] min-[500px]:mb-4 pb-8 sm:pb-0">
                   $0 down for a standard 5-page website tailored for your small business. If your needs extend beyond that, we offer custom pricing which is determined by the scope of work, the number of additional pages, and the time involved. You retain full ownership of your domain, content, listing, and profiles. Cancel anytime without any fees or complications.
                 </p>
 
-                <p className="m-0 text-[#3e4246]/85 px-8  sm:px-0 text-base min-[500px]:mb-4 pb-8 sm:pb-0">
+                <p className="m-0 text-[#3e4246]/85 px-8  sm:px-0 text-base min-[500px]:mb-4 sm:leading-[27px] pb-8 sm:pb-0">
                   Our philosophy is simple: <span className="italic">focus on your business, and we’ll handle your website.</span> From hosting to design, we provide unlimited edits, 24/7 support, top Google Page Speed scores, and valuable analytics. Let’s get the ball rolling on your next project—join us today! </p>
 
                 {/* <h3 className="text-[#3e4246]/90 pt-12 text-3xl font-neue-kabel">Whats Included:</h3> */}

@@ -13,7 +13,7 @@ const Testimonials = () => {
                     <div className="row-span-2 p-6  bg-orange-50  text-center sm:p-8">
                         <div className="h-full flex flex-col justify-center items-center space-y-4">
                             <Image className="w-20 h-20 sm:w-40 sm:h-40 mx-auto rounded-full bg-white p-1.5 /80 sm:px-6" src="/flapjack.svg" alt="user avatar" height={220} width={220} loading="lazy" />
-                            <p className="text-slate-600 md:text-lg"> <span className="font-serif">"</span>Steve is a team player who just simply delivers results. On numerous occasions, he went above and beyond to make sure that our vision was executed exactly as we wanted—to the pixel. We are grateful for his taking ownership of the project and caring deeply about the outcome of the project. As a client of Golden State Web Design, you're not just a customer but valued partner, and that's not something you'll find from any other agency.<span className="font-serif">"</span></p>
+                            <p className="text-slate-600 md:text-lg"> <span className="font-serif">"</span>Steve is a team player who just simply delivers results. On numerous occasions, he went above and beyond to make sure that our vision was executed exactly as we wanted—to the pixel. As a client of Golden State Web Design, you're not just a customer but valued partner, and that's not something you'll find from any other agency.<span className="font-serif">"</span></p>
                             <div>
                                 <h6 className="text-lg font-normal leading-none">Flapjack</h6>
                                 <span className="text-xs text-slate-500">Product owner</span>

@@ -127,10 +127,10 @@ const navigation1 = {
 export function Footer() {
   const navigation = {
     solutions: [
-      { name: 'How it works', href: '#' },
-      { name: 'Portfolio', href: '#' },
-      { name: 'Pricing', href: '#' },
-      { name: 'Testimonials', href: '#' },
+      { name: 'How it works', href: 'about' },
+      { name: 'Portfolio', href: 'portfolio' },
+      { name: 'Pricing', href: 'pricing' },
+      { name: 'Testimonials', href: 'testimonials' },
     ],
     support: [
       { name: 'San Francisco', href: '#' },
@@ -147,9 +147,11 @@ export function Footer() {
       { name: 'Citrus Heights', href: '#' },
     ],
     legal: [
-      { name: 'Claim', href: '#' },
-      { name: 'Privacy', href: '#' },
-      { name: 'Terms', href: '#' },
+      { name: 'Los Angeles', href: '#' },
+      { name: 'Auburn', href: '#' },
+      { name: 'California', href: '#' },
+      { name: 'Oregon', href: '#' },
+      { name: 'Colorado', href: '#' },
     ],
   }
 
@@ -181,8 +183,8 @@ export function Footer() {
                 <h3 className="text-lg font-light leading-6 text-slate-900 font-neue-kabel">Solutions</h3>
                 <ul role="list" className="mt-4 sm:mt-6 space-y-2">
                   {navigation.solutions.map((item) => (
-                    <li key={item.name}  onClick={() => handleScroll('how-it-works')}>
-                      <span className="text-sm leading-6 text-slate-400 hover:text-gray-900">
+                    <li key={item.name}  onClick={() => handleScroll(item.href)}>
+                      <span className="text-sm leading-6 cursor-pointer text-slate-400 hover:text-gray-900">
                         {item.name}
                       </span>
                     </li>
@@ -193,7 +195,7 @@ export function Footer() {
                 <h3 className="text-lg font-light leading-6 text-slate-900 font-neue-kabel">Serving</h3>
                 <ul role="list" className="mt-4 sm:mt-6 space-y-2">
                   {navigation.support.map((item) => (
-                    <li key={item.name}  onClick={() => handleScroll('how-it-works')}>
+                    <li key={item.name} >
                       <span className="text-sm leading-6 text-slate-400 hover:text-gray-900">
                         {item.name}
                       </span>
@@ -216,7 +218,7 @@ export function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-lg font-light leading-6 text-slate-900 font-neue-kabel">Legal</h3>
+                <h3 className="text-lg font-light leading-6 text-slate-900 invisible font-neue-kabel">Legal</h3>
                 <ul role="list" className="mt-4 sm:mt-6 space-y-2">
                   {navigation.legal.map((item) => (
                     <li key={item.name} onClick={() => handleScroll('how-it-works')}>
