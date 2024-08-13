@@ -3,7 +3,7 @@ import MaxWidthWrapper from "./MaxWidthWrapper"
 
 const Testimonials = () => {
     return (
-        <MaxWidthWrapper className="py-12 sm:py-28 px-8 md:px-12 lg:px-4 xl:px-6 ">
+        <MaxWidthWrapper className="py-12 sm:py-24 px-8 md:px-12 lg:px-4 xl:px-6 ">
             <div className="m-auto text-slate-600">
                 {/* <div className="flex font-neue-kabel text-[#2a7ec8] text-xs font-bold sm:text-sm tracking-wide uppercase mb-3 sm:mb-6 rounded-full bg-teal-accent-400">
                     Testimonials
