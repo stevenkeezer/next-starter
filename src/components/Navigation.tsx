@@ -37,7 +37,7 @@ export default function Navigation() {
               <div className="flex items-center gap-1 text-[#3e4246] text-base tracking-wider font-normal space-x-14">
                 {/* <div onClick={() => handleScroll('how-it-works')} style={{ cursor: 'pointer' }} className='hover:underline'>How it works</div> */}
                 <div onClick={() => handleScroll('about')} style={{ cursor: 'pointer' }} className='hover:underline'>How it works</div>
-                <div onClick={() => handleScroll('how-it-works')} style={{ cursor: 'pointer' }} className='hover:underline'>Portfolio</div>
+                <div onClick={() => handleScroll('portfolio')} style={{ cursor: 'pointer' }} className='hover:underline'>Portfolio</div>
                 {/* <div onClick={() => handleScroll('pricing')} st2 yle={{ cursor: 'pointer' }} className='hover:underline'>Blog</div> */}
                 {/* <div className="flex items-center gap-1 uppercase text-slate-800/80 text-xs tracking-wide font-light space-x-14"> */}
                 <div onClick={() => handleScroll('pricing')} style={{ cursor: 'pointer' }} className='hover:underline'>Pricing</div>
