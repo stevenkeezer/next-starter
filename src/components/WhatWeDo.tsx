@@ -26,10 +26,10 @@ export default function WhatWeDo() {
           <div className="col-span-12  backdrop-blur-lg ">
             <div className="flex lg:space-x-10 lg:flex-row pt-8 sm:pt-5 flex-col">
               <div className="w-full lg:w-7/12">
-                <h2 className="mx-0 mb-6 px-8 font-neue-kabel sm:px-0 mt-0 py-3 sm:py-14 lg:py-0 text-3xl sm:text-5xl tracking-tightest font-normal text-[#3e4246]">
+                <h2 className="mx-0 mb-6 px-8 font-neue-kabel sm:px-0 mt-0 py-3 sm:py-14 lg:py-0 text-3xl md:text-4xl lg:text-5xl tracking-tightest font-normal text-[#3e4246]">
                   {/* Slashing the price of a full service web design <br /><br /> */}
-                  <span className="m-0 text-blue-400 font-normal">$0</span> down,  <span className="m-0 text-blue-400 font-normal tracking-tightest">$150</span> a month,  <div className="sm:h-3" />
-                 <span className="">secured by a 12-month </span> <div className="sm:h-3" />
+                  <span className="m-0 text-blue-400 font-normal">$0</span> down,  <span className="m-0 text-blue-400 font-normal tracking-tightest">$150</span> a month,  <div className="md:h-3" />
+                 <span className="">secured by a 12-month </span> <div className="md:h-3" />
                  <span>minimum contract</span>
                 </h2>
 

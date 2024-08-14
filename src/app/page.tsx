@@ -62,10 +62,13 @@ export default function Home() {
           <div className="z-40 pt-1 sm:pt-32 pb-16 px-8 sm:px-8 lg:pt-20 lg:px-0 sm:pb-8 sm:pb-[5rem] xl:pb-[7.9rem] xl:pt-28 2xl:pt-[3.73rem]  max-w-[78.5rem] ml-auto">
 
             {/* <Image src="/gs3.svg" alt="Golden State Web Design" className='flex mx-auto h-36 sm:mb-4 opacity-90 w-20 lg:hidden' width={134} height={134} /> */}
-            <h1 className="mr-auto max-w-[23rem] font-neue-kabel  sm:max-w-[36rem] md:max-w-[37rem] lg:max-w-[52rem] xl:max-w-[55rem] 2xl:max-w-[59rem] text-4xl font-normal text-[#3e4246] sm:text-4xl md:text-4xl lg:text-5xl 2xl:text-[3.8rem]">
+            <h1 className="mr-auto sm:block hidden max-w-[23rem] font-neue-kabel  sm:max-w-[36rem] md:max-w-[37rem] lg:max-w-[52rem] xl:max-w-[55rem] 2xl:max-w-[59rem] text-4xl font-normal text-[#3e4246] sm:text-4xl md:text-4xl lg:text-5xl 2xl:text-[3.8rem]">
               Affordable web design for small <div className="sm:h-2"/><span>businesses, startups and non-profits<span className="text-blue-400">.</span></span>
             </h1>
 
+            <h1 className="mr-auto sm:hidden max-w-[23rem] font-neue-kabel  sm:max-w-[36rem] md:max-w-[37rem] lg:max-w-[52rem] xl:max-w-[55rem] 2xl:max-w-[59rem] text-4xl font-normal text-[#3e4246] sm:text-4xl md:text-4xl lg:text-5xl 2xl:text-[3.8rem]">
+              Affordable web design for small businesses, startups and non-profits<span className="text-blue-400">.</span>
+            </h1>
             {/* <p className="mr-auto mt-6 max-w-2xl sm:text-lg tracking-tight text-[#3e4246]/70">Hand-crafted websites, no page builders or WordPress. Premium web development with lifetime updates & support, starting at just $150 per month.</p>
           <div className="mt-9 flex justify-start sm:flex-row flex-col gap-y-4 sm:gap-y-0 gap-x-4">
             <GetStartedButton />
