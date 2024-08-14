@@ -5,7 +5,7 @@ import MaxWidthWrapper from "./MaxWidthWrapper";
 const navigation1 = {
   main: [
     { name: 'How it works', href: '#how-it-works', sectionId: 'how-it-works' },
-    { name: 'Portfolio', href: '#portfolio', sectionId: 'portfolio' },
+    { name: 'Our work', href: '#portfolio', sectionId: 'portfolio' },
     { name: 'About', href: '#about', sectionId: 'about' },
     { name: 'Testimonials', href: '#testimonials', sectionId: 'testimonials' },
     { name: 'Pricing', href: '#pricing', sectionId: 'pricing' },
@@ -128,7 +128,7 @@ export function Footer() {
   const navigation = {
     solutions: [
       { name: 'How it works', href: 'about' },
-      { name: 'Portfolio', href: 'portfolio' },
+      { name: 'Our work', href: 'portfolio' },
       { name: 'Pricing', href: 'pricing' },
       { name: 'Testimonials', href: 'testimonials' },
     ],

@@ -22,16 +22,12 @@ export default function MobileNav() {
 
   const menuItems = [
     {
-      name: 'Who we are',
+      name: 'How it works',
       id: 'about'
     },
     {
-      name: 'Portfolio',
+      name: 'Our work',
       id: 'portfolio'
-    },
-    {
-      name: 'About',
-      id: 'about'
     },
     {
       name: 'Testimonials',

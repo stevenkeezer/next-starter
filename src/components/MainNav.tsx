@@ -82,7 +82,7 @@ export default function MainNav() {
                   How it works
                 </div>
                 <div onClick={() => handleScroll('portfolio')} style={{ cursor: 'pointer' }} className="hover:underline">
-                  Portfolio
+                  Our work
                 </div>
                 <div onClick={() => handleScroll('pricing')} style={{ cursor: 'pointer' }} className="hover:underline">
                   Pricing

@@ -21,7 +21,7 @@ export const Navbar = async () => {
           </div> */}
         </Link>
         <div className="flex items-center gap-1 text-slate-700 text-base font-semibold space-x-12 -mt-6">
-          <div>Portfolio</div>
+          <div>Our work</div>
           <div>About</div>          <div>Pricing</div>
 
 
