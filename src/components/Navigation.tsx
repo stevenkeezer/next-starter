@@ -34,7 +34,7 @@ export default function Navigation() {
           </div>
           <div className="relative z-10 flex">
             <div className="hidden lg:flex flex-shrink-0 pt-0.5 items-center font-neue-kabel">
-              <div className="flex items-center mb-2 gap-1 text-[#3e4246] text-lg tracking-wider font-normal space-x-14">
+              <div className="flex items-center mb-2 gap-1.5 text-[#3e4246] text-lg tracking-normal font-normal space-x-14">
                 {/* <div onClick={() => handleScroll('how-it-works')} style={{ cursor: 'pointer' }} className='hover:underline'>How it works</div> */}
                 <div onClick={() => handleScroll('about')} style={{ cursor: 'pointer' }} className='hover:underline'>How it works</div>
                 <div onClick={() => handleScroll('portfolio')} style={{ cursor: 'pointer' }} className='hover:underline'>Portfolio</div>
@@ -44,7 +44,7 @@ export default function Navigation() {
                 <div onClick={() => handleScroll('testimonials')} style={{ cursor: 'pointer' }} className='hover:underline'>Testimonials</div>
 
 
-                <div onClick={handleClick} className='hover:underline cursor-pointer flex items-center space-x-2'>
+                <div onClick={handleClick} className='hover:underline tracking-normal cursor-pointer flex items-center space-x-2'>
                   <div className="text-slate-800/80">Get in touch
                   </div>
                   <ArrowRight className="ml-3 mb-0.5 h-5 w-5 text-blue-400" />
