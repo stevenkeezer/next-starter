@@ -27,6 +27,10 @@ const config = {
           'Neue Kabel', 
           'sans-serif' // fallback font
         ],
+        spartan: [
+          'Spartan', // the font family name you'll use in your classes
+          'sans-serif', // fallback font
+        ],
       },
       colors: {
         border: 'hsl(var(--border))',

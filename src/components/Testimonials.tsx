@@ -3,13 +3,13 @@ import MaxWidthWrapper from "./MaxWidthWrapper"
 
 const Testimonials = () => {
     return (
-        <MaxWidthWrapper className="py-12 sm:py-24 px-8 md:px-12 lg:px-4 xl:px-6 ">
+        <MaxWidthWrapper className="py-12 sm:py-28 px-8 md:px-12 lg:px-4 xl:px-6 ">
             <div className="m-auto text-slate-600">
                 {/* <div className="flex font-neue-kabel text-[#2a7ec8] text-xs font-bold sm:text-sm tracking-wide uppercase mb-3 sm:mb-6 rounded-full bg-teal-accent-400">
                     Testimonials
                 </div> */}
                 <h2 className="mb-8 sm:mb-16 text-left text-3xl text-[#3e4246] font-normal font-neue-kabel md:text-5xl">What our customers say</h2>
-                <div className="grid gap-8 md:grid-rows-2 lg:grid-cols-2">
+                <div className="grid gap-8 md:grid-rows-2 font-spartan lg:grid-cols-2">
                     <div className="row-span-2 p-6  bg-orange-50  text-center sm:p-8">
                         <div className="h-full flex flex-col justify-center items-center space-y-4">
                             <Image className="w-20 h-20 sm:w-40 sm:h-40 mx-auto rounded-full bg-white p-1.5 /80 sm:px-6" src="/flapjack.svg" alt="user avatar" height={220} width={220} loading="lazy" />

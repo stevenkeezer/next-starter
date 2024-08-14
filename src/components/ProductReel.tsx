@@ -14,7 +14,7 @@ const ProductReel = (props: ProductReelProps) => {
   const [isImageLoading, setImageLoading] = React.useState(true)
 
   return (
-    <section className=" md:pt-3 lg:pb-28 lg:pt-10 ">
+    <section className=" md:pt-3 lg:pb-28 lg:pt-16 ">
       <div className="md:flex md:items-center px-8 md:px-10 lg:px-0 sm:mb-14">
         <div className="max-w-2xl lg:max-w-4xl lg:px-0">
           {/* <div className="flex text-[#2a7ec8] font-bold font-neue-kabel tracking-wide uppercase mb-3 sm:mb-6 text-xs sm:text-sm rounded-full bg-teal-accent-400">

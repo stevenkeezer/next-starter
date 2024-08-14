@@ -89,7 +89,7 @@ const navigation1 = {
 //         <nav className="-mb-6 sm:columns-2 sm:flex sm:justify-center sm:space-x-12 bg-transparent" aria-label="Footer">
 //           {navigation.main.map((item) => (
 //             <div key={item.name} className="pb-6">
-//               <div onClick={() => handleScroll(item.sectionId)} className="text-sm leading-6 font-normal capitalize text-slate-800 tracking-wider hover:text-slate-200 cursor-pointer">
+//               <div onClick={() => handleScroll(item.sectionId)} className="text-base tracking-wide font-light leading-6 font-normal capitalize text-slate-800 tracking-wider hover:text-slate-200 cursor-pointer">
 //                 {item.name}
 //               </div>
 //             </div>
@@ -140,18 +140,15 @@ export function Footer() {
       { name: 'Petaluma', href: '#' },
     ],
     serving: [
-      { name: 'El Dorado Hills', href: '#' },
-      { name: 'Folsom', href: '#' },
-      { name: 'Rocklin', href: '#' },
-      { name: 'Sacramento', href: '#' },
-      { name: 'Citrus Heights', href: '#' },
+      { name: 'Next.js', href: '#' },
+      { name: 'ReactJS', href: '#' },
+      { name: 'Shopify', href: '#' },
+      { name: 'TailwindCSS', href: '#' },
+      { name: 'Shadcn', href: '#' },
     ],
     legal: [
-      { name: 'Los Angeles', href: '#' },
-      { name: 'Auburn', href: '#' },
-      { name: 'California', href: '#' },
-      { name: 'Oregon', href: '#' },
-      { name: 'Colorado', href: '#' },
+      { name: 'steve@goldenstatewebdesign.com', href: '#' },
+      { name: '(916) 805 1521', href: '#' },
     ],
   }
 
@@ -178,13 +175,13 @@ export function Footer() {
             className="h-20 opacity-70"
           /> */}
           <div className="sm:mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-            <div className="md:grid md:grid-cols-2 md:gap-8 font-neue-kabel">
+            <div className="md:grid md:grid-cols-2 md:gap-8 font-spartan">
               <div>
-                <h3 className="text-lg font-light leading-6 text-slate-900 font-neue-kabel">Solutions</h3>
-                <ul role="list" className="mt-4 sm:mt-6 space-y-2">
+                <h3 className="text-lg font-light leading-6 text-slate-900 font-neue-kabel">Company</h3>
+                <ul role="list" className="mt-4 sm:mt-6 space-y-5">
                   {navigation.solutions.map((item) => (
                     <li key={item.name}  onClick={() => handleScroll(item.href)}>
-                      <span className="text-sm leading-6 cursor-pointer text-slate-400 hover:text-gray-900">
+                      <span className="text-base tracking-wide font-light leading-6 cursor-pointer text-slate-400 hover:text-gray-900">
                         {item.name}
                       </span>
                     </li>
@@ -193,10 +190,10 @@ export function Footer() {
               </div>
               <div className="mt-10 md:mt-0">
                 <h3 className="text-lg font-light leading-6 text-slate-900 font-neue-kabel">Serving</h3>
-                <ul role="list" className="mt-4 sm:mt-6 space-y-2">
+                <ul role="list" className="mt-4 sm:mt-6 space-y-5">
                   {navigation.support.map((item) => (
                     <li key={item.name} >
-                      <span className="text-sm leading-6 text-slate-400 hover:text-gray-900">
+                      <span className="text-base tracking-wide font-light leading-6 text-slate-400 hover:text-gray-900">
                         {item.name}
                       </span>
                     </li>
@@ -206,11 +203,11 @@ export function Footer() {
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8 font-neue-kabel">
               <div>
-                <h3 className="text-lg font-light leading-6 text-slate-900 font-neue-kabel">Other areas</h3>
-                <ul role="list" className="mt-4 sm:mt-6 space-y-2">
+                <h3 className="text-lg font-light leading-6 text-slate-900 font-neue-kabel">Technologies</h3>
+                <ul role="list" className="mt-4 sm:mt-6 space-y-5">
                   {navigation.serving.map((item) => (
                     <li key={item.name}  onClick={() => handleScroll('how-it-works')}>
-                      <span className="text-sm leading-6 text-slate-400 hover:text-gray-900">
+                      <span className="text-base tracking-wide font-light leading-6 text-slate-400 hover:text-gray-900">
                         {item.name}
                       </span>
                     </li>
@@ -218,11 +215,11 @@ export function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-lg font-light leading-6 text-slate-900 invisible font-neue-kabel">Legal</h3>
-                <ul role="list" className="mt-4 sm:mt-6 space-y-2">
+                <h3 className="text-lg font-light leading-6 text-slate-900  font-neue-kabel">Get in touch with us</h3>
+                <ul role="list" className="mt-4 sm:mt-6 space-y-5">
                   {navigation.legal.map((item) => (
-                    <li key={item.name} onClick={() => handleScroll('how-it-works')}>
-                      <span className="text-sm leading-6 text-slate-400 hover:text-gray-900">
+                    <li key={item.name} className="" onClick={() => handleScroll('how-it-works')}>
+                      <span className="text-base break-all tracking-wide font-light leading-6 text-slate-400 hover:text-gray-900">
                         {item.name}
                       </span>
                     </li>

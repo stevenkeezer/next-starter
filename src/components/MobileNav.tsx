@@ -60,8 +60,8 @@ export default function MobileNav() {
         <div className='flex w-full px-4 justify-between items-center mr-auto'>
         <Image src="/gs3.svg" alt="Golden State Web Design" className='opacity-90 lg:hidden mt-1 ml-3 flex' width={55} height={55} />
 
-        <Button variant="ghost" size="icon" className="lg:hidden flex -mr-1 justify-start hover:bg-transparent">
-          <MenuIcon className='bg-transparent  text-slate-800 h-8 w-auto' />
+        <Button variant="ghost" size="icon" className="lg:hidden flex justify-start hover:bg-transparent">
+          <MenuIcon className='bg-transparent  text-slate-800 h-6 w-auto' />
         </Button>
 
         </div>

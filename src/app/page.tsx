@@ -49,21 +49,21 @@ const HeroSide = () => (
 
 export default function Home() {
   return (
-    <div className="relative pt-10 sm:pt-0">
+    <div className="relative sm:pt-0">
       <ContactForm />
 
-      <div className="relative bg-white  pt-0 w-full h-full shadow-slate-200 ">
+      <div className="relative bg-white  pt-14 w-full h-full shadow-slate-200 ">
 
 
         <Navigation />
 
         <MaxWidthWrapper>
 
-          <div className="z-40 pt-1 sm:pt-32 pb-16 px-8 sm:px-8 lg:pt-20 lg:px-0 sm:pb-8 sm:pb-[5rem] xl:pb-[7rem] xl:pt-28 2xl:pt-24  max-w-[78.5rem] ml-auto">
+          <div className="z-40 pt-1 sm:pt-32 pb-16 px-8 sm:px-8 lg:pt-20 lg:px-0 sm:pb-8 sm:pb-[5rem] xl:pb-[7.9rem] xl:pt-28 2xl:pt-[3.33rem]  max-w-[78.5rem] ml-auto">
 
             {/* <Image src="/gs3.svg" alt="Golden State Web Design" className='flex mx-auto h-36 sm:mb-4 opacity-90 w-20 lg:hidden' width={134} height={134} /> */}
-            <h1 className="mr-auto max-w-[23rem] font-neue-kabel sm:max-w-[36rem] md:max-w-[37rem] lg:max-w-[52rem] xl:max-w-[55rem] 2xl:max-w-[59rem] text-4xl font-normal text-[#3e4246] sm:text-4xl md:text-4xl lg:text-5xl 2xl:text-[3.8rem]">
-              Affordable web design for small businesses, startups and non-profits<span className="text-blue-400">.</span>
+            <h1 className="mr-auto max-w-[23rem] font-neue-kabel  sm:max-w-[36rem] md:max-w-[37rem] lg:max-w-[52rem] xl:max-w-[55rem] 2xl:max-w-[59rem] text-4xl font-normal text-[#3e4246] sm:text-4xl md:text-4xl lg:text-5xl 2xl:text-[3.8rem]">
+              Affordable web design for small <div className="sm:h-2"/><span>businesses, startups and non-profits<span className="text-blue-400">.</span></span>
             </h1>
 
             {/* <p className="mr-auto mt-6 max-w-2xl sm:text-lg tracking-tight text-[#3e4246]/70">Hand-crafted websites, no page builders or WordPress. Premium web development with lifetime updates & support, starting at just $150 per month.</p>
@@ -112,18 +112,18 @@ export default function Home() {
         <WhatWeDo />
 
       </div>
-      <div className="bg-[#f5f7fa] py-8 sm:py-14">
+      <div className="bg-[#f5f7fa] py-8 sm:py-28">
         <MaxWidthWrapper>
-          <h3 className="text-[#3e4246]/90 pt-6 px-8 md:px-10 lg:px-0 text-3xl font-neue-kabel">What's Included:</h3>
+          <h3 className="text-[#3e4246] pt-6 px-8 md:px-10 lg:px-0 text-3xl  md:text-5xl font-neue-kabel">Our services include:</h3>
 
-          <div className="z-40 px-8 md:px-10 lg:px-0 mx-auto sm:grid sm:grid-cols-4 w-full py-10 lg:py-14 bg-slate-50 sm:bg-transparent gap-x-20">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-6 sm:gap-y-12 gap-x-8 col-span-8 justify-between">
+          <div className="z-40 px-8 md:px-10 lg:px-0 mx-auto sm:grid sm:grid-cols-4 w-full py-10 lg:pt-20 bg-slate-50 sm:bg-transparent gap-x-20">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-6 sm:gap-y-16 gap-x-8 col-span-8 justify-between">
               <div>
                 <div className="flex items-start">
-                  <PlusIcon className="text-sky-500 w-7 h-7 -mt-[.45rem] shrink-0" />
+                  <PlusIcon className="text-sky-500 w-7 h-7 -mt-[.45rem] lg:mt-[-0.03rem] shrink-0" />
                   <div>
-                    <h3 className="mx-0 mb-3 mt-0 pl-2 flex items-center font-light text-slate-800 text-lg leading-[16px]">Hosting Fees Included</h3>
-                    <p className="-ml-6 text-[#3e4246]/70 leading-6 text-sm pt-3">
+                    <h3 className="mx-0 mb-3 mt-0 pl-2 flex items-center font-light text-slate-800 text-lg lg:text-xl leading-[16px]">Hosting Fees Included</h3>
+                    <p className="-ml-6 text-[#3e4246]/70 leading-6 text-sm font-spartan pt-3">
                       Hosting fees are conveniently built directly into the monthly payment, ensuring you have one less thing to manage or worry about.
                     </p>
                   </div>
@@ -132,10 +132,10 @@ export default function Home() {
 
               <div>
                 <div className="flex items-start">
-                  <PlusIcon className="text-sky-500 w-7 h-7 -mt-[.45rem] shrink-0" />
+                  <PlusIcon className="text-sky-500 w-7 h-7 -mt-[.45rem] lg:mt-[-0.03rem] shrink-0" />
                   <div>
-                    <h3 className="mx-0 mb-3 mt-0 pl-2 flex items-center font-light text-slate-800 text-lg leading-[16px]">Unlimited Edits</h3>
-                    <p className="-ml-6 text-[#3e4246]/70 text-sm pt-3 leading-6">
+                    <h3 className="mx-0 mb-3 mt-0 pl-2 flex items-center font-light text-slate-800 text-lg lg:text-xl leading-[16px]">Unlimited Edits</h3>
+                    <p className="-ml-6 text-[#3e4246]/70 text-sm pt-3 font-spartan leading-6">
                     Need something changed on your website? Just let us know, and we’ll take care of it. Changes will often be made the same day.</p>
                   </div>
                 </div>
@@ -143,10 +143,10 @@ export default function Home() {
 
               <div>
                 <div className="flex items-start">
-                  <PlusIcon className="text-sky-500 w-7 h-7 -mt-[.45rem] shrink-0" />
+                  <PlusIcon className="text-sky-500 w-7 h-7 -mt-[.45rem] lg:mt-[-0.03rem] shrink-0" />
                   <div>
-                    <h3 className="mx-0 mb-3 mt-0 pl-2 flex items-center font-light text-slate-800 text-lg leading-[16px]">24/7 Customer Service</h3>
-                    <p className="-ml-6 text-[#3e4246]/70 text-sm pt-3 leading-6">
+                    <h3 className="mx-0 mb-3 mt-0 pl-2 flex items-center font-light text-slate-800 text-lg lg:text-xl leading-[16px]">24/7 Customer Service</h3>
+                    <p className="-ml-6 text-[#3e4246]/70 text-sm pt-3 font-spartan leading-6">
                       Call us anytime, day or night, and you’ll reach a real person, not an automated system. We’re here to assist you with any questions.
                     </p>
                   </div>
@@ -155,10 +155,10 @@ export default function Home() {
 
               <div>
                 <div className="flex items-start">
-                  <PlusIcon className="text-sky-500 w-7 h-7 -mt-[.45rem] shrink-0" />
+                  <PlusIcon className="text-sky-500 w-7 h-7 -mt-[.45rem] lg:mt-[-0.03rem] shrink-0" />
                   <div>
-                    <h3 className="mx-0 mb-3 mt-0 pl-2 flex items-center font-light text-slate-800 text-lg leading-[16px]">Design & Development</h3>
-                    <p className="-ml-6 text-[#3e4246]/70 text-sm pt-3 leading-6">
+                    <h3 className="mx-0 mb-3 mt-0 pl-2 flex items-center font-light text-slate-800 text-lg lg:text-xl leading-[16px]">Design & Development</h3>
+                    <p className="-ml-6 text-[#3e4246]/70 text-sm pt-3 font-spartan leading-6">
                       Includes over 80 hours of expert design, development, all tailored to create a website and design that truly represents your brand.
                     </p>
                   </div>
@@ -167,10 +167,10 @@ export default function Home() {
 
               <div>
                 <div className="flex items-start">
-                  <PlusIcon className="text-sky-500 w-7 h-7 -mt-[.45rem] shrink-0" />
+                  <PlusIcon className="text-sky-500 w-7 h-7 -mt-[.45rem] lg:mt-[-0.03rem] shrink-0" />
                   <div>
-                    <h3 className="mx-0 mb-3 mt-0 pl-2 flex items-center font-light text-slate-800 text-lg leading-[16px]">100 Google Page Speed</h3>
-                    <p className="-ml-6 text-[#3e4246]/70 text-sm pt-3 leading-6">
+                    <h3 className="mx-0 mb-3 mt-0 pl-2 flex items-center font-light text-slate-800 text-lg lg:text-xl leading-[16px]">100 Google Page Speed</h3>
+                    <p className="-ml-6 text-[#3e4246]/70 text-sm pt-3 font-spartan leading-6">
 
                     Get a perfect 100 on Google PageSpeed with our expert optimization. We'll boost your site’s speed, visibility, and search rankings, helping you stand out.                    
                     </p>
@@ -180,10 +180,10 @@ export default function Home() {
 
               <div>
                 <div className="flex items-start">
-                  <PlusIcon className="text-sky-500 w-7 h-7 -mt-[.45rem] shrink-0" />
+                  <PlusIcon className="text-sky-500 w-7 h-7 -mt-[.45rem] lg:mt-[-0.03rem] shrink-0" />
                   <div>
-                    <h3 className="mx-0 mb-3 mt-0 pl-2 flex items-center font-light text-slate-800 text-lg leading-[16px]">Google Analytics</h3>
-                    <p className="-ml-6 text-[#3e4246]/70 text-sm pt-3 leading-6">
+                    <h3 className="mx-0 mb-3 mt-0 pl-2 flex items-center font-light text-slate-800 text-lg lg:text-xl leading-[16px]">Google Analytics</h3>
+                    <p className="-ml-6 text-[#3e4246]/70 text-sm pt-3 font-spartan leading-6">
                       Monitor your website’s traffic and its origins with our Google Analytics installation, offering you valuable insights into your audience.
                     </p>
                   </div>

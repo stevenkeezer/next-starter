@@ -24,17 +24,17 @@ export default function Navigation() {
 };
 
     return (
-        <MaxWidthWrapper className="mx-auto w-full rounded-full hidden py-0.5  pt-7  lg:block">
-        <div className="relative flex justify-start items-center max-w-[78rem] mx-auto ">
+        <MaxWidthWrapper className="mx-auto w-full rounded-full hidden py-0.5  pt-9  lg:block">
+        <div className="relative flex justify-start items-center max-w-[78rem] mx-auto  mr-10">
           {/* <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-80 drop-shadow-sm' width={imageHeight} height={imageHeight}  /> */}
-          <div className="hidden lg:flex flex-1 items-center hover:opacity-90 mb-1 justify-start">
-            <Link href="/" className="flex items-center text-lg -ml-2 text-blue-400 opacity-85 font-light justify-center">
-              <Image src="/gs3.svg" alt="Golden State Web Design" className='' width={82} height={82} />
+          <div className="hidden lg:flex flex-1 items-center hover:opacity-90 justify-start">
+            <Link href="/" className="flex items-center text-lg -ml-2 pb-1.5 text-blue-400 opacity-85 font-light justify-center">
+              <Image src="/gs3.svg" alt="Golden State Web Design" className='' width={80} height={80} />
             </Link>
           </div>
           <div className="relative z-10 flex">
             <div className="hidden lg:flex flex-shrink-0 pt-0.5 items-center font-neue-kabel">
-              <div className="flex items-center gap-1 text-[#3e4246] text-base tracking-wider font-normal space-x-14">
+              <div className="flex items-center mb-2 gap-1 text-[#3e4246] text-lg tracking-wider font-normal space-x-14">
                 {/* <div onClick={() => handleScroll('how-it-works')} style={{ cursor: 'pointer' }} className='hover:underline'>How it works</div> */}
                 <div onClick={() => handleScroll('about')} style={{ cursor: 'pointer' }} className='hover:underline'>How it works</div>
                 <div onClick={() => handleScroll('portfolio')} style={{ cursor: 'pointer' }} className='hover:underline'>Portfolio</div>
@@ -47,7 +47,7 @@ export default function Navigation() {
                 <div onClick={handleClick} className='hover:underline cursor-pointer flex items-center space-x-2'>
                   <div className="text-slate-800/80">Get in touch
                   </div>
-                  <ArrowRight className="ml-2 h-4 w-4 text-blue-400" />
+                  <ArrowRight className="ml-3 mb-0.5 h-5 w-5 text-blue-400" />
                 </div>
                 {/* </div> */}
               </div>
