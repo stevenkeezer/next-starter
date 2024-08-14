@@ -24,7 +24,7 @@ export default function WhatWeDo() {
             <Logos />
           </div> */}
           <div className="col-span-12  backdrop-blur-lg ">
-            <div className="flex lg:space-x-10 lg:flex-row pt-8 sm:pt-0 flex-col">
+            <div className="flex lg:space-x-10 lg:flex-row pt-8 sm:pt-5 flex-col">
               <div className="w-full lg:w-7/12">
                 <h2 className="mx-0 mb-6 px-8 font-neue-kabel sm:px-0 mt-0 py-3 sm:py-14 lg:py-0 text-3xl sm:text-5xl tracking-tightest font-normal text-[#3e4246]">
                   {/* Slashing the price of a full service web design <br /><br /> */}
@@ -43,7 +43,7 @@ export default function WhatWeDo() {
                 {/* <h3 className="text-[#3e4246]/90 pt-12 text-3xl font-neue-kabel">Whats Included:</h3> */}
 
               </div>
-              <div className="w-full px-8 sm:px-0 lg:w-5/12 border-slate-200/90 font-spartan lg:px-8">
+              <div className="w-full px-8 sm:px-0 lg:w-5/12 border-slate-200/90 font-spartan lg:px-1">
                 {/* <Image src="/cpu.png" height={800} width={800} alt="cpu-image" className="object-cover pr-9 sm:pr-0 " /> */}
                 <p className="m-0 text-[#3e4246]/65 sm:px-0 text-base sm:leading-[27px] min-[500px]:mb-4 pb-8 sm:pb-0">
                   $0 down for a standard 5-page website tailored for your small business. If your needs extend beyond that, we offer custom pricing which is determined by the scope of work, the number of additional pages, and the time involved. You retain full ownership of your domain, content, listing, and profiles. Cancel anytime without any fees or complications.
