@@ -93,6 +93,40 @@ const ProductReel = (props: ProductReelProps) => {
               </a>
             </div>
 
+          
+            <div className="xl:h-[700px] overflow-hidden relative">
+              <a
+                target="_blank"
+                href="https://www.cchealthcareservices.com/"
+                className="relative group block"
+              >
+                <Image
+                  src="/cc.png"
+                  alt="C&C Healthcare"
+                  width={400}
+                  height={400}
+                  onLoad={() => setImageLoading(false)}
+                  layout="responsive"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  className="duration-300 transition-transform mx-auto h-full w-full object-cover group-hover:blur-sm group-hover:scale-105"
+                />
+                <div className="absolute font-neue-kabel opacity-0 group-hover:opacity-100 inset-0 flex flex-col justify-between p-12 bg-transparent group-hover:bg-black/30 transition-all duration-300 ease-in-out">
+                  <div className="transition-opacity duration-300 ease-in-out">
+                    <p className="text-2xl sm:text-5xl leading-loose text-white font-light mb-2">
+                      A website for a healthcare company in the Bay Area
+                    </p>
+                    <div className="flex space-x-4 pt-8 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
+                      See it live
+                      <ArrowRight className="ml-3" />
+                    </div>
+                  </div>
+                  <p className="pb-8 transition-opacity duration-300 ease-in-out">
+                    Full case study coming soon...
+                  </p>
+                </div>
+              </a>
+            </div>
+
             <div className="xl:h-[700px] overflow-hidden relative">
               <a
                 target="_blank"
@@ -100,7 +134,7 @@ const ProductReel = (props: ProductReelProps) => {
                 className="relative group block"
               >
                 <Image
-                  src="/p-nepal.jpg"
+                  src="/p2-nepal.png"
                   alt="Nepal Tea Trekking"
                   width={400}
                   height={400}
