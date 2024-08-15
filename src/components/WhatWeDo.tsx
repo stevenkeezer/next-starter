@@ -15,7 +15,7 @@ export default function WhatWeDo() {
   return (
     <div className="lg:pt-32 pb-8 sm:pb-20 lg:pb-28">
       <MaxWidthWrapper className="">
-        <div className="sm:grid grid-cols-12 grid-flow-col md:px-10 lg:px-0 gap-x-12 justify-between items-start  w-full">
+        <div className="sm:grid grid-cols-12 sm:px-8 grid-flow-col lg:px-0 gap-x-12 justify-between items-start  w-full">
 
           {/* <div className="w-full col-span-5 d h-full py-6 -xl flex flex-col justify-between items-center content-between">
             <div className=" bg-blue-100/60 backdrop-blur border-slate-200/90">

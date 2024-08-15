@@ -58,17 +58,17 @@ function Plan({ name, price, description, href, features, featured = false }: { 
 
 function Pricing() {
   return (
-    <section id="pricing" aria-label="Pricing" className=" px-4 md:px-8 md:pt-14 lg:px-0 lg:pb-16">
+    <section id="pricing" aria-label="Pricing" className="  md:pt-14 lg:pb-16 px-8">
       <MaxWidthWrapper >
 {/* 
         <div className="flex text-[#2a7ec8] font-neue-kabel px-4 sm:px-0 font-bold text-xs sm:text-sm tracking-wide justify-start uppercase mb-3 sm:mb-6  rounded-full bg-teal-accent-400">
           Pricing
         </div> */}
-        <h2 className="text-left text-3xl px-4 md:px-10 lg:px-0 text-[#3e4246] font-normal font-neue-kabel md:text-4xl lg:text-5xl">Our pricing options</h2>
+        <h2 className="text-left text-3xl text-[#3e4246] font-normal font-neue-kabel md:text-4xl lg:text-5xl">Our pricing options</h2>
       </MaxWidthWrapper>
 
-      <MaxWidthWrapper className="pb-10 z-40 border-slate-100/5 px-4 sm:px-12 md:px-6 pt-6 sm:pt-6">
-        <div className="-mx-4 sm:mt-12 grid max-w-2xl grid-cols-1 font-spartan px-4 sm:px-0 gap-y-6 sm:mx-auto lg:-mx-8  gap-x-8 md:grid-cols-2 lg:max-w-none xl:grid-cols-3 xl:mx-0 gap-y-9 xl:gap-x-8">
+      <MaxWidthWrapper className="pb-10 z-40 border-slate-100/5 pt-6 sm:pt-6">
+        <div className="sm:mt-12 grid grid-cols-1 font-spartan gap-y-6 sm:mx-auto  gap-x-8 md:grid-cols-2 max-w-none xl:grid-cols-3 gap-y-9 xl:gap-x-8">
           <Plan
             name="E-Commerce"
             price="$8K"
