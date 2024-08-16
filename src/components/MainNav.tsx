@@ -62,8 +62,8 @@ export default function MainNav() {
         isNavbarVisible ? 'top-0 shadow-lg shadow-[#0e1e4a05]' : 'top-[-120px]'
       }`}
     >
-      <MaxWidthWrapper className="mx-auto w-full rounded-full hidden py-0.5 lg:block">
-        <div className="relative flex justify-end items-center max-w-[78rem] mx-auto mr-10 ">
+      <MaxWidthWrapper className="mx-auto w-full rounded-full hidden lg:block">
+        <div className="relative flex justify-end items-center max-w-[78rem] pb-0.5 mx-auto mr-10 ">
           <div className="hidden lg:flex flex-1 items-center hover:opacity-90 justify-start">
             <Link href="/" className="flex items-center text-lg text-blue-400 font-medium pr-4 opacity-80 justify-center">
               <Image
