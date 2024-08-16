@@ -49,7 +49,7 @@ const HeroSide = () => (
 
 export default function Home() {
   return (
-    <div className="relative sm:pt-0">
+    <div className="relative sm:pt-9">
       <ContactForm />
 
       <div className="relative bg-white  pt-10 w-full h-full shadow-slate-200 ">
@@ -63,7 +63,7 @@ export default function Home() {
 
             {/* <Image src="/gs3.svg" alt="Golden State Web Design" className='flex mx-auto h-36 sm:mb-4 opacity-90 w-20 lg:hidden' width={134} height={134} /> */}
             <h1 className="mr-auto sm:block hidden max-w-[23rem] font-neue-kabel  sm:max-w-[36rem] md:max-w-[37rem] lg:max-w-[52rem] xl:max-w-[55rem] 2xl:max-w-[59rem] text-4xl font-normal text-[#3e4246] sm:text-4xl md:text-4xl lg:text-5xl 2xl:text-[3.8rem]">
-              Affordable web design for small <div className="sm:h-1.5"/><span>businesses, startups and non-profits<span className="text-blue-400">.</span></span>
+              Affordable web design for small <div className="sm:h-2"/><span>businesses, startups and non-profits<span className="text-blue-400">.</span></span>
             </h1>
 
             <h1 className="mr-auto sm:hidden max-w-[23rem] font-neue-kabel  sm:max-w-[36rem] md:max-w-[37rem] lg:max-w-[52rem] xl:max-w-[55rem] 2xl:max-w-[59rem] text-4xl font-normal text-[#3e4246] sm:text-4xl md:text-4xl lg:text-5xl 2xl:text-[3.8rem]">
