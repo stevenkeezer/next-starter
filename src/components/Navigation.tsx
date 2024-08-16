@@ -28,7 +28,7 @@ export default function Navigation() {
         <div className="relative flex justify-start items-center max-w-[78rem] mx-auto  mr-10">
           {/* <Image src="/no-color.svg" alt="Golden State Web Design" className='opacity-80 drop-shadow-sm' width={imageHeight} height={imageHeight}  /> */}
           <div className="hidden lg:flex flex-1 items-center hover:opacity-90 justify-start">
-            <Link href="/" className="flex items-center text-lg -ml-1.5 pb-1 text-blue-400 mb-0.5 opacity-80 font-light justify-center">
+            <Link href="/" className="flex items-center text-lg -ml-1.5 pb-1 text-blue-400 mb-1 opacity-80 font-light justify-center">
               <Image src="/gs3.svg" alt="Golden State Web Design" className='' width={78} height={78} />
             </Link>
           </div>
