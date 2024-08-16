@@ -75,7 +75,7 @@ export function ContactForm() {
 
     return (
         <Dialog open={isOpen} onOpenChange={closeModal}>
-            <DialogContent className="sm:max-w-[425px] overflow-y-auto items-start justify-start border-blue-400 h-full sm:h-auto bg-slate-50 text-slate-700">
+            <DialogContent className="sm:max-w-[425px] overflow-y-auto items-start justify-start h-full sm:h-auto bg-slate-50 text-slate-700">
                 <DialogHeader className='justify-start sm:flex hidden ml-auto mb-0 pb-0 '>
                     <div className='mr-auto mb-6 bg-slate-200 rounded-full pt-2 pr-1 w-20 flex items-center justify-center h-20 pl-2'>
                     <Image src="/gs3.svg" alt="Golden State Web Design" className='opacity-90 hidden sm:flex' width={55} height={55} />
@@ -86,11 +86,11 @@ export function ContactForm() {
                     </DialogDescription>
                 </DialogHeader>
 
-                <DialogHeader className='justify-center sm:hidden flex mx-auto mb-0 pb-0'>
+                <DialogHeader className='justify-center sm:hidden flex mx-auto pt-8 mb-0 pb-0'>
                     <div className='mx-auto'>
                     <Image src="/gs3.svg" alt="Golden State Web Design" className='opacity-90 lg:hidden ml-3 flex' width={55} height={55} />
                     </div>
-                    <DialogTitle className='py-6 px-0'>We're excited to hear about your project!</DialogTitle>
+                    <DialogTitle className='py-4 px-0'>How can we reach you?</DialogTitle>
                     {/* <DialogDescription className='text-xs pt-3'>
                         We're excited to hear about your project! Please fill out the form below and we'll get back to you as soon as we can.
                     </DialogDescription> */}
@@ -100,10 +100,10 @@ export function ContactForm() {
                 <form onSubmit={handleSubmit}>
                     <div className="grid gap-4 py-4 pt-6">
                         <div className="w-full">
-                            <Label className="text-slate-700 text-xs pb-3">Name</Label>
+                            <Label className="text-slate-700 text-xs pb-3">Name<span className='text-red-500 pl-1'>*</span></Label>
                             <Input
                                 id="name"
-                                placeholder="Jane Doe"
+                                placeholder="Your name"
                                 className="w-full bg-slate-50"
                                 autoComplete='name'
                                 value={name}
@@ -111,10 +111,10 @@ export function ContactForm() {
                             />
                         </div>
                         <div className="w-full">
-                            <Label className="text-slate-700 text-xs pb-3">Email</Label>
+                            <Label className="text-slate-700 text-xs pb-3">Email<span className='text-red-500 pl-1'>*</span></Label>
                             <Input
                                 id="email"
-                                placeholder="janedoe@email.com"
+                                placeholder="Your email"
                                 className="w-full bg-slate-50"
                                 autoComplete='email'
                                 value={email}
@@ -122,10 +122,10 @@ export function ContactForm() {
                             />
                         </div>
                         <div className="w-full">
-                            <Label className="text-slate-700 text-xs pb-3">Message (optional)</Label>
+                            <Label className="text-slate-700 text-xs pb-3">Message</Label>
                             <Textarea
                                 id="message"
-                                placeholder="Your message here..."
+                                placeholder="Is there anything else we should know?"
                                 className="w-full bg-slate-50"
                                 value={message}
                                 onChange={(e) => setMessage(e.target.value)}
@@ -135,7 +135,7 @@ export function ContactForm() {
                     <DialogFooter className='pt-4'>
                         <Button type="submit" variant="default" className='bg-slate-900 w-full text-white hover:bg-slate-900/90'>
                             {loading && <Spinner size="small" className='mr-2' />}
-                            {loading ? 'Sending...' : 'Send'}
+                            {loading ? 'Processing...' : 'Submit'}
                         </Button>
                     </DialogFooter>
                 </form>
