@@ -53,8 +53,8 @@ export default function MobileNav() {
     <Sheet open={open} onOpenChange={setOpen}>
       {/* This button will trigger open the mobile sheet menu */}
       <SheetTrigger asChild>
-        <div className='flex w-full px-4 justify-between items-center mr-auto'>
-        <Image src="/gs3.svg" alt="Golden State Web Design" className='opacity-90 lg:hidden mt-1 ml-3 flex' width={55} height={55} />
+        <div className='flex w-full px-4 justify-between items-center mr-auto rounded-full'>
+        <Image src="/gs3.svg" alt="Golden State Web Design" className='opacity-90 lg:hidden h-14 w-14 rounded-full mt-1 ml-3 flex' width={55} height={55} />
 
         <Button variant="ghost" size="icon" className="lg:hidden flex justify-start hover:bg-transparent">
           <MenuIcon className='bg-transparent  text-slate-800 h-6 w-auto' />
