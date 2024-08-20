@@ -79,7 +79,7 @@ export default function MobileNav() {
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
-      <SheetTrigger asChild className={`fixed right-0 left-0 z-40 bg-white transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
+      <SheetTrigger asChild className={`fixed right-0 left-0 z-[99999] bg-white transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
         <div className='flex w-full fixed px-4 justify-between items-center mr-auto'>
           <Image src="/gs3.svg" alt="Golden State Web Design" className='opacity-90 lg:hidden h-14 w-14 rounded-full mt-1 ml-3 flex' width={55} height={55} />
 
