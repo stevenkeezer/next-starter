@@ -49,7 +49,7 @@ const HeroSide = () => (
 
 export default function Home() {
   return (
-    <div className="relative pt-20 sm:pt-12 ">
+    <div className="relative lg:pt-12 ">
       <ContactForm />
 
       <div className="relative bg-white  pt-10 w-full h-full shadow-slate-200 ">
@@ -59,7 +59,7 @@ export default function Home() {
 
         <MaxWidthWrapper>
 
-          <div className="z-40 pt-1 sm:pt-32 pb-16 px-8 sm:px-8 lg:pt-20 lg:px-0 sm:pb-8 sm:pb-[5rem] xl:pb-[7.9rem] xl:pt-28 2xl:pt-[3.73rem]  max-w-[78.5rem] ml-auto">
+          <div className="z-40 pt-1 sm:pt-10 pb-16 px-8 sm:px-8 lg:pt-20 lg:px-0 sm:pb-8 sm:pb-[5rem] xl:pb-[7.9rem] xl:pt-28 2xl:pt-[3.73rem]  max-w-[78.5rem] ml-auto">
 
             {/* <Image src="/gs3.svg" alt="Golden State Web Design" className='flex mx-auto h-36 sm:mb-4 opacity-90 w-20 lg:hidden' width={134} height={134} /> */}
             <h1 className="mr-auto sm:block hidden max-w-[23rem] font-neue-kabel  sm:max-w-[36rem] md:max-w-[37rem] lg:max-w-[52rem] xl:max-w-[55rem] 2xl:max-w-[59rem] text-4xl font-normal text-[#3e4246] sm:text-4xl md:text-4xl lg:text-5xl 2xl:text-[3.8rem]">

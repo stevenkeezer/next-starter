@@ -20,10 +20,10 @@ const Navbar = async () => {
 
   return (
     // <div className=" border-slate-100/90 z-50 top-0 inset-x-0 bg-blue-400 sm:bg-transparent backdrop-blur fixed sm:h-[4.4rem] h-[3.5rem]">
-      <header className="lg:px-8 border-b-slate-400/20 bg-white  border-[#DAA520]/20  shadow shadow-[#0e1e4a05] fixed right-0 left-0 top-0 z-50">
+      <header className="lg:px-8 border-b-slate-400/20 bg-white  border-[#DAA520]/20  shadow shadow-[#0e1e4a05] lg:fixed right-0 left-0 top-0 z-50">
         <MaxWidthWrapper className="sm:px- ">
           <div className="">
-            <div className="flex lg:h-auto h-[4rem] py-4.5  items-center flex lg:block justify-between">
+            <div className="flex lg:h-auto h-[4rem] py-4.5  sm:items-center flex lg:block justify-between">
              <MainNav/>
               <MobileNav />
             </div>
