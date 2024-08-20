@@ -9,7 +9,6 @@ import { useRouter } from 'next/navigation';
 export default function MainNav() {
   const [imageHeight, setImageHeight] = useState(124);
   const [isNavbarVisible, setIsNavbarVisible] = useState(false);
-  const [lastScrollY, setLastScrollY] = useState(0);
 
   const handleScroll = (sectionId: string) => {
     const section = document.getElementById(sectionId);
@@ -25,22 +24,13 @@ export default function MainNav() {
     const newHeight = Math.max(90, 150 - window.scrollY / 5); // Adjust these values as needed
     setImageHeight(newHeight);
 
-    const scrollThreshold = 290;
+    const scrollThreshold = 60;
 
     if (window.scrollY > scrollThreshold) {
-      if (window.scrollY > lastScrollY) {
-        // Scrolling down
-        setIsNavbarVisible(false);
-      } else {
-        // Scrolling up
-        setIsNavbarVisible(true);
-      }
+      setIsNavbarVisible(true);
     } else {
-      // If above threshold, keep the navbar hidden
       setIsNavbarVisible(false);
     }
-
-    setLastScrollY(window.scrollY);
   };
 
   useEffect(() => {
@@ -48,7 +38,7 @@ export default function MainNav() {
     return () => {
       window.removeEventListener('scroll', handleShrinkImageOnScroll);
     };
-  }, [lastScrollY]);
+  }, []);
 
   const router = useRouter();
   const handleClick = () => {

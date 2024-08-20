@@ -49,7 +49,7 @@ const HeroSide = () => (
 
 export default function Home() {
   return (
-    <div className="relative sm:pt-4 ">
+    <div className="relative pt-20 sm:pt-12 ">
       <ContactForm />
 
       <div className="relative bg-white  pt-10 w-full h-full shadow-slate-200 ">
