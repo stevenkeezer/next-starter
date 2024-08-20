@@ -33,7 +33,7 @@ export default function Navigation() {
             </Link>
           </div>
           <div className="relative z-10 flex">
-            <div className="hidden lg:flex flex-shrink-0 pt-0.5 items-center font-neue-kabel">
+            <div className="hidden lg:flex flex-shrink-0 pb-5 items-center font-neue-kabel">
               <div className="flex items-center mb-2 gap-1.5 text-[#3e4246] text-lg tracking-normal font-normal space-x-14">
                 {/* <div onClick={() => handleScroll('how-it-works')} style={{ cursor: 'pointer' }} className='hover:underline'>How it works</div> */}
                 <div onClick={() => handleScroll('about')} style={{ cursor: 'pointer' }} className='hover:underline'>How it works</div>

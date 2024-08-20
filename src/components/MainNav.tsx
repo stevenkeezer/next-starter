@@ -48,14 +48,14 @@ export default function MainNav() {
   return (
     <div
       id="navbar"
-      className={`fixed top-0 bg-white backdrop-filter backdrop-blur-[20px] transition-all ease-in-out left-0 border-b pt-2 w-full border-slate-200/70 duration-400 ${
+      className={`fixed top-0 py-[.15rem] bg-white backdrop-filter backdrop-blur-[20px] transition-all ease-in-out left-0  w-full border-slate-200/70 duration-400 ${
         isNavbarVisible ? 'top-0 shadow-lg shadow-[#0e1e4a05]' : 'top-[-120px]'
       }`}
     >
       <MaxWidthWrapper className="mx-auto w-full rounded-full hidden lg:block">
-        <div className="relative flex justify-end items-center max-w-[78rem] pb-0.5 mx-auto mr-10 ">
+        <div className="relative flex justify-end items-center max-w-[78rem]  mx-auto mr-10 ">
           <div className="hidden lg:flex flex-1 items-center hover:opacity-90 justify-start">
-            <Link href="/" className="flex items-center text-lg text-blue-400 font-medium pr-4 opacity-80 justify-center">
+            <Link href="/" className="flex items-center text-lg text-blue-400 pt-2 font-medium pr-4 opacity-80 justify-center">
               <Image
                 src="/gs3.svg"
                 alt="Golden State Web Design"
@@ -65,9 +65,9 @@ export default function MainNav() {
               />
             </Link>
           </div>
-          <div className="relative z-10 -pt-6 flex">
+          <div className="relative z-10 pb-0.5 flex">
             <div className="hidden lg:flex flex-shrink-0 items-center font-neue-kabel">
-              <div className="flex items-center gap-1 text-[#3e4246] text-base tracking-wider font-normal space-x-14">
+              <div className="flex items-center gap-1 text-[#3e4246] text-[18px] font-normal space-x-14">
                 <div onClick={() => handleScroll('about')} style={{ cursor: 'pointer' }} className="hover:underline">
                   How it works
                 </div>
@@ -81,9 +81,9 @@ export default function MainNav() {
                   Testimonials
                 </div>
 
-                <div onClick={handleClick} className="hover:underline cursor-pointer flex items-center space-x-2">
+                <div onClick={handleClick} className="hover:underline cursor-pointer flex items-center ">
                   <div className="text-slate-800/80">Get in touch</div>
-                  <ArrowRight className="ml-2 h-4 w-4 text-blue-400" />
+                  <ArrowRight className="ml-3.5 mb-0.5 h-5 w-5 text-blue-400" />
                 </div>
               </div>
             </div>
