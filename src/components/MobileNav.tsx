@@ -51,8 +51,9 @@ export default function MobileNav() {
 
   const controlNavbar = () => {
     if (typeof window !== 'undefined') {
-      if (window.scrollY === 0) {
-        // At the top of the page
+      const threshold = 10; // Adjust this value as needed
+      if (window.scrollY <= threshold) {
+        // At the top of the page or within the threshold
         setIsVisible(true);
       } else if (window.scrollY > lastScrollY) {
         // Scrolling down
