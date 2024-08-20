@@ -4,14 +4,14 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
 import { Menu as MenuIcon } from 'lucide-react';
 import Image from 'next/image';
-import Link from 'next/link';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 
 export default function MobileNav() {
   const [open, setOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const router = useRouter();
+  const searchParams = useSearchParams();
 
   const handleScroll = (sectionId: any) => {
     const section = document.getElementById(sectionId);
@@ -46,7 +46,7 @@ export default function MobileNav() {
   ];
 
   const handleClick = () => {
-    router.replace('/?open=dialog', {scroll: false});
+    router.replace('/?open=dialog', { scroll: false });
   };
 
   const controlNavbar = () => {
@@ -76,6 +76,15 @@ export default function MobileNav() {
       };
     }
   }, [lastScrollY]);
+
+  useEffect(() => {
+    // Check if the dialog is open via query parameters
+    if (searchParams.get('open') === 'dialog') {
+      setIsVisible(false);
+    } else {
+      setIsVisible(true);
+    }
+  }, [searchParams]);
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
