@@ -183,11 +183,11 @@ const RootLayout = ({ children }: PropsWithChildren) => {
         {/* <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}
-        />
-        <script
+          />
+          <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationData) }}
-        /> */}
+          /> */}
       </Head>
       <body className={cn('min-h-screen font-sans h-full bg-white relative overflow-auto', fonts)}>
         <ThemeProvider attribute="class">
@@ -199,6 +199,8 @@ const RootLayout = ({ children }: PropsWithChildren) => {
           <Toaster />
           {/* <TawkWidget /> */}
         </ThemeProvider>
+        
+          <script src="//code.tidio.co/waznjjpzl8mzkzsrdj3vzbeqkbqbyyn4.js" async></script>
       </body>
     </html>
   );
